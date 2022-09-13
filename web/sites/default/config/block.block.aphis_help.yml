@@ -1,0 +1,22 @@
+uuid: a7451013-2f98-48df-8fdd-4e313c705c7b
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - aphis
+_core:
+  default_config_hash: hFVgXRimM_P-3OdwcrAN2atfmi5Jj1PfoEwJxBPQptE
+id: aphis_help
+theme: aphis
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

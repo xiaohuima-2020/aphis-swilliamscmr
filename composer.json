@@ -22,7 +22,18 @@
         "cweagans\/composer-patches": "^1.7",
         "drush\/drush": "^11 || ^12",
         "drush-ops/behat-drush-endpoint": "^9.4",
-        "pantheon-systems/quicksilver-pushback": "^2.1"
+        "pantheon-systems/quicksilver-pushback": "^2.1",
+        "drupal/components": "^3.0@beta",
+        "drupal/twig_tweak": "^3.1",
+        "drupal/pathauto": "^1.11",
+        "drupal/token": "^1.11",
+        "drupal/ctools": "^4.0",
+        "drupal/paragraphs": "^1.15",
+        "drupal/admin_toolbar": "^3.1",
+        "drupal/devel": "^4.1",
+        "drupal/devel_kint_extras": "^1.0",
+        "drupal/layout_paragraphs": "^2.0",
+        "drupal/webform": "^6.0"
     },
     "require-dev": {
         "drupal\/core-dev": "^9.2",
@@ -38,7 +49,8 @@
         "mikey179/vfsstream": "^1.6",
         "drupal/coder": "^8.3",
         "drupal/drupal-extension": "^4.2",
-        "drupal/drupal-driver": "^2.2"
+        "drupal/drupal-driver": "^2.2",
+        "drupal/twig_xdebug": "^1.2"
     },
     "conflict": {
         "drupal\/drupal": "*"

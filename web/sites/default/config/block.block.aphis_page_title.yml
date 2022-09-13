@@ -1,0 +1,20 @@
+uuid: a845a850-6f1e-4a15-a51c-694776589dd9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - aphis
+_core:
+  default_config_hash: mIikdTGgwRZskm1oue8_aaYNaENJ1Rk00hXFvsZTx1U
+id: aphis_page_title
+theme: aphis
+region: disabled
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
