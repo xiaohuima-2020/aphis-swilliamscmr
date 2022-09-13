@@ -1,0 +1,25 @@
+uuid: 87d35a25-bea1-4f41-9f6f-f47695f5d03f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aphis
+_core:
+  default_config_hash: eKNGwWcVwjIzua0tqWNT9PLBl78iEYjW4p29AoRrPVU
+id: aphis_branding
+theme: aphis
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

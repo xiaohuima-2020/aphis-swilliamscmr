@@ -1,0 +1,22 @@
+uuid: 2175378d-7557-47ee-8814-e9e504025e01
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aphis
+_core:
+  default_config_hash: GIk398jFH-PKWJy4SKc8i3mfEbKMrNy_qLLvnAnOLxo
+id: aphis_content
+theme: aphis
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

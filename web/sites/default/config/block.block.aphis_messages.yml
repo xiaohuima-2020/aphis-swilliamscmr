@@ -1,0 +1,22 @@
+uuid: b136e985-2012-4a31-81ec-629bc37c6e81
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aphis
+_core:
+  default_config_hash: fH7VEeo40_v97FqswE-aar-wzB9f27jSrB-HqKa741U
+id: aphis_messages
+theme: aphis
+region: status
+weight: -1
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

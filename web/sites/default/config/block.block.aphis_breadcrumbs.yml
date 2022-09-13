@@ -1,0 +1,22 @@
+uuid: 5110012c-97de-47d7-93a0-767a237ef87a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aphis
+_core:
+  default_config_hash: 214OFSMg17VTUSZ7JBe7m-J6u_oni2G32YJYN6Z0Lp4
+id: aphis_breadcrumbs
+theme: aphis
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
