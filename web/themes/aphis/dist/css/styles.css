@@ -12453,6 +12453,21 @@ ul.toolbar-menu li {
   display: inline;
 }
 
+.c-field--tile.c-field {
+  margin-bottom: 0;
+}
+.c-field--tile.c-field--name-field-link {
+  display: none;
+}
+.c-field--tile.c-field--name-field-title {
+  background-color: #3168b7;
+  height: 47px;
+}
+.c-field--tile.c-field--name-field-title .c-field__content a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .c-field--list .c-field__label.is-inline + .c-field__content {
   display: inline-block;
   vertical-align: top;
