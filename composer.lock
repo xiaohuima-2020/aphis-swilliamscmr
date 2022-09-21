@@ -13408,8 +13408,12 @@
     "stability-flags": {
         "drupal/components": 10,
         "drupal/block_field": 5,
+<<<<<<< HEAD
         "drupal/paragraphs_limits": 15,
         "drupal/convert_bundles": 15
+=======
+        "drupal/paragraphs_limits": 15
+>>>>>>> 444aff8 (tile link grid component, article list component)
     },
     "prefer-stable": true,
     "prefer-lowest": false,
