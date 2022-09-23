@@ -11968,9 +11968,16 @@ ul.toolbar-menu li {
   opacity: 1 !important;
 }
 
+/*These styles are required to make icons render reliably */
+.icon::before {
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: auto;
+}
+
 .c-breadcrumb {
-  background-color: #28a0cb;
-  color: white;
+  color: #005ea2;
+  font-family: "Public Sans", sans-serif;
   font-size: 0.87rem;
   margin: 2rem 0;
   min-height: 2.5rem;
@@ -11984,7 +11991,7 @@ ul.toolbar-menu li {
 }
 
 .c-breadcrumb__title {
-  color: white;
+  color: #005ea2;
 }
 
 .c-breadcrumb__list {
@@ -12001,12 +12008,12 @@ ul.toolbar-menu li {
 }
 
 .c-breadcrumb__item {
-  margin-right: 0.75em;
+  margin-right: 0.5em;
 }
 .c-breadcrumb__item::after {
-  color: #edeff0;
-  content: "/";
-  margin-left: 0.75em;
+  color: #919191;
+  content: ">";
+  margin-left: 0.5em;
 }
 .c-breadcrumb__item:last-child::after {
   content: "";
@@ -12024,24 +12031,25 @@ ul.toolbar-menu li {
     display: none;
   }
   .c-breadcrumb__list .c-breadcrumb__item:nth-last-child(2)::before {
-    color: #edeff0;
-    content: "<";
-    margin-right: 0.75em;
+    color: #005ea2;
+    content: "\f060";
+    font: var(--fa-font-solid);
+    margin-right: 0.5em;
   }
 }
 
 .c-breadcrumb__link {
-  color: #a9aeb1;
-  text-decoration: none;
+  color: #005ea2;
+  text-decoration: underline;
 }
 .c-breadcrumb__link:visited {
-  color: #a9aeb1;
+  color: #005ea2;
 }
 .c-breadcrumb__link:hover, .c-breadcrumb__link:focus {
-  color: white;
+  color: #005ea2;
 }
 .c-breadcrumb__link:active {
-  color: white;
+  color: #005ea2;
 }
 
 .c-button--danger {
@@ -13235,6 +13243,7 @@ ul.toolbar-menu li {
 }
 
 .c-menu__item {
+  font-size: 1rem !important;
   max-width: initial;
 }
 

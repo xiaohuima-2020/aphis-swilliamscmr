@@ -1,14 +1,23 @@
 // Component: Breadcrumb
 
 $breadcrumb-background-color: gesso-color(ui, generic, accent-dark) !default;
-$breadcrumb-divider-color: gesso-color(ui, generic, border-light) !default;
-$breadcrumb-link-color: gesso-color(ui, generic, text-light) !default;
-$breadcrumb-text-color: gesso-color(text, on-dark) !default;
+$breadcrumb-divider-color: gesso-color(ui, generic, border-medium) !default;
+$breadcrumb-divider-color-link: gesso-color(text, link) !default;
+$breadcrumb-link-color: gesso-color(text, link) !default;
+$breadcrumb-text-color: gesso-color(text, link) !default;
+
+/*These styles are required to make icons render reliably */
+.icon::before {
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: auto;
+}
 
 .c-breadcrumb {
   @include clearfix();
-  background-color: $breadcrumb-background-color;
+  //background-color: $breadcrumb-background-color;
   color: $breadcrumb-text-color;
+  font-family: 'Public Sans', sans-serif;
   font-size: font-size(body, 3xs);
   margin: gesso-spacing(4) 0;
   min-height: rem(40px);
@@ -26,12 +35,12 @@ $breadcrumb-text-color: gesso-color(text, on-dark) !default;
 }
 
 .c-breadcrumb__item {
-  margin-right: 0.75em;
+  margin-right: 0.5em;
 
   &::after {
     color: $breadcrumb-divider-color;
-    content: '/';
-    margin-left: 0.75em;
+    content: '>';
+    margin-left: 0.5em;
   }
 
   &:last-child::after {
@@ -52,9 +61,10 @@ $breadcrumb-text-color: gesso-color(text, on-dark) !default;
       }
 
       &::before {
-        color: $breadcrumb-divider-color;
-        content: '<';
-        margin-right: 0.75em;
+        color: $breadcrumb-divider-color-link;
+        content: '\f060';
+        font: var(--fa-font-solid);
+        margin-right: 0.5em;
       }
     }
   }
@@ -62,5 +72,5 @@ $breadcrumb-text-color: gesso-color(text, on-dark) !default;
 
 .c-breadcrumb__link {
   @include link($breadcrumb-link-color, $breadcrumb-text-color);
-  text-decoration: none;
+  text-decoration: underline;
 }

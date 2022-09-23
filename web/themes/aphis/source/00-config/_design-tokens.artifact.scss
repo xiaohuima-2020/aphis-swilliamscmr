@@ -35,6 +35,7 @@ $gesso: (
       gray-5: color(gray-cool-60),
       gray-6: color(gray-cool-70),
       gray-7: color(gray-90),
+      gray-8: color(gray-40),
       black: #000,
     ),
     uswds: (
@@ -227,6 +228,7 @@ $gesso: (
         border: color(gray-cool-30),
         border-dark: color(gray-cool-70),
         border-light: color(gray-cool-5),
+        border-medium: color(gray-40),
         text-lighter: #ffffff,
         text-light: color(gray-cool-30),
         text-dark: color(gray-cool-60),
@@ -235,6 +237,7 @@ $gesso: (
         accent-dark: color($theme-color-accent-cool-dark),
         accent-light: color($theme-color-accent-cool-light),
         focus: color(blue-40),
+        link: color($theme-color-primary-dark),
       ),
       error: (
         background: color($theme-color-error-lighter),

@@ -11,9 +11,12 @@
     "build-storybook": "npm run build && build-storybook -o storybook",
     "deploy-storybook": "storybook-to-ghpages --source-branch=5.x",
     "dev": "npm run start && concurrently --raw \"webpack watch --config ./webpack.dev.js\" \"webpack watch --config ./webpack.theme-config.js\" \"npm run storybook\"",
-    "component": "node lib/component.js"
+    "component": "node lib/component.js",
+    "chromatic": "npx chromatic --project-token=fd67cbd1de58"
   },
-  "author": "Forum One",
+  "author": {
+    "name": "Forum One"
+  },
   "license": "GPL-2.0+",
   "browserslist": [
     "last 2 versions and not dead",
@@ -25,17 +28,17 @@
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
     "@mdx-js/react": "^1.6.22",
-    "@storybook/addon-a11y": "^6.5.11",
-    "@storybook/addon-actions": "^6.5.11",
-    "@storybook/addon-docs": "^6.5.11",
-    "@storybook/addon-essentials": "^6.5.11",
-    "@storybook/addon-links": "^6.5.11",
-    "@storybook/addons": "^6.5.11",
-    "@storybook/builder-webpack5": "^6.5.11",
-    "@storybook/manager-webpack5": "^6.5.11",
-    "@storybook/react": "^6.5.11",
+    "@storybook/addon-a11y": "^6.5.12",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-docs": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/addons": "^6.5.12",
+    "@storybook/builder-webpack5": "^6.5.12",
+    "@storybook/manager-webpack5": "^6.5.12",
+    "@storybook/react": "^6.5.12",
     "@storybook/storybook-deployer": "^2.8.12",
-    "@storybook/theming": "^6.5.11",
+    "@storybook/theming": "^6.5.12",
     "@types/jquery": "3.2",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
@@ -103,5 +106,7 @@
     "uswds": "2.12.2",
     "webpack-merge": "^5.7.3",
     "yaml": "^1.10.2"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "guswds@5.0.11"
 }

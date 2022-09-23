@@ -157,6 +157,9 @@ gesso:
       gray-7: !sass
         sass: 'color(gray-90)'
         fallback: '#1b1b1b'
+      gray-8: !sass
+        sass: 'color(gray-40)'
+        fallback: '#919191'
       black: '#000'
     uswds:
       base:
@@ -470,6 +473,7 @@ gesso:
         border: grayscale.gray-3
         border-dark: grayscale.gray-6
         border-light: grayscale.gray-1
+        border-medium: grayscale.gray-8
         text-lighter: grayscale.white
         text-light: grayscale.gray-3
         text-dark: grayscale.gray-5
@@ -478,6 +482,7 @@ gesso:
         accent-dark: uswds.accent-cool.dark
         accent-light: uswds.accent-cool.light
         focus: brand.blue.light
+        link: uswds.primary.dark
       error:
         background: uswds.error.lighter
         border: uswds.error.light
