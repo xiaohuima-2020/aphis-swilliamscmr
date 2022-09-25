@@ -37,7 +37,6 @@ custom_four_col:
 
 layout_fourgrid_section:
   label: 'Four Column Grid'
-  #  path: layouts/layout--fourgrid-section
   template: layouts/layout--fourgrid-section
   library: aphis/layout_fourgrid_section
   category: 'Custom grid'

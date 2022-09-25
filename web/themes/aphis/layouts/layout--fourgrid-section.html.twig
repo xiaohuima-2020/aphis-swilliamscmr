@@ -25,10 +25,6 @@
             </div>
         {% endif %}
 
-        {#        {% if content.second or content.third or content.fourth or content.fifth or content.sixth or content.seventh or content.eight %}#}
-        {#        <div class="layout__four-grid-group">#}
-        {#            {% endif %}#}
-
         {% if content.second %}
             <div{{ region_attributes.second.addClass('layout__region', 'layout__region--second') }}>
                 {{ content.second }}
@@ -70,10 +66,6 @@
                 {{ content.eight }}
             </div>
         {% endif %}
-
-        {#            {% if content.second or content.third or content.fourth or content.fifth or content.sixth or content.seventh or content.eight%}#}
-        {#        </div>#}
-        {#        {% endif %}#}
 
     </div>
 {% endif %}
