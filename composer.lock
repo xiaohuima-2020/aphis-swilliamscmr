@@ -13410,12 +13410,8 @@
     "stability-flags": {
         "drupal/components": 10,
         "drupal/block_field": 5,
-<<<<<<< HEAD
         "drupal/paragraphs_limits": 15,
         "drupal/convert_bundles": 15
-=======
-        "drupal/paragraphs_limits": 15
->>>>>>> 7dd92e3aacb0905026ef6ac407acd542b787c8a0
     },
     "prefer-stable": true,
     "prefer-lowest": false,
