@@ -1,0 +1,21 @@
+uuid: b7598cfd-bd58-4478-adc0-8807694da727
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_tile_link_grid_container
+field_name: field_tile_link_grid_container
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: 9
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

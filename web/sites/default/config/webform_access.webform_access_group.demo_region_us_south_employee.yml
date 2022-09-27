@@ -1,0 +1,13 @@
+uuid: caee21f8-84af-46b5-bc13-8c97aac0dbd5
+langcode: en
+status: true
+dependencies: {  }
+id: demo_region_us_south_employee
+label: 'United States: South: Employee'
+description: null
+type: demo_region_employee
+permissions:
+  - view_any
+  - update_any
+emails:
+  - demo_region_employee@test.com

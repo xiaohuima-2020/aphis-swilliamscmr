@@ -1,0 +1,42 @@
+uuid: 5d0e3193-df1d-42ba-b715-4d6862ee091d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tile_link_grid_container
+    - node.type.animal_disease_landing_page
+    - paragraphs.paragraphs_type.tile_link_grid
+    - paragraphs.paragraphs_type.tile_link_grid_card
+  module:
+    - entity_reference_revisions
+id: node.animal_disease_landing_page.field_tile_link_grid_container
+field_name: field_tile_link_grid_container
+entity_type: node
+bundle: animal_disease_landing_page
+label: 'Tile Link Grid Container'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      tile_link_grid: tile_link_grid
+      tile_link_grid_card: tile_link_grid_card
+    negate: 0
+    target_bundles_drag_drop:
+      block_reference:
+        weight: 5
+        enabled: false
+      grid_section:
+        weight: 6
+        enabled: false
+      tile_link_grid:
+        weight: 7
+        enabled: true
+      tile_link_grid_card:
+        weight: 8
+        enabled: true
+field_type: entity_reference_revisions
