@@ -660,48 +660,37 @@ gesso:
     drawer: 1200
     modal: 1300
   spacing:
-    '05': !sass
-      sass: "units('05')"
-      fallback: '4px'
+    # rem calculations done by hand based on 16px font size because the rem() function requires this file's output (chicken & egg)
     1: !sass
-      sass: 'units(1)'
-      fallback: '8px'
-    1.5: !sass
-      sass: "units(1.5)"
-      fallback: '12px'
+      sass: ".25rem"
+      fallback: '4px'
     2: !sass
-      sass: 'units(2)'
-      fallback: '16px'
-    2.5: !sass
-      sass: "units(2.5)"
-      fallback: '20px'
+      sass: ".5rem"
+      fallback: '8px'
     3: !sass
-      sass: 'units(3)'
-      fallback: '24px'
+      sass: ".75rem"
+      fallback: '12px'
     4: !sass
-      sass: 'units(4)'
-      fallback: '32px'
+      sass: "1rem"
+      fallback: '16px'
     5: !sass
-      sass: 'units(5)'
-      fallback: '40px'
+      sass: "1.25rem"
+      fallback: '20px'
     6: !sass
-      sass: 'units(6)'
-      fallback: '48px'
+      sass: "1.5rem"
+      fallback: '24px'
     7: !sass
-      sass: 'units(7)'
-      fallback: '56px'
+      sass: "2rem"
+      fallback: '32px'
     8: !sass
-      sass: 'units(8)'
-      fallback: '64px'
+      sass: "2.75rem"
+      fallback: '44px'
     9: !sass
-      sass: 'units(9)'
-      fallback: '72px'
+      sass: "3.5rem"
+      fallback: '56px'
     10: !sass
-      sass: 'units(10)'
-      fallback: '80px'
-    15: !sass
-      sass: 'units(15)'
-      fallback: '120px'
+      sass: "4.25rem"
+      fallback: '68px'
   gutter-width: !uswds uswds.column-gap-desktop
   site-margins:
     'mobile': !uswds uswds.site-margins-mobile-width
