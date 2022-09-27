@@ -102,3 +102,7 @@
 
 # Ignore .env files as they are personal
 #/.env
+
+
+#ignore node_modules
+web/themes/aphis/node_modules/*
