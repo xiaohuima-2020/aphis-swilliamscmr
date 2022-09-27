@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "content-hash": "2b8869cc62d34d3bff357b030827d3db",
+
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2381,6 +2382,7 @@
                 "doctrine/reflection": "~1.2.3",
                 "drupal/core": "9.5.0-beta1",
                 "egulias/email-validator": "~3.2.1",
+
                 "guzzlehttp/guzzle": "~6.5.8",
                 "guzzlehttp/promises": "~1.5.1",
                 "guzzlehttp/psr7": "~1.9.0",
@@ -13408,8 +13410,12 @@
     "stability-flags": {
         "drupal/components": 10,
         "drupal/block_field": 5,
+<<<<<<< HEAD
         "drupal/paragraphs_limits": 15,
         "drupal/convert_bundles": 15
+=======
+        "drupal/paragraphs_limits": 15
+>>>>>>> 7dd92e3aacb0905026ef6ac407acd542b787c8a0
     },
     "prefer-stable": true,
     "prefer-lowest": false,

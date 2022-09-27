@@ -37,6 +37,10 @@ custom_four_col:
 
 layout_fourgrid_section:
   label: 'Four Column Grid'
+<<<<<<< HEAD
+=======
+  #  path: layouts/layout--fourgrid-section
+>>>>>>> 7dd92e3aacb0905026ef6ac407acd542b787c8a0
   template: layouts/layout--fourgrid-section
   library: aphis/layout_fourgrid_section
   category: 'Custom grid'
