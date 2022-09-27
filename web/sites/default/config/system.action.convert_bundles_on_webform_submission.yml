@@ -1,0 +1,11 @@
+uuid: 4e47f012-a4ac-4478-8974-80112878d241
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_webform_submission
+label: 'Convert Webform submission Entity Bundles'
+type: webform_submission
+plugin: convert_bundles_action_base
+configuration: {  }

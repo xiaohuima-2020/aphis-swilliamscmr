@@ -1,0 +1,30 @@
+uuid: 9f54d852-494e-4123-87a6-9000220aaf10
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.webform_demo_region.body
+    - node.type.webform_demo_region
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: UUZGF1BfwDOh82e2AOfQWXSTofCdeDfKgngEGs5kJcQ
+id: node.webform_demo_region.default
+targetEntityType: node
+bundle: webform_demo_region
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden: {  }
