@@ -1,4 +1,4 @@
-uuid: 2175378d-7557-47ee-8814-e9e504025e01
+uuid: 6fe11512-0293-4fce-ab7b-1373119666a0
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: aphis_content
 theme: aphis
 region: content
-weight: 0
+weight: -7
 provider: null
 plugin: system_main_block
 settings:
