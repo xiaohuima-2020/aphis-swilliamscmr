@@ -13,6 +13,8 @@
 /web/sites/*/services*.yml
 !/web/sites/*/services.pantheon.*.yml
 !/web/sites/*/services.yml
+/web/sites/default/default.settings.php
+/web/sites/example.settings.local.php
 
 # Ignore paths that contain user-generated content.
 /web/sites/*/files
