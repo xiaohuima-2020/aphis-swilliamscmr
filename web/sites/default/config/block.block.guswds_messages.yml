@@ -1,0 +1,22 @@
+uuid: 4e51fad6-70a9-4878-94e9-5666334c490a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - guswds
+_core:
+  default_config_hash: uimbz2nZhCdIJdXa1Njj_h4XUhUxj5i8iMZduXn3-tc
+id: guswds_messages
+theme: guswds
+region: status
+weight: -1
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }
