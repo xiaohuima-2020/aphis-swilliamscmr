@@ -1,0 +1,11 @@
+uuid: 1099363e-b794-4088-a16b-e9dba334e176
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_view
+label: 'Convert View Entity Bundles'
+type: view
+plugin: convert_bundles_action_base
+configuration: {  }

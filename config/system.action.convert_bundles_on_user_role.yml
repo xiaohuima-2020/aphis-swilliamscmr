@@ -1,0 +1,11 @@
+uuid: b08e11a2-7e7a-4d46-b89e-fba5426cd223
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_user_role
+label: 'Convert Role Entity Bundles'
+type: user_role
+plugin: convert_bundles_action_base
+configuration: {  }
