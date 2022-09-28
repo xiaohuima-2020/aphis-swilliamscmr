@@ -61,7 +61,6 @@ module:
   webform_access: 0
   webform_demo_application_evaluation: 0
   webform_demo_event_registration: 0
-  webform_demo_region_contact: 0
   webform_node: 0
   webform_options_limit: 0
   webform_scheduled_email: 0

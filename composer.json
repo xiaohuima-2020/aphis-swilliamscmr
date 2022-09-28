@@ -33,7 +33,7 @@
         "drupal/devel": "^5.0",
         "drupal/devel_kint_extras": "^1.1",
         "drupal/layout_paragraphs": "^2.0",
-        "drupal/webform": "^6.1",
+        "drupal/webform": "^6.2@beta",
         "drupal/block_field": "^1.0@RC",
         "drupal/paragraphs_limits": "^1.0@alpha",
         "drupal/linked_field": "^1.3",
