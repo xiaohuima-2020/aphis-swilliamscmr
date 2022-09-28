@@ -16,20 +16,14 @@
 @media screen and (min-width: 60rem) {
   /* 960px */
   .layout--fourgrid-section {
-<<<<<<< HEAD
-=======
     /*margin-right: -1.5%;*/
     /*margin-left: -1.5%;*/
->>>>>>> 7dd92e3aacb0905026ef6ac407acd542b787c8a0
   }
 
   .layout--fourgrid-section > .layout__region--first {
     flex: 0 1 25%;
-<<<<<<< HEAD
-=======
     /*margin-right: 1.5%;*/
     /*margin-left: 1.5%;*/
->>>>>>> 7dd92e3aacb0905026ef6ac407acd542b787c8a0
   }
 
   .layout--fourgrid-section > .layout__four-grid-group {
