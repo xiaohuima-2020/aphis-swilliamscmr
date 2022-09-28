@@ -62,9 +62,14 @@
       } %}
 
       {% set link_attributes = {
-        'class': link_classes,
-        'aria-current': item.is_active ? 'page' : null,
+        'class': link_classes
       } %}
+
+      {% if item.is_active %}
+        {% set link_attributes = link_attributes|merge({
+          'aria-current': 'page' 
+        }) %}
+      {% endif %}
 
       <li {{ add_attributes(additional_item_attributes) }}>
         {% if item.below and menu_level == 0 %}
