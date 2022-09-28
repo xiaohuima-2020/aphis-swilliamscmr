@@ -1590,6 +1590,11 @@ through all possible variants
 ----------------------------------------
 */
 /* stylelint-enable */
+:root {
+--color-primary-dark: #01409B;
+--color-link-visited: #562B97;
+--color-primary-vivid: #006AFF;
+}
 ol, ul {
   margin-bottom: 1em;
   margin-top: 1em;
@@ -4474,7 +4479,8 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-size: 2em;
+  font-family: PublicSans-Bold, Times, serif;
+  font-size: 2.5rem;
   margin: 0.67em 0;
 }
 
@@ -4906,6 +4912,154 @@ template {
   font-display: fallback;
   src: url(../fonts/dc8b76b44a8a6e5fad1c.woff2) format("woff2"), url(../fonts/a0bcf832ed51501c237c.woff) format("woff"), url(../fonts/4d74f3bda45f5aba1abf.ttf) format("truetype");
 }
+
+@font-face {
+  font-family: PublicSans-Black;
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-Black.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: PublicSans-BlackItalic;
+  font-style: italic;
+  font-weight: 400;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-BlackItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: PublicSans-Bold;
+  font-style: bold;
+  font-weight: 700;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: PublicSans-BoldItalic;
+  font-style: bold;
+  font-weight: 700;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-BoldItalic.ttf) format("truetype");
+}
+
+
+@font-face {
+  font-family: PublicSans-ExtraBold;
+  font-style: bold;
+  font-weight: 700;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: PublicSans-ExtraBoldItalic;
+  font-style: italic;
+  font-weight: 700;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-ExtraBoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: PublicSans-ExtraLight;
+  font-style: bold;
+  font-weight: 300;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-ExtraLight.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: PublicSans-ExtraLightItalic;
+  font-style: italic;
+  font-weight: 300;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-ExtraLightItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: PublicSans-Italic;
+  font-style: italic;
+  font-weight: 400;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-Italic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: PublicSans-Light;
+  font-style: light;
+  font-weight: 400;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: PublicSans-LightItalic;
+  font-style: italic;
+  font-weight: 400;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-LightItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: PublicSans-Medium;
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-Medium.ttf) format("truetype");
+}
+
+
+@font-face {
+  font-family: PublicSans-MediumItalic;
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-MediumItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: PublicSans;
+  font-style: normal;
+  font-weight: 500;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: PublicSans-SemiBold;
+  font-style: normal;
+  font-weight: 600;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-SemiBold.ttf) format("truetypef");
+}
+
+
+@font-face {
+  font-family: PublicSans-SemiBoldItalic;
+  font-style: italic;
+  font-weight: 600;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-SemiBoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: PublicSans-Thin;
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-Thin.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: PublicSans-ThinItalic;
+  font-style: italic;
+  font-weight: 600;
+  font-display: fallback;
+  src: url(../fonts/PublicSans-ThinItalic.ttf) format("truetype");
+}
+
 /* stylelint-enable */
 input:not([disabled]):focus,
 select:not([disabled]):focus,
@@ -4930,6 +5084,7 @@ iframe:focus,
 
 html {
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 *,
@@ -5481,8 +5636,8 @@ h6, h5,
 }
 
 h1 {
-  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 2.44rem;
+  font-family: PublicSans-Bold, Georgia, Cambria, Times New Roman, Times, serif;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -5493,11 +5648,23 @@ h1 {
 }
 
 h2 {
-  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 1.95rem;
+  font-family: PublicSans-Bold, Georgia, Cambria, Times New Roman, Times, serif;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1.2;
+  position: relative;
 }
+
+h2::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 34px;
+  position: absolute;
+  background-color: #BDCE31;
+  left: -20px;
+}
+
 @media (max-width: 39.9375em) {
   h2 {
     font-size: 1.34rem;
@@ -5505,8 +5672,8 @@ h2 {
 }
 
 h3 {
-  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 1.34rem;
+  font-family: PublicSans-Bold, Georgia, Cambria, Times New Roman, Times, serif;
+  font-size: 1.375rem;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -5518,23 +5685,23 @@ h3 {
 
 h4,
 .c-field__label {
-  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 0.98rem;
+  font-family: PublicSans-Bold, Georgia, Cambria, Times New Roman, Times, serif;
+  font-size: 1.063rem;
   font-weight: 700;
   line-height: 1.2;
 }
 
 h5,
 .c-field__label.is-inline {
-  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 0.91rem;
+  font-family: PublicSans-Bold, Georgia, Cambria, Times New Roman, Times, serif;
+  font-size: 0.938rem;
   font-weight: 700;
   line-height: 1.2;
 }
 
 h6 {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 0.87rem;
+  font-family: PublicSans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-size: 0.813rem;
   font-weight: normal;
   letter-spacing: 0.025em;
   line-height: 1.1;
@@ -5542,6 +5709,8 @@ h6 {
 }
 
 p {
+  font-size: 1rem;
+  font-family: PublicSans;
   line-height: 1.5;
   margin-bottom: 0;
   margin-top: 0;
@@ -5566,20 +5735,20 @@ p:empty {
 
 a {
   background-color: transparent;
-  color: #005ea2;
+  color: var(--color-primary-dark);
   -webkit-text-decoration-skip: objects;
   transition-duration: 200ms;
   transition-property: background-color, border-color, color, outline-color;
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 a:visited {
-  color: #54278f;
+  color:  var(--color-link-visited);
 }
 a:hover, a:focus {
-  color: #1a4480;
+  color: var(--color-primary-vivid);
 }
 a:active {
-  color: #162e51;
+  color: var(--color-link-visited);
 }
 @media print {
   a, a:visited {
@@ -5729,8 +5898,25 @@ address {
 }
 
 ul {
-  list-style-type: disc;
+  list-style-type: none;
 }
+
+ul li {
+  position: relative;
+}
+
+ul li::before {
+  content: "";
+  display: block;
+  width: 3px;
+  height: 3px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  top: 45%;
+}
+
 [dir=rtl] ul {
   padding-left: 0;
   padding-right: 3ch;
