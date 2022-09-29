@@ -5372,6 +5372,17 @@ html {
   }
 }
 
+body,
+button,
+input,
+select,
+textarea {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 0.94rem;
@@ -13488,6 +13499,36 @@ ul.toolbar-menu li {
 
 .c-view__exposed {
   margin-bottom: 1rem;
+}
+
+.c-page-intro figure {
+  background: #f0f0f0;
+  margin-bottom: 1.25rem;
+}
+.c-page-intro img {
+  display: block;
+  margin: 0 auto;
+}
+.c-page-intro figcaption {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.88rem;
+  font-style: italic;
+}
+@media all and (min-width: 40em) {
+  .c-page-intro {
+    overflow: hidden;
+  }
+  .c-page-intro figure {
+    float: right;
+    max-width: 50%;
+    margin-left: 2rem;
+  }
+}
+@media all and (min-width: 64em) {
+  .c-page-intro figure {
+    margin-left: 3rem;
+  }
 }
 
 .visually-hidden,
