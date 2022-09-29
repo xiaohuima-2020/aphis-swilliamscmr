@@ -1590,15 +1590,10 @@ through all possible variants
 ----------------------------------------
 */
 /* stylelint-enable */
-:root {
---color-primary-dark: #01409B;
---color-link-visited: #562B97;
---color-primary-vivid: #006AFF;
-}
 ol, ul {
   margin-bottom: 1em;
   margin-top: 1em;
-  line-height: 1.5;
+  line-height: 1.6;
   padding-left: 3ch;
 }
 ol:last-child, ul:last-child {
@@ -1619,9 +1614,9 @@ li:last-child {
 }
 
 .usa-table, table {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.5;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1.6;
   border-collapse: collapse;
   border-spacing: 0;
   color: #1b1b1b;
@@ -1632,7 +1627,7 @@ li:last-child {
   background-clip: padding-box;
   color: #1b1b1b;
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 .usa-table thead th, table thead th,
 .usa-table thead td,
@@ -1652,8 +1647,8 @@ table td {
   padding: 0.5rem 1rem;
 }
 .usa-table caption, table caption {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
   text-align: left;
@@ -1676,7 +1671,7 @@ table td {
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button, table th[data-sortable]:not([aria-sort]) .usa-table__header__button, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button, table th[data-sortable][aria-sort=none] .usa-table__header__button {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
   background-color: transparent;
   border: 0;
@@ -1705,10 +1700,10 @@ table td {
   color: #54278f;
 }
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:hover, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:hover, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:hover, table th[data-sortable][aria-sort=none] .usa-table__header__button:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:active, table th[data-sortable][aria-sort=none] .usa-table__header__button:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:focus, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:focus, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:focus, table th[data-sortable][aria-sort=none] .usa-table__header__button:focus {
   outline: 0.25rem solid #2491ff;
@@ -1725,10 +1720,10 @@ table td {
   color: #c9c9c9;
 }
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.c-button.is-active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.c-button.is-active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=none] .usa-table__header__button.c-button.is-active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button .usa-icon, table th[data-sortable]:not([aria-sort]) .usa-table__header__button .usa-icon, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button .usa-icon, table th[data-sortable][aria-sort=none] .usa-table__header__button .usa-icon {
   height: 1.5rem;
@@ -1750,7 +1745,7 @@ table td {
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button, table th[data-sortable][aria-sort=descending] .usa-table__header__button {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
   background-color: transparent;
   border: 0;
@@ -1779,10 +1774,10 @@ table td {
   color: #54278f;
 }
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:hover, table th[data-sortable][aria-sort=descending] .usa-table__header__button:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:active, table th[data-sortable][aria-sort=descending] .usa-table__header__button:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:focus, table th[data-sortable][aria-sort=descending] .usa-table__header__button:focus {
   outline: 0.25rem solid #2491ff;
@@ -1799,10 +1794,10 @@ table td {
   color: #c9c9c9;
 }
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.c-button.is-active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button .usa-icon, table th[data-sortable][aria-sort=descending] .usa-table__header__button .usa-icon {
   height: 1.5rem;
@@ -1821,7 +1816,7 @@ table td {
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button, table th[data-sortable][aria-sort=ascending] .usa-table__header__button {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
   background-color: transparent;
   border: 0;
@@ -1850,10 +1845,10 @@ table td {
   color: #54278f;
 }
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:hover, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:focus, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:focus {
   outline: 0.25rem solid #2491ff;
@@ -1870,10 +1865,10 @@ table td {
   color: #c9c9c9;
 }
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.c-button.is-active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button .usa-icon, table th[data-sortable][aria-sort=ascending] .usa-table__header__button .usa-icon {
   height: 1.5rem;
@@ -2011,9 +2006,9 @@ table th[data-sort-active] {
 }
 .width-mobile .usa-table--stacked-header tr td:first-child,
 .width-mobile .usa-table--stacked-header tr th:first-child {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.1;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1rem;
+  line-height: 1.2;
   background-color: #dfe1e2;
   color: #1b1b1b;
   font-weight: 700;
@@ -3659,7 +3654,7 @@ through all possible variants
 ol, ul {
   margin-bottom: 1em;
   margin-top: 1em;
-  line-height: 1.5;
+  line-height: 1.6;
   padding-left: 3ch;
 }
 ol:last-child, ul:last-child {
@@ -3680,9 +3675,9 @@ li:last-child {
 }
 
 .usa-table, table {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.5;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1.6;
   border-collapse: collapse;
   border-spacing: 0;
   color: #1b1b1b;
@@ -3693,7 +3688,7 @@ li:last-child {
   background-clip: padding-box;
   color: #1b1b1b;
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 .usa-table thead th, table thead th,
 .usa-table thead td,
@@ -3713,8 +3708,8 @@ table td {
   padding: 0.5rem 1rem;
 }
 .usa-table caption, table caption {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
   text-align: left;
@@ -3737,7 +3732,7 @@ table td {
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button, table th[data-sortable]:not([aria-sort]) .usa-table__header__button, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button, table th[data-sortable][aria-sort=none] .usa-table__header__button {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
   background-color: transparent;
   border: 0;
@@ -3766,10 +3761,10 @@ table td {
   color: #54278f;
 }
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:hover, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:hover, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:hover, table th[data-sortable][aria-sort=none] .usa-table__header__button:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:active, table th[data-sortable][aria-sort=none] .usa-table__header__button:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:focus, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:focus, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:focus, table th[data-sortable][aria-sort=none] .usa-table__header__button:focus {
   outline: 0.25rem solid #2491ff;
@@ -3786,10 +3781,10 @@ table td {
   color: #c9c9c9;
 }
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.c-button.is-active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.c-button.is-active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=none] .usa-table__header__button.c-button.is-active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button .usa-icon, table th[data-sortable]:not([aria-sort]) .usa-table__header__button .usa-icon, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button .usa-icon, table th[data-sortable][aria-sort=none] .usa-table__header__button .usa-icon {
   height: 1.5rem;
@@ -3811,7 +3806,7 @@ table td {
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button, table th[data-sortable][aria-sort=descending] .usa-table__header__button {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
   background-color: transparent;
   border: 0;
@@ -3840,10 +3835,10 @@ table td {
   color: #54278f;
 }
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:hover, table th[data-sortable][aria-sort=descending] .usa-table__header__button:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:active, table th[data-sortable][aria-sort=descending] .usa-table__header__button:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:focus, table th[data-sortable][aria-sort=descending] .usa-table__header__button:focus {
   outline: 0.25rem solid #2491ff;
@@ -3860,10 +3855,10 @@ table td {
   color: #c9c9c9;
 }
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.c-button.is-active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button .usa-icon, table th[data-sortable][aria-sort=descending] .usa-table__header__button .usa-icon {
   height: 1.5rem;
@@ -3882,7 +3877,7 @@ table td {
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button, table th[data-sortable][aria-sort=ascending] .usa-table__header__button {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
   background-color: transparent;
   border: 0;
@@ -3911,10 +3906,10 @@ table td {
   color: #54278f;
 }
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:hover, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:focus, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:focus {
   outline: 0.25rem solid #2491ff;
@@ -3931,10 +3926,10 @@ table td {
   color: #c9c9c9;
 }
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.c-button.is-active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button .usa-icon, table th[data-sortable][aria-sort=ascending] .usa-table__header__button .usa-icon {
   height: 1.5rem;
@@ -4072,9 +4067,9 @@ table th[data-sort-active] {
 }
 .width-mobile .usa-table--stacked-header tr td:first-child,
 .width-mobile .usa-table--stacked-header tr th:first-child {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.1;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1rem;
+  line-height: 1.2;
   background-color: #dfe1e2;
   color: #1b1b1b;
   font-weight: 700;
@@ -4127,9 +4122,9 @@ table th[data-sort-active] {
 /* prettier-ignore */
 /* prettier-ignore */
 .usa-button, .c-dropbutton__toggle-button, .c-button {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 0.9;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1;
   color: white;
   background-color: #005ea2;
   -webkit-appearance: none;
@@ -4250,7 +4245,7 @@ table th[data-sort-active] {
 .usa-button--outline.usa-button--inverse.usa-button--unstyled, .usa-button--inverse.usa-button--unstyled.c-button--outline {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
   background-color: transparent;
   border: 0;
@@ -4266,10 +4261,10 @@ table th[data-sort-active] {
   color: #54278f;
 }
 .usa-button--outline.usa-button--inverse.usa-button--unstyled:hover, .usa-button--inverse.usa-button--unstyled.c-button--outline:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-button--outline.usa-button--inverse.usa-button--unstyled:active, .usa-button--inverse.usa-button--unstyled.c-button--outline:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-button--outline.usa-button--inverse.usa-button--unstyled:focus, .usa-button--inverse.usa-button--unstyled.c-button--outline:focus {
   outline: 0.25rem solid #2491ff;
@@ -4286,10 +4281,10 @@ table th[data-sort-active] {
   color: #c9c9c9;
 }
 .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--hover, .usa-button--inverse.usa-button--unstyled.usa-button--hover.c-button--outline {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--active, .usa-button--inverse.usa-button--unstyled.usa-button--active.c-button--outline, .usa-button--outline.usa-button--inverse.usa-button--unstyled.c-button.is-active, .usa-button--inverse.usa-button--unstyled.c-button.is-active.c-button--outline {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-button--outline.usa-button--inverse.usa-button--unstyled:visited, .usa-button--inverse.usa-button--unstyled.c-button--outline:visited {
   color: #dfe1e2;
@@ -4329,7 +4324,7 @@ table th[data-sort-active] {
 
 .usa-button--big, .c-button--large {
   border-radius: 0.25rem;
-  font-size: 1.46rem;
+  font-size: 1.38rem;
   padding: 1rem 1.5rem;
 }
 
@@ -4403,7 +4398,7 @@ table th[data-sort-active] {
 .usa-button--unstyled {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
   background-color: transparent;
   border: 0;
@@ -4418,10 +4413,10 @@ table th[data-sort-active] {
   color: #54278f;
 }
 .usa-button--unstyled:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-button--unstyled:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-button--unstyled:focus {
   outline: 0.25rem solid #2491ff;
@@ -4438,10 +4433,10 @@ table th[data-sort-active] {
   color: #c9c9c9;
 }
 .usa-button--unstyled.usa-button--hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-button--unstyled.usa-button--active, .usa-button--unstyled.c-button.is-active {
-  color: #162e51;
+  color: #0050d8;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -4479,8 +4474,7 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-family: PublicSans-Bold, Times, serif;
-  font-size: 2.5rem;
+  font-size: 2em;
   margin: 0.67em 0;
 }
 
@@ -4787,279 +4781,47 @@ template {
 
 /* stylelint-disable */
 @font-face {
-  font-family: Roboto Mono Web;
+  font-family: Public Sans Web;
   font-style: normal;
   font-weight: 300;
   font-display: fallback;
-  src: url(../fonts/316b1352cc4ab2054de6.woff2) format("woff2"), url(../fonts/92dd8f0ccfaebc33f817.woff) format("woff"), url(../fonts/ce3838471d62f8364e12.ttf) format("truetype");
+  src: url(../fonts/cb08018ecdfa97bc1ef7.woff2) format("woff2"), url(../fonts/ca8cd355fdce405e4632.woff) format("woff"), url(../fonts/5f6af21029246226c4ae.ttf) format("truetype");
 }
 @font-face {
-  font-family: Roboto Mono Web;
+  font-family: Public Sans Web;
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
-  src: url(../fonts/f1dc10a756c2c544588b.woff2) format("woff2"), url(../fonts/a3246d29b40a8b0da142.woff) format("woff"), url(../fonts/215adb34128fcb20668b.ttf) format("truetype");
+  src: url(../fonts/f3ef4cd54cd9339494e6.woff2) format("woff2"), url(../fonts/ff79d909f6fb87d92198.woff) format("woff"), url(../fonts/2cf950531353b5cfce70.ttf) format("truetype");
 }
 @font-face {
-  font-family: Roboto Mono Web;
+  font-family: Public Sans Web;
   font-style: normal;
   font-weight: 700;
   font-display: fallback;
-  src: url(../fonts/936869ba46988c238748.woff2) format("woff2"), url(../fonts/d85b43c39f4620dfa5b4.woff) format("woff"), url(../fonts/e57caf7ea634a258a9b2.ttf) format("truetype");
+  src: url(../fonts/2d6be0c1fd39db283994.woff2) format("woff2"), url(../fonts/ad28b6bf0cc20c608919.woff) format("woff"), url(../fonts/9006a483fb7d2950446c.ttf) format("truetype");
 }
 @font-face {
-  font-family: Roboto Mono Web;
+  font-family: Public Sans Web;
   font-style: italic;
   font-weight: 300;
   font-display: fallback;
-  src: url(../fonts/09cc62a8fbd32c8b2812.woff2) format("woff2"), url(../fonts/1b8d46dae0a077f999ae.woff) format("woff"), url(../fonts/93511dbad22ceb584f03.ttf) format("truetype");
+  src: url(../fonts/ac79c05131c59beef993.woff2) format("woff2"), url(../fonts/caf0b472c0635f8909ab.woff) format("woff"), url(../fonts/54fc67781880c58eec3e.ttf) format("truetype");
 }
 @font-face {
-  font-family: Roboto Mono Web;
+  font-family: Public Sans Web;
   font-style: italic;
   font-weight: 400;
   font-display: fallback;
-  src: url(../fonts/087069a9f454e2581ed6.woff2) format("woff2"), url(../fonts/756750acefdb77704c08.woff) format("woff"), url(../fonts/4863add4d566a55b6a97.ttf) format("truetype");
+  src: url(../fonts/3303461b03dc0c7854a5.woff2) format("woff2"), url(../fonts/5aa73a947b53abe8601f.woff) format("woff"), url(../fonts/8ee87113be62bf59d786.ttf) format("truetype");
 }
 @font-face {
-  font-family: Roboto Mono Web;
+  font-family: Public Sans Web;
   font-style: italic;
   font-weight: 700;
   font-display: fallback;
-  src: url(../fonts/5a8f743549cc6cef9a00.woff2) format("woff2"), url(../fonts/0a6791447401e0ebd70d.woff) format("woff"), url(../fonts/da78bf0b1b435f40ca19.ttf) format("truetype");
+  src: url(../fonts/f7a44ce6746c902781e1.woff2) format("woff2"), url(../fonts/ae4196e25187bf3f8c68.woff) format("woff"), url(../fonts/c4142e01e246e42d69fd.ttf) format("truetype");
 }
-@font-face {
-  font-family: Source Sans Pro Web;
-  font-style: normal;
-  font-weight: 300;
-  font-display: fallback;
-  src: url(../fonts/e5f1a42e1c2b97e25876.woff2) format("woff2"), url(../fonts/70e7d719e258c9a7e68b.woff) format("woff"), url(../fonts/d6f73cf7210d3b5c2fa9.ttf) format("truetype");
-}
-@font-face {
-  font-family: Source Sans Pro Web;
-  font-style: normal;
-  font-weight: 400;
-  font-display: fallback;
-  src: url(../fonts/e7bccfa631a0017f31da.woff2) format("woff2"), url(../fonts/c4e25ab10baa365dfc66.woff) format("woff"), url(../fonts/5acfe0d0f69444765ba4.ttf) format("truetype");
-}
-@font-face {
-  font-family: Source Sans Pro Web;
-  font-style: normal;
-  font-weight: 700;
-  font-display: fallback;
-  src: url(../fonts/4a1efbe82eaa84ff89ed.woff2) format("woff2"), url(../fonts/e7e051e1bc64fa899317.woff) format("woff"), url(../fonts/9a76932911f04be25044.ttf) format("truetype");
-}
-@font-face {
-  font-family: Source Sans Pro Web;
-  font-style: italic;
-  font-weight: 300;
-  font-display: fallback;
-  src: url(../fonts/9c5bf2190b2471c2f22b.woff2) format("woff2"), url(../fonts/455d120362f79aa219d4.woff) format("woff"), url(../fonts/43ea3d39e6aa59fb6f1b.ttf) format("truetype");
-}
-@font-face {
-  font-family: Source Sans Pro Web;
-  font-style: italic;
-  font-weight: 400;
-  font-display: fallback;
-  src: url(../fonts/c6c9fd228e87eefaf1d4.woff2) format("woff2"), url(../fonts/0aaeabbaba3845331078.woff) format("woff"), url(../fonts/3efee318468995ac04af.ttf) format("truetype");
-}
-@font-face {
-  font-family: Source Sans Pro Web;
-  font-style: italic;
-  font-weight: 700;
-  font-display: fallback;
-  src: url(../fonts/ef69f0d737406260319a.woff2) format("woff2"), url(../fonts/73021f1aabd43f50e16a.woff) format("woff"), url(../fonts/af3dd40e0ac8e2ca50ac.ttf) format("truetype");
-}
-@font-face {
-  font-family: Merriweather Web;
-  font-style: normal;
-  font-weight: 300;
-  font-display: fallback;
-  src: url(../fonts/f347d9834a5feacbcefb.woff2) format("woff2"), url(../fonts/7b2a6350fcb212efe521.woff) format("woff"), url(../fonts/30dd683b4fcfe95b030b.ttf) format("truetype");
-}
-@font-face {
-  font-family: Merriweather Web;
-  font-style: normal;
-  font-weight: 400;
-  font-display: fallback;
-  src: url(../fonts/a30c1b8fcb759e9fe728.woff2) format("woff2"), url(../fonts/add503b41601df15b97e.woff) format("woff"), url(../fonts/43dc3080728216519bf0.ttf) format("truetype");
-}
-@font-face {
-  font-family: Merriweather Web;
-  font-style: normal;
-  font-weight: 700;
-  font-display: fallback;
-  src: url(../fonts/9caa42f21e4ae090b755.woff2) format("woff2"), url(../fonts/b6cbc321678701d773c6.woff) format("woff"), url(../fonts/b87366633b1019e8c63c.ttf) format("truetype");
-}
-@font-face {
-  font-family: Merriweather Web;
-  font-style: italic;
-  font-weight: 300;
-  font-display: fallback;
-  src: url(../fonts/506121dad559538d44ed.woff2) format("woff2"), url(../fonts/8a239a410a47b6192e05.woff) format("woff"), url(../fonts/26ebdd3b8f1d039bc3dd.ttf) format("truetype");
-}
-@font-face {
-  font-family: Merriweather Web;
-  font-style: italic;
-  font-weight: 400;
-  font-display: fallback;
-  src: url(../fonts/c63d4066b0f133fc519f.woff2) format("woff2"), url(../fonts/80d8a9aff0d8bdeb966d.woff) format("woff"), url(../fonts/b60043e65fa5cbcedb80.ttf) format("truetype");
-}
-@font-face {
-  font-family: Merriweather Web;
-  font-style: italic;
-  font-weight: 700;
-  font-display: fallback;
-  src: url(../fonts/dc8b76b44a8a6e5fad1c.woff2) format("woff2"), url(../fonts/a0bcf832ed51501c237c.woff) format("woff"), url(../fonts/4d74f3bda45f5aba1abf.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: PublicSans-Black;
-  font-style: normal;
-  font-weight: 400;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-Black.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: PublicSans-BlackItalic;
-  font-style: italic;
-  font-weight: 400;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-BlackItalic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: PublicSans-Bold;
-  font-style: bold;
-  font-weight: 700;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-Bold.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: PublicSans-BoldItalic;
-  font-style: bold;
-  font-weight: 700;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-BoldItalic.ttf) format("truetype");
-}
-
-
-@font-face {
-  font-family: PublicSans-ExtraBold;
-  font-style: bold;
-  font-weight: 700;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-ExtraBold.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: PublicSans-ExtraBoldItalic;
-  font-style: italic;
-  font-weight: 700;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-ExtraBoldItalic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: PublicSans-ExtraLight;
-  font-style: bold;
-  font-weight: 300;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-ExtraLight.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: PublicSans-ExtraLightItalic;
-  font-style: italic;
-  font-weight: 300;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-ExtraLightItalic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: PublicSans-Italic;
-  font-style: italic;
-  font-weight: 400;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-Italic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: PublicSans-Light;
-  font-style: light;
-  font-weight: 400;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-Light.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: PublicSans-LightItalic;
-  font-style: italic;
-  font-weight: 400;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-LightItalic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: PublicSans-Medium;
-  font-style: normal;
-  font-weight: 400;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-Medium.ttf) format("truetype");
-}
-
-
-@font-face {
-  font-family: PublicSans-MediumItalic;
-  font-style: normal;
-  font-weight: 400;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-MediumItalic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: PublicSans;
-  font-style: normal;
-  font-weight: 500;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-Regular.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: PublicSans-SemiBold;
-  font-style: normal;
-  font-weight: 600;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-SemiBold.ttf) format("truetypef");
-}
-
-
-@font-face {
-  font-family: PublicSans-SemiBoldItalic;
-  font-style: italic;
-  font-weight: 600;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-SemiBoldItalic.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: PublicSans-Thin;
-  font-style: normal;
-  font-weight: 300;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-Thin.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: PublicSans-ThinItalic;
-  font-style: italic;
-  font-weight: 600;
-  font-display: fallback;
-  src: url(../fonts/PublicSans-ThinItalic.ttf) format("truetype");
-}
-
 /* stylelint-enable */
 input:not([disabled]):focus,
 select:not([disabled]):focus,
@@ -5084,7 +4846,6 @@ iframe:focus,
 
 html {
   box-sizing: border-box;
-  font-size: 16px;
 }
 
 *,
@@ -5094,7 +4855,7 @@ html {
 }
 
 .usa-paragraph {
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 0;
   margin-top: 0;
   max-width: 68ex;
@@ -5116,8 +4877,8 @@ html {
   margin-bottom: 0;
   margin-top: 0;
   clear: both;
-  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 1.34rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1.13rem;
   line-height: 1.2;
   font-weight: 700;
   margin-bottom: 0;
@@ -5133,8 +4894,8 @@ html {
     margin-bottom: 0;
     margin-top: 0;
     clear: both;
-    font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
-    font-size: 2.44rem;
+    font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 1.75rem;
     line-height: 1.2;
     font-weight: 700;
   }
@@ -5150,8 +4911,8 @@ html {
     margin-bottom: 0;
     margin-top: 0;
     clear: both;
-    font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
-    font-size: 2.93rem;
+    font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 0.94rem;
     line-height: 1.2;
     font-weight: 700;
   }
@@ -5164,9 +4925,9 @@ html {
 }
 
 .usa-intro {
-  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 1.34rem;
-  line-height: 1.8;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1.06rem;
+  line-height: 1.6;
   font-weight: 400;
   max-width: 88ex;
 }
@@ -5434,7 +5195,7 @@ h6 + *, h5 + *,
 }
 
 .gesso-storybook-line-height__heading {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1.25rem;
   line-height: 1.25;
   margin-bottom: 1rem;
@@ -5449,7 +5210,7 @@ h6 + *, h5 + *,
 }
 
 .gesso-storybook-line-height__label {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: bold;
 }
 
@@ -5461,6 +5222,46 @@ h6 + *, h5 + *,
   text-transform: uppercase;
 }
 
+.lead {
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1.06rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+@media all and (min-width: 64em) {
+  body {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.38rem;
+  }
+
+  h4 {
+    font-size: 1.06rem;
+  }
+
+  h5 {
+    font-size: 0.94rem;
+  }
+
+  h6 {
+    font-size: 0.81rem;
+  }
+
+  .lead {
+    font-size: 1.38rem;
+  }
+}
 .gesso-storybook-box-shadow {
   display: flex;
   flex-wrap: wrap;
@@ -5572,9 +5373,9 @@ html {
 }
 
 body {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.5;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1.6;
   background-color: white;
   color: #1b1b1b;
   margin: 0;
@@ -5636,82 +5437,68 @@ h6, h5,
 }
 
 h1 {
-  font-family: PublicSans-Bold, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 2.5rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1.75rem;
   font-weight: 700;
   line-height: 1.2;
 }
 @media (max-width: 39.9375em) {
   h1 {
-    font-size: 1.95rem;
+    font-size: 2rem;
   }
 }
 
 h2 {
-  font-family: PublicSans-Bold, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 2rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.2;
-  position: relative;
 }
-
-h2::before {
-  content: "";
-  display: block;
-  width: 5px;
-  height: 34px;
-  position: absolute;
-  background-color: #BDCE31;
-  left: -20px;
-}
-
 @media (max-width: 39.9375em) {
   h2 {
-    font-size: 1.34rem;
+    font-size: 1.38rem;
   }
 }
 
 h3 {
-  font-family: PublicSans-Bold, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 1.375rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1.13rem;
   font-weight: 700;
   line-height: 1.2;
 }
 @media (max-width: 39.9375em) {
   h3 {
-    font-size: 1.1rem;
+    font-size: 1.13rem;
   }
 }
 
 h4,
 .c-field__label {
-  font-family: PublicSans-Bold, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 1.063rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.2;
 }
 
 h5,
 .c-field__label.is-inline {
-  font-family: PublicSans-Bold, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 0.938rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.88rem;
   font-weight: 700;
   line-height: 1.2;
 }
 
 h6 {
-  font-family: PublicSans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 0.813rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.75rem;
   font-weight: normal;
   letter-spacing: 0.025em;
-  line-height: 1.1;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 
 p {
-  font-size: 1rem;
-  font-family: PublicSans;
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 0;
   margin-top: 0;
   max-width: 68ex;
@@ -5735,20 +5522,20 @@ p:empty {
 
 a {
   background-color: transparent;
-  color: var(--color-primary-dark);
+  color: #1a4480;
   -webkit-text-decoration-skip: objects;
   transition-duration: 200ms;
   transition-property: background-color, border-color, color, outline-color;
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 a:visited {
-  color:  var(--color-link-visited);
+  color: #54278f;
 }
 a:hover, a:focus {
-  color: var(--color-primary-vivid);
+  color: #0050d8;
 }
 a:active {
-  color: var(--color-link-visited);
+  color: #0050d8;
 }
 @media print {
   a, a:visited {
@@ -5756,7 +5543,7 @@ a:active {
   }
   a[href]::after {
     content: " <" attr(href) ">";
-    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     font-size: 10pt;
     font-weight: normal;
     text-transform: lowercase;
@@ -5781,11 +5568,10 @@ abbr:hover {
 
 cite {
   color: #565c65;
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 0.93rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
   font-style: normal;
   font-weight: normal;
-  letter-spacing: 0.025em;
   line-height: 1.6;
 }
 
@@ -5799,7 +5585,12 @@ mark {
 }
 
 small {
-  font-size: 80%;
+  font-size: 0.81rem;
+}
+@media all and (min-width: 64em) {
+  small {
+    font-size: 0.88rem;
+  }
 }
 
 sub,
@@ -5823,10 +5614,10 @@ var {
 }
 
 blockquote {
-  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 1.1rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
   font-weight: normal;
-  line-height: 1.7;
+  line-height: 1.6;
   margin: 0 0 2.5rem;
 }
 * + blockquote {
@@ -5898,25 +5689,8 @@ address {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: disc;
 }
-
-ul li {
-  position: relative;
-}
-
-ul li::before {
-  content: "";
-  display: block;
-  width: 3px;
-  height: 3px;
-  background-color: black;
-  border-radius: 50%;
-  position: absolute;
-  left: -10px;
-  top: 45%;
-}
-
 [dir=rtl] ul {
   padding-left: 0;
   padding-right: 3ch;
@@ -6052,9 +5826,9 @@ video {
 .usa-textarea, .usa-range, .usa-select, .usa-checkbox__label,
 .usa-radio__label, .usa-fieldset,
 .usa-hint {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.3;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1.4;
 }
 
 .usa-combo-box__input, .usa-input-group, .usa-input,
@@ -6122,9 +5896,9 @@ video {
 
 .usa-label,
 .usa-legend {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.3;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1.4;
   display: block;
   font-weight: normal;
   margin-top: 1.5rem;
@@ -6142,7 +5916,7 @@ video {
 }
 
 .usa-legend--large {
-  font-size: 2.13rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-top: 1rem;
 }
@@ -6158,7 +5932,7 @@ abbr[title=required] {
   padding-left: 0;
 }
 .usa-input-list li {
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 .usa-prose .usa-input-list {
@@ -6168,7 +5942,7 @@ abbr[title=required] {
   padding-left: 0;
 }
 .usa-prose .usa-input-list li {
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 .usa-checkbox,
@@ -6188,8 +5962,8 @@ abbr[title=required] {
 
 .usa-checkbox__input:checked + [class*=__label]::before,
 .usa-radio__input:checked + [class*=__label]::before {
-  background-color: #005ea2;
-  box-shadow: 0 0 0 2px #005ea2;
+  background-color: #1a4480;
+  box-shadow: 0 0 0 2px #1a4480;
 }
 .usa-checkbox__input:disabled + [class*=__label],
 .usa-radio__input:disabled + [class*=__label] {
@@ -6208,8 +5982,8 @@ abbr[title=required] {
 }
 .usa-checkbox__input--tile:checked + [class*=__label],
 .usa-radio__input--tile:checked + [class*=__label] {
-  background-color: rgba(0, 94, 162, 0.1);
-  border-color: #005ea2;
+  background-color: rgba(26, 68, 128, 0.1);
+  border-color: #1a4480;
 }
 .usa-checkbox__input--tile:disabled:checked + [class*=__label],
 .usa-radio__input--tile:disabled:checked + [class*=__label] {
@@ -6226,7 +6000,7 @@ abbr[title=required] {
 }
 
 .usa-radio__input:checked + [class*=__label]::before {
-  box-shadow: 0 0 0 2px #005ea2, inset 0 0 0 2px white;
+  box-shadow: 0 0 0 2px #1a4480, inset 0 0 0 2px white;
 }
 .usa-radio__input:checked:disabled + [class*=__label]::before {
   background-color: rgba(27, 27, 27, 0.2);
@@ -6296,7 +6070,7 @@ abbr[title=required] {
   display: block;
   left: 0;
   margin-left: 2px;
-  margin-top: 0.064rem;
+  margin-top: 0.033rem;
   position: absolute;
 }
 
@@ -6315,7 +6089,7 @@ abbr[title=required] {
 .usa-checkbox__label-description,
 .usa-radio__label-description {
   display: block;
-  font-size: 0.93rem;
+  font-size: 0.88rem;
   margin-top: 0.5rem;
 }
 
@@ -6401,7 +6175,7 @@ abbr[title=required] {
 .usa-file-input__target {
   border: 1px dashed #a9aeb1;
   display: block;
-  font-size: 0.93rem;
+  font-size: 0.88rem;
   margin-top: 0.5rem;
   position: relative;
   text-align: center;
@@ -6428,7 +6202,7 @@ abbr[title=required] {
 }
 
 .usa-file-input__choose {
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
   font-weight: normal;
 }
@@ -6436,10 +6210,10 @@ abbr[title=required] {
   color: #54278f;
 }
 .usa-file-input__choose:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-file-input__choose:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-file-input__choose:focus {
   outline: 0.25rem solid #2491ff;
@@ -6515,7 +6289,7 @@ abbr[title=required] {
   background: #d9e8f6;
   word-wrap: anywhere;
   display: flex;
-  font-size: 0.87rem;
+  font-size: 0.81rem;
   margin-top: 1px;
   padding: 0.25rem 0.5rem;
   pointer-events: none;
@@ -8768,9 +8542,9 @@ button.usa-combo-box__clear-input:focus {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.5;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1.6;
 }
 .usa-accordion > li, .c-menu--main > li {
   margin-bottom: 0;
@@ -8803,9 +8577,9 @@ button.usa-combo-box__clear-input:focus {
 
 .usa-accordion__heading,
 .usa-prose .usa-accordion__heading {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 0.9;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1;
   margin: 0;
 }
 .usa-accordion__heading:not(:first-child),
@@ -8829,7 +8603,7 @@ button.usa-combo-box__clear-input:focus {
 .usa-accordion__button {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
   background-color: transparent;
   border: 0;
@@ -8857,10 +8631,10 @@ button.usa-combo-box__clear-input:focus {
   color: #54278f;
 }
 .usa-accordion__button:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-accordion__button:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-accordion__button:focus {
   outline: 0.25rem solid #2491ff;
@@ -8877,10 +8651,10 @@ button.usa-combo-box__clear-input:focus {
   color: #c9c9c9;
 }
 .usa-accordion__button.usa-button--hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-accordion__button.usa-button--active, .usa-accordion__button.c-button.is-active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-accordion__button:hover {
   background-color: #dfe1e2;
@@ -8895,9 +8669,9 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-alert {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.5;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1.6;
   color: #1b1b1b;
   background-color: #f0f0f0;
   padding-bottom: 1rem;
@@ -8959,13 +8733,13 @@ button.usa-combo-box__clear-input:focus {
   }
 }
 .usa-alert--success .usa-link {
-  color: #005ea2;
+  color: #1a4480;
 }
 .usa-alert--success .usa-link:visited {
   color: #54278f;
 }
 .usa-alert--success .usa-link:hover, .usa-alert--success .usa-link:active {
-  color: #1a4480;
+  color: #162e51;
 }
 .usa-alert--success.usa-alert--no-icon:before {
   display: none;
@@ -9014,13 +8788,13 @@ button.usa-combo-box__clear-input:focus {
   }
 }
 .usa-alert--warning .usa-link {
-  color: #005ea2;
+  color: #1a4480;
 }
 .usa-alert--warning .usa-link:visited {
   color: #54278f;
 }
 .usa-alert--warning .usa-link:hover, .usa-alert--warning .usa-link:active {
-  color: #1a4480;
+  color: #162e51;
 }
 .usa-alert--warning.usa-alert--no-icon:before {
   display: none;
@@ -9069,13 +8843,13 @@ button.usa-combo-box__clear-input:focus {
   }
 }
 .usa-alert--error .usa-link {
-  color: #005ea2;
+  color: #1a4480;
 }
 .usa-alert--error .usa-link:visited {
   color: #54278f;
 }
 .usa-alert--error .usa-link:hover, .usa-alert--error .usa-link:active {
-  color: #1a4480;
+  color: #162e51;
 }
 .usa-alert--error.usa-alert--no-icon:before {
   display: none;
@@ -9124,13 +8898,13 @@ button.usa-combo-box__clear-input:focus {
   }
 }
 .usa-alert--info .usa-link {
-  color: #005ea2;
+  color: #1a4480;
 }
 .usa-alert--info .usa-link:visited {
   color: #54278f;
 }
 .usa-alert--info .usa-link:hover, .usa-alert--info .usa-link:active {
-  color: #1a4480;
+  color: #162e51;
 }
 .usa-alert--info.usa-alert--no-icon:before {
   display: none;
@@ -9198,9 +8972,9 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-alert__heading {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.46rem;
-  line-height: 0.9;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1.38rem;
+  line-height: 1;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -9210,17 +8984,17 @@ button.usa-combo-box__clear-input:focus {
   margin-top: 0;
 }
 .usa-alert__text a {
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
 }
 .usa-alert__text a:visited {
   color: #54278f;
 }
 .usa-alert__text a:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-alert__text a:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-alert__text a:focus {
   outline: 0.25rem solid #2491ff;
@@ -9249,21 +9023,21 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-banner {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.5;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1.6;
   background-color: #f0f0f0;
 }
 @media all and (min-width: 40em) {
   .usa-banner {
-    font-size: 0.87rem;
+    font-size: 0.81rem;
     padding-bottom: 0;
   }
 }
 .usa-banner .usa-accordion, .usa-banner .c-menu--main {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.5;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1.6;
 }
 
 .usa-banner__header,
@@ -9280,7 +9054,7 @@ button.usa-combo-box__clear-input:focus {
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: transparent;
-  font-size: 1rem;
+  font-size: 0.94rem;
   overflow: hidden;
   padding-bottom: 1rem;
   padding-left: 0.5rem;
@@ -9363,7 +9137,7 @@ button.usa-combo-box__clear-input:focus {
 .usa-banner__header {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: normal;
   min-height: 3rem;
   position: relative;
@@ -9379,13 +9153,13 @@ button.usa-combo-box__clear-input:focus {
 .usa-banner__header-text {
   margin-bottom: 0;
   margin-top: 0;
-  font-size: 0.8rem;
-  line-height: 1.1;
+  font-size: 0.75rem;
+  line-height: 1.2;
 }
 
 .usa-banner__header-action {
-  color: #005ea2;
-  line-height: 1.1;
+  color: #1a4480;
+  line-height: 1.2;
   margin-bottom: 0;
   margin-top: 2px;
   text-decoration: underline;
@@ -9402,23 +9176,23 @@ button.usa-combo-box__clear-input:focus {
 @supports ((-webkit-mask: url("")) or (mask: url(""))) {
   .usa-banner__header-action::after {
     background: none;
-    background-color: #005ea2;
+    background-color: #1a4480;
     -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTE2LjU5IDguNTlMMTIgMTMuMTcgNy40MSA4LjU5IDYgMTBsNiA2IDYtNnoiLz48L3N2Zz4=) no-repeat center/1rem 1rem;
             mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTE2LjU5IDguNTlMMTIgMTMuMTcgNy40MSA4LjU5IDYgMTBsNiA2IDYtNnoiLz48L3N2Zz4=) no-repeat center/1rem 1rem;
   }
   .usa-banner__header-action::after:hover {
-    background-color: #1a4480;
+    background-color: #162e51;
   }
 }
 .usa-banner__header-action:hover::after {
   content: "";
-  background-color: #1a4480;
+  background-color: #162e51;
 }
 .usa-banner__header-action:visited {
   color: #54278f;
 }
 .usa-banner__header-action:hover, .usa-banner__header-action:active {
-  color: #1a4480;
+  color: #162e51;
 }
 .usa-banner__header--expanded .usa-banner__header-action {
   display: none;
@@ -9448,7 +9222,7 @@ button.usa-combo-box__clear-input:focus {
   .usa-banner__header--expanded {
     background-color: transparent;
     display: block;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: normal;
     min-height: 0;
     padding-right: 0;
@@ -9469,7 +9243,7 @@ button.usa-combo-box__clear-input:focus {
 .usa-banner__button {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
   background-color: transparent;
   border: 0;
@@ -9487,11 +9261,11 @@ button.usa-combo-box__clear-input:focus {
   color: #005ea2;
   text-decoration: underline;
   vertical-align: baseline;
-  color: #005ea2;
+  color: #1a4480;
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   height: auto;
-  line-height: 1.1;
+  line-height: 1.2;
   padding-top: 0;
   padding-left: 0;
   text-decoration: none;
@@ -9501,10 +9275,10 @@ button.usa-combo-box__clear-input:focus {
   color: #54278f;
 }
 .usa-banner__button:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-banner__button:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-banner__button:focus {
   outline: 0.25rem solid #2491ff;
@@ -9521,16 +9295,16 @@ button.usa-combo-box__clear-input:focus {
   color: #c9c9c9;
 }
 .usa-banner__button.usa-button--hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-banner__button.usa-button--active, .usa-banner__button.c-button.is-active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-banner__button:visited {
   color: #54278f;
 }
 .usa-banner__button:hover, .usa-banner__button:active {
-  color: #1a4480;
+  color: #162e51;
 }
 @media all and (max-width: 39.99em) {
   .usa-banner__button {
@@ -9539,7 +9313,7 @@ button.usa-combo-box__clear-input:focus {
 }
 @media all and (min-width: 40em) {
   .usa-banner__button {
-    color: #005ea2;
+    color: #1a4480;
     position: static;
     bottom: auto;
     left: auto;
@@ -9561,23 +9335,23 @@ button.usa-combo-box__clear-input:focus {
   @supports ((-webkit-mask: url("")) or (mask: url(""))) {
     .usa-banner__button::after {
       background: none;
-      background-color: #005ea2;
+      background-color: #1a4480;
       -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTE2LjU5IDguNTlMMTIgMTMuMTcgNy40MSA4LjU5IDYgMTBsNiA2IDYtNnoiLz48L3N2Zz4=) no-repeat center/1rem 1rem;
               mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTE2LjU5IDguNTlMMTIgMTMuMTcgNy40MSA4LjU5IDYgMTBsNiA2IDYtNnoiLz48L3N2Zz4=) no-repeat center/1rem 1rem;
     }
     .usa-banner__button::after:hover {
-      background-color: #1a4480;
+      background-color: #162e51;
     }
   }
   .usa-banner__button:hover::after {
     content: "";
-    background-color: #1a4480;
+    background-color: #162e51;
   }
   .usa-banner__button:visited {
     color: #54278f;
   }
   .usa-banner__button:hover, .usa-banner__button:active {
-    color: #1a4480;
+    color: #162e51;
   }
   .usa-banner__button:after {
     position: absolute;
@@ -9648,17 +9422,17 @@ button.usa-combo-box__clear-input:focus {
   @supports ((-webkit-mask: url("")) or (mask: url(""))) {
     .usa-banner__button[aria-expanded=true]::after {
       background: none;
-      background-color: #005ea2;
+      background-color: #1a4480;
       -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTEyIDhsLTYgNiAxLjQxIDEuNDFMMTIgMTAuODNsNC41OSA0LjU4TDE4IDE0eiIvPjwvc3ZnPg==) no-repeat center/1rem 1rem;
               mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTEyIDhsLTYgNiAxLjQxIDEuNDFMMTIgMTAuODNsNC41OSA0LjU4TDE4IDE0eiIvPjwvc3ZnPg==) no-repeat center/1rem 1rem;
     }
     .usa-banner__button[aria-expanded=true]::after:hover {
-      background-color: #1a4480;
+      background-color: #162e51;
     }
   }
   .usa-banner__button[aria-expanded=true]:hover::after {
     content: "";
-    background-color: #1a4480;
+    background-color: #162e51;
   }
   .usa-banner__button[aria-expanded=true]:after {
     position: absolute;
@@ -9689,9 +9463,9 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-footer {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.5;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1.6;
   overflow: hidden;
 }
 .usa-footer > .grid-container {
@@ -9711,20 +9485,20 @@ button.usa-combo-box__clear-input:focus {
 .usa-footer__return-to-top {
   padding-bottom: 1.25rem;
   padding-top: 1.25rem;
-  line-height: 0.9;
+  line-height: 1;
 }
 .usa-footer__return-to-top a {
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
 }
 .usa-footer__return-to-top a:visited {
   color: #54278f;
 }
 .usa-footer__return-to-top a:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-footer__return-to-top a:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-footer__return-to-top a:focus {
   outline: 0.25rem solid #2491ff;
@@ -9805,7 +9579,7 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-footer__primary-content, .c-menu--footer .c-menu__item {
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 .usa-footer__primary-link a, .c-menu--footer .c-menu__link a,
@@ -9839,22 +9613,22 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-footer__secondary-link {
-  line-height: 1.1;
+  line-height: 1.2;
   margin-left: 1rem;
   padding: 0;
 }
 .usa-footer__secondary-link a {
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
 }
 .usa-footer__secondary-link a:visited {
   color: #54278f;
 }
 .usa-footer__secondary-link a:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-footer__secondary-link a:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-footer__secondary-link a:focus {
   outline: 0.25rem solid #2491ff;
@@ -9870,7 +9644,7 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-footer__contact-info {
-  line-height: 1.1;
+  line-height: 1.2;
 }
 .usa-footer__contact-info a {
   color: #1b1b1b;
@@ -9907,8 +9681,8 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-sign-up__heading {
-  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 1.34rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1.13rem;
   line-height: 1.2;
   font-weight: 700;
   margin: 0;
@@ -9954,9 +9728,9 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-footer__logo-heading {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.46rem;
-  line-height: 0.9;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1.13rem;
+  line-height: 1;
   font-weight: 700;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
@@ -9973,9 +9747,9 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-footer__contact-heading {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.46rem;
-  line-height: 1.1;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1.13rem;
+  line-height: 1.2;
   margin-top: 0;
 }
 @media all and (min-width: 30em) {
@@ -9986,7 +9760,7 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-footer__social-links {
-  line-height: 0.9;
+  line-height: 1;
   padding-bottom: 0.5rem;
 }
 .usa-footer__social-links a {
@@ -10097,8 +9871,8 @@ button.usa-combo-box__clear-input:focus {
   }
 }
 .usa-footer--big .usa-footer__primary-link, .usa-footer--big .c-menu--footer .c-menu__link, .c-menu--footer .usa-footer--big .c-menu__link {
-  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 0.98rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1rem;
   line-height: 1.2;
   font-weight: 700;
   line-height: 1.2;
@@ -10172,9 +9946,9 @@ button.usa-combo-box__clear-input:focus {
 }
 
 .usa-header {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.5;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1.6;
   z-index: 300;
 }
 .usa-header::after {
@@ -10217,8 +9991,8 @@ button.usa-combo-box__clear-input:focus {
 @media all and (max-width: 63.99em) {
   .usa-logo {
     flex: 1 1 0%;
-    font-size: 0.93rem;
-    line-height: 0.9;
+    font-size: 0.88rem;
+    line-height: 1;
     margin-left: 1rem;
   }
 }
@@ -10226,8 +10000,8 @@ button.usa-combo-box__clear-input:focus {
   .usa-logo {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-size: 1.46rem;
-    line-height: 1.1;
+    font-size: 1.38rem;
+    line-height: 1.2;
   }
 }
 .usa-logo a {
@@ -10245,7 +10019,7 @@ button.usa-combo-box__clear-input:focus {
 .usa-menu-btn {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
   background-color: transparent;
   border: 0;
@@ -10260,7 +10034,7 @@ button.usa-combo-box__clear-input:focus {
   padding-right: 0.75rem;
   background-color: #005ea2;
   color: white;
-  font-size: 0.87rem;
+  font-size: 0.81rem;
   height: 3rem;
   text-align: center;
   text-decoration: none;
@@ -10270,10 +10044,10 @@ button.usa-combo-box__clear-input:focus {
   color: #54278f;
 }
 .usa-menu-btn:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-menu-btn:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-menu-btn:focus {
   outline: 0.25rem solid #2491ff;
@@ -10290,10 +10064,10 @@ button.usa-combo-box__clear-input:focus {
   color: #c9c9c9;
 }
 .usa-menu-btn.usa-button--hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-menu-btn.usa-button--active, .usa-menu-btn.c-button.is-active {
-  color: #162e51;
+  color: #0050d8;
 }
 @media all and (min-width: 64em) {
   .usa-menu-btn {
@@ -10430,7 +10204,7 @@ button.usa-combo-box__clear-input:focus {
 }
 @media all and (min-width: 64em) {
   .usa-header--extended .usa-logo {
-    font-size: 2.13rem;
+    font-size: 2rem;
     margin: 2rem 0 1.5rem;
     max-width: 50%;
   }
@@ -10535,9 +10309,9 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
 }
 
 .usa-hero {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.5;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1.6;
   padding-bottom: 2rem;
   padding-top: 2rem;
   background-image: url(../images/64da0bc09eaff1000d48.png);
@@ -10560,8 +10334,8 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   margin-bottom: 0;
   margin-top: 0;
   clear: both;
-  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
-  font-size: 1.95rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1.5rem;
   line-height: 1.2;
   font-weight: 700;
   color: #00bde3;
@@ -10611,9 +10385,9 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   }
 }
 .usa-nav {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 0.9;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1;
 }
 @media all and (max-width: 63.99em) {
   .usa-nav {
@@ -10650,9 +10424,9 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   }
 }
 .usa-nav .usa-accordion, .usa-nav .c-menu--main {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 0.9;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1;
 }
 
 @media all and (max-width: 63.99em) {
@@ -10684,18 +10458,18 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
     color: #565c65;
   }
   .usa-nav__primary a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):not(.usa-current):hover, .c-menu--main a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):not(.usa-current):hover {
-    color: #005ea2;
+    color: #1a4480;
   }
   .usa-nav__primary a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):not(.usa-current):focus, .c-menu--main a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):not(.usa-current):focus {
     outline-offset: 0;
   }
   .usa-nav__primary .usa-current, .c-menu--main .usa-current {
     position: relative;
-    color: #005ea2;
+    color: #1a4480;
     font-weight: 700;
   }
   .usa-nav__primary .usa-current::after, .c-menu--main .usa-current::after {
-    background-color: #005ea2;
+    background-color: #1a4480;
     border-radius: 99rem;
     content: "";
     display: block;
@@ -10711,7 +10485,7 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
     position: relative;
   }
   .usa-nav__primary .usa-current::after, .c-menu--main .usa-current::after {
-    background-color: #005ea2;
+    background-color: #1a4480;
     border-radius: 99rem;
     content: "";
     display: block;
@@ -10737,17 +10511,17 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   text-decoration: none;
 }
 .usa-nav__primary > .usa-nav__primary-item, .c-menu--main .usa-nav__primary > .c-menu__item, .c-menu--main > .usa-nav__primary-item, .c-menu--main > .c-menu__item {
-  line-height: 1.1;
+  line-height: 1.2;
 }
 @media all and (min-width: 64em) {
   .usa-nav__primary > .usa-nav__primary-item, .c-menu--main .usa-nav__primary > .c-menu__item, .c-menu--main > .usa-nav__primary-item, .c-menu--main > .c-menu__item {
-    font-size: 0.93rem;
-    line-height: 0.9;
+    font-size: 0.88rem;
+    line-height: 1;
   }
 }
 @media all and (min-width: 64em) {
   .usa-nav__primary > .usa-nav__primary-item > a, .c-menu--main .usa-nav__primary > .c-menu__item > a, .c-menu--main > .usa-nav__primary-item > a, .c-menu--main > .c-menu__item > a {
-    line-height: 0.9;
+    line-height: 1;
     padding: 1rem;
     color: #565c65;
     display: block;
@@ -10766,7 +10540,7 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
 .usa-nav__primary button, .c-menu--main button {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
   background-color: transparent;
   border: 0;
@@ -10778,7 +10552,7 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   text-align: left;
   color: #565c65;
   font-weight: normal;
-  line-height: 1.1;
+  line-height: 1.2;
   padding: 0.75rem 1rem;
   text-decoration: none;
 }
@@ -10786,10 +10560,10 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   color: #54278f;
 }
 .usa-nav__primary button:hover, .c-menu--main button:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-nav__primary button:active, .c-menu--main button:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-nav__primary button:focus, .c-menu--main button:focus {
   outline: 0.25rem solid #2491ff;
@@ -10806,16 +10580,16 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   color: #c9c9c9;
 }
 .usa-nav__primary button.usa-button--hover, .c-menu--main button.usa-button--hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-nav__primary button.usa-button--active, .c-menu--main button.usa-button--active, .usa-nav__primary button.c-button.is-active, .c-menu--main button.c-button.is-active {
-  color: #162e51;
+  color: #0050d8;
 }
 @media all and (min-width: 64em) {
   .usa-nav__primary button, .c-menu--main button {
-    line-height: 0.9;
+    line-height: 1;
     padding: 1rem;
-    font-size: 0.93rem;
+    font-size: 0.88rem;
     font-weight: 700;
   }
 }
@@ -10885,7 +10659,7 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
     align-items: flex-end;
     bottom: 4rem;
     display: flex;
-    font-size: 0.93rem;
+    font-size: 0.88rem;
     margin-top: 0.5rem;
     min-width: calc(
       27ch + 3rem
@@ -10910,13 +10684,13 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   margin-top: 0;
   list-style-type: none;
   padding-left: 0;
-  line-height: 1.3;
+  line-height: 1.4;
   margin-top: 1.5rem;
 }
 @media all and (min-width: 64em) {
   .usa-nav__secondary-links, .c-menu--account {
     float: right;
-    line-height: 0.9;
+    line-height: 1;
     margin-bottom: 0.25rem;
     margin-top: 0;
   }
@@ -10935,7 +10709,7 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
 .usa-nav__secondary-links a, .c-menu--account a {
   color: #71767a;
   display: inline-block;
-  font-size: 0.93rem;
+  font-size: 0.88rem;
   text-decoration: none;
 }
 .usa-nav__secondary-links a:hover, .c-menu--account a:hover {
@@ -10957,7 +10731,7 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   }
   .usa-nav__submenu-item {
     border-top: 1px solid #dfe1e2;
-    font-size: 0.93rem;
+    font-size: 0.88rem;
   }
   .usa-nav__submenu .usa-current::after, .c-menu__subnav .usa-current::after {
     display: none;
@@ -11006,7 +10780,7 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   .usa-nav__submenu .usa-nav__submenu-item a, .c-menu__subnav .usa-nav__submenu-item a {
     color: white;
     padding: 0;
-    line-height: 1.3;
+    line-height: 1.4;
   }
   .usa-nav__submenu .usa-nav__submenu-item a:hover, .c-menu__subnav .usa-nav__submenu-item a:hover {
     background-color: transparent;
@@ -11028,16 +10802,16 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
 }
 .usa-nav__submenu-list .usa-nav__submenu-list-item {
   margin: 0;
-  font-size: 0.93rem;
+  font-size: 0.88rem;
 }
 .usa-nav__submenu-list .usa-nav__submenu-list-item a {
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 .usa-nav__close {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
-  color: #005ea2;
+  color: #1a4480;
   text-decoration: underline;
   background-color: transparent;
   border: 0;
@@ -11059,10 +10833,10 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   color: #54278f;
 }
 .usa-nav__close:hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-nav__close:active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-nav__close:focus {
   outline: 0.25rem solid #2491ff;
@@ -11079,10 +10853,10 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   color: #c9c9c9;
 }
 .usa-nav__close.usa-button--hover {
-  color: #1a4480;
+  color: #0050d8;
 }
 .usa-nav__close.usa-button--active, .usa-nav__close.c-button.is-active {
-  color: #162e51;
+  color: #0050d8;
 }
 .usa-nav__close:hover {
   color: currentColor;
@@ -11123,9 +10897,9 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
 }
 
 .usa-search {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.5;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1.6;
   position: relative;
 }
 .usa-search::after {
@@ -11161,7 +10935,7 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
 @media all and (min-width: 30em) {
   .usa-search--big [type=search],
 .usa-search--big .usa-search__input {
-    font-size: 1.06rem;
+    font-size: 1rem;
     height: 3rem;
   }
 }
@@ -11170,7 +10944,7 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
 .usa-search--big .usa-search__submit {
     padding-left: 2rem;
     padding-right: 2rem;
-    font-size: 1.46rem;
+    font-size: 1.38rem;
     height: 3rem;
     width: auto;
   }
@@ -11204,7 +10978,7 @@ input[type=search] {
   border-top-right-radius: 0;
   box-sizing: border-box;
   float: left;
-  font-size: 1rem;
+  font-size: 0.94rem;
   height: 2rem;
   margin: 0;
 }
@@ -11265,9 +11039,9 @@ input[type=search] {
   margin-top: 0;
   list-style-type: none;
   padding-left: 0;
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.3;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1rem;
+  line-height: 1.4;
   border-bottom: 1px solid #dfe1e2;
 }
 .usa-sidenav > li {
@@ -11290,18 +11064,18 @@ input[type=search] {
   color: #565c65;
 }
 .usa-sidenav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):not(.usa-current):hover {
-  color: #005ea2;
+  color: #1a4480;
 }
 .usa-sidenav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):not(.usa-current):focus {
   outline-offset: 0;
 }
 .usa-sidenav .usa-current {
   position: relative;
-  color: #005ea2;
+  color: #1a4480;
   font-weight: 700;
 }
 .usa-sidenav .usa-current::after {
-  background-color: #005ea2;
+  background-color: #1a4480;
   border-radius: 99rem;
   content: "";
   display: block;
@@ -11316,7 +11090,7 @@ input[type=search] {
     position: relative;
   }
   .usa-sidenav .usa-current::after {
-    background-color: #005ea2;
+    background-color: #1a4480;
     border-radius: 99rem;
     content: "";
     display: block;
@@ -11344,7 +11118,7 @@ input[type=search] {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.94rem;
 }
 .usa-sidenav__sublist > li {
   margin-bottom: 0;
@@ -11352,7 +11126,7 @@ input[type=search] {
 }
 .usa-sidenav__sublist-item {
   border-top: 1px solid #dfe1e2;
-  font-size: 0.93rem;
+  font-size: 0.88rem;
 }
 .usa-sidenav__sublist .usa-current::after {
   display: none;
@@ -11373,9 +11147,9 @@ input[type=search] {
 }
 
 .usa-summary-box {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.5;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
+  line-height: 1.6;
   color: #1b1b1b;
   background-color: #e7f6f8;
   border-radius: 0.25rem;
@@ -11391,9 +11165,9 @@ input[type=search] {
 }
 
 .usa-summary-box__heading {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.46rem;
-  line-height: 1.1;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1.38rem;
+  line-height: 1.2;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -11409,19 +11183,19 @@ input[type=search] {
 }
 
 .usa-summary-box__link {
-  color: #005ea2;
+  color: #1a4480;
 }
 .usa-summary-box__link:visited {
   color: #54278f;
 }
 .usa-summary-box__link:hover, .usa-summary-box__link:active {
-  color: #1a4480;
+  color: #162e51;
 }
 .usa-summary-box__link[href^="#"]:visited {
-  color: #005ea2;
+  color: #1a4480;
 }
 .usa-summary-box__link[href^="#"]:hover {
-  color: #1a4480;
+  color: #162e51;
 }
 
 @media all and (max-width: 29.99em) {
@@ -11508,9 +11282,9 @@ input[type=search] {
   }
   .usa-table--stacked-header tr td:first-child,
 .usa-table--stacked-header tr th:first-child {
-    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-    font-size: 1.06rem;
-    line-height: 1.1;
+    font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 1rem;
+    line-height: 1.2;
     background-color: #dfe1e2;
     color: #1b1b1b;
     font-weight: 700;
@@ -11523,8 +11297,8 @@ input[type=search] {
 }
 
 .usa-tag {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 0.93rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.88rem;
   color: white;
   text-transform: uppercase;
   background-color: #565c65;
@@ -11539,8 +11313,8 @@ input[type=search] {
 .usa-tag--big {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 0.94rem;
 }
 
 /* Tooltips */
@@ -11564,7 +11338,7 @@ input[type=search] {
   border-radius: 0.25rem;
   color: #f0f0f0;
   display: none;
-  font-size: 1rem;
+  font-size: 0.94rem;
   padding: 0.5rem;
   pointer-events: none;
   width: auto;
@@ -12137,32 +11911,18 @@ ul.toolbar-menu li {
   opacity: 1 !important;
 }
 
-/*These styles are required to make icons render reliably */
-.icon::before {
-  display: inline-block;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: auto;
-}
-
 .c-breadcrumb {
-  color: #005ea2;
-  font-family: "Public Sans", sans-serif;
-  font-size: 0.87rem;
   margin: 2rem 0;
   min-height: 2.5rem;
-  padding-bottom: 1rem;
+  font-size: 0.75rem;
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
-.c-breadcrumb::after {
-  clear: both;
-  content: "";
-  display: block;
+@media all and (min-width: 40em) {
+  .c-breadcrumb {
+    font-size: 0.88rem;
+  }
 }
-
-.c-breadcrumb__title {
-  color: #005ea2;
-}
-
 .c-breadcrumb__list {
   list-style-type: none;
   margin-left: 0;
@@ -12175,50 +11935,55 @@ ul.toolbar-menu li {
 .c-breadcrumb__list > li {
   display: inline;
 }
-
-.c-breadcrumb__item {
-  margin-right: 0.5em;
+.c-breadcrumb__list > li {
+  display: none;
 }
-.c-breadcrumb__item::after {
-  color: #919191;
-  content: ">";
-  margin-left: 0.5em;
+.c-breadcrumb__list > li:nth-last-child(2) {
+  display: block;
 }
-.c-breadcrumb__item:last-child::after {
+.c-breadcrumb__list > li::before, .c-breadcrumb__list > li::after {
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+  vertical-align: middle;
   content: "";
-  margin-left: 0;
 }
-
-@media (max-width: 37.5em) {
-  .c-breadcrumb__list .c-breadcrumb__item {
+.c-breadcrumb__list > li::before {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTIwIDExSDcuODNsNS41OS01LjU5TDEyIDRsLTggOCA4IDggMS40MS0xLjQxTDcuODMgMTNIMjB2LTJ6Ii8+PC9zdmc+);
+          mask-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTIwIDExSDcuODNsNS41OS01LjU5TDEyIDRsLTggOCA4IDggMS40MS0xLjQxTDcuODMgMTNIMjB2LTJ6Ii8+PC9zdmc+);
+  background-color: #1a4480;
+}
+.c-breadcrumb__list > li::after {
+  display: none;
+}
+.c-breadcrumb__list > li a,
+.c-breadcrumb__list > li span {
+  display: inline-block;
+}
+@media all and (min-width: 40em) {
+  .c-breadcrumb__list > li, .c-breadcrumb__list > li:nth-last-child(2) {
+    display: inline-block;
+  }
+  .c-breadcrumb__list > li::before {
     display: none;
   }
-  .c-breadcrumb__list .c-breadcrumb__item:nth-last-child(2) {
-    display: block;
+  .c-breadcrumb__list > li::after {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTEwIDZMOC41OSA3LjQxIDEzLjE3IDEybC00LjU4IDQuNTlMMTAgMThsNi02eiIvPjwvc3ZnPg==);
+            mask-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTEwIDZMOC41OSA3LjQxIDEzLjE3IDEybC00LjU4IDQuNTlMMTAgMThsNi02eiIvPjwvc3ZnPg==);
+    background-color: rgba(23, 23, 23, 0.5);
   }
-  .c-breadcrumb__list .c-breadcrumb__item:nth-last-child(2)::after {
+  .c-breadcrumb__list > li:last-child::after {
     display: none;
   }
-  .c-breadcrumb__list .c-breadcrumb__item:nth-last-child(2)::before {
-    color: #005ea2;
-    content: "\f060";
-    font: var(--fa-font-solid);
-    margin-right: 0.5em;
-  }
-}
-
-.c-breadcrumb__link {
-  color: #005ea2;
-  text-decoration: underline;
-}
-.c-breadcrumb__link:visited {
-  color: #005ea2;
-}
-.c-breadcrumb__link:hover, .c-breadcrumb__link:focus {
-  color: #005ea2;
-}
-.c-breadcrumb__link:active {
-  color: #005ea2;
 }
 
 .c-button--danger {
@@ -12235,7 +12000,7 @@ ul.toolbar-menu li {
 }
 
 .c-button--small {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   padding: 0.5rem 1rem;
 }
 
@@ -12359,7 +12124,7 @@ ul.toolbar-menu li {
 }
 
 .c-card__title {
-  font-size: 1.34rem;
+  font-size: 1.38rem;
   margin: 0;
 }
 .c-card__title a {
@@ -12388,7 +12153,7 @@ ul.toolbar-menu li {
 
 .c-card__date {
   color: #565c65;
-  font-size: 0.87rem;
+  font-size: 0.81rem;
   margin-bottom: 1rem;
 }
 
@@ -12428,7 +12193,7 @@ ul.toolbar-menu li {
     flex-direction: row;
   }
   .c-card--feature .c-card__title {
-    font-size: 1.95rem;
+    font-size: 2rem;
   }
   .c-card--feature .c-card__body {
     max-width: 600px;
@@ -12441,7 +12206,7 @@ ul.toolbar-menu li {
 
 .c-date {
   color: #565c65;
-  font-size: 1.06rem;
+  font-size: 1rem;
 }
 
 .c-details {
@@ -12502,7 +12267,7 @@ ul.toolbar-menu li {
 
 .c-details__description {
   color: #1b1b1b;
-  font-size: 1.06rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -12563,7 +12328,7 @@ ul.toolbar-menu li {
   border-radius: 0.25rem;
   color: #ffffff;
   display: inline-block;
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   transition: background 200ms cubic-bezier(0.4, 0, 1, 1);
   vertical-align: top;
@@ -12650,11 +12415,9 @@ ul.toolbar-menu li {
 .c-field--tile.c-field {
   margin-bottom: 0;
 }
-/*
 .c-field--tile.c-field--name-field-link {
   display: none;
 }
-*/
 .c-field--tile.c-field--name-field-title {
   background-color: #3168b7;
   height: 47px;
@@ -12704,7 +12467,7 @@ ul.toolbar-menu li {
 }
 
 .c-fieldset__description {
-  font-size: 0.87rem;
+  font-size: 0.81rem;
 }
 .c-fieldset__description > :last-child {
   margin-bottom: 0;
@@ -12836,7 +12599,7 @@ ul.toolbar-menu li {
 
 .c-form-item__description {
   color: #565c65;
-  font-size: 0.87rem;
+  font-size: 0.81rem;
 }
 .c-form-item__description > :last-child {
   margin-bottom: 0;
@@ -13534,13 +13297,13 @@ ul.toolbar-menu li {
 .c-pager__link--next,
 .c-pager__link--last {
   background-color: transparent;
-  color: #005ea2;
+  color: #1a4480;
 }
 .c-pager__link--first:visited,
 .c-pager__link--previous:visited,
 .c-pager__link--next:visited,
 .c-pager__link--last:visited {
-  color: #005ea2;
+  color: #1a4480;
 }
 .c-pager__link--first:hover, .c-pager__link--first:focus,
 .c-pager__link--previous:hover,
@@ -13550,7 +13313,7 @@ ul.toolbar-menu li {
 .c-pager__link--last:hover,
 .c-pager__link--last:focus {
   background-color: transparent;
-  color: #1a4480;
+  color: #0050d8;
   text-decoration: underline;
 }
 .c-pager__link--first:active,
@@ -13558,7 +13321,7 @@ ul.toolbar-menu li {
 .c-pager__link--next:active,
 .c-pager__link--last:active {
   background-color: transparent;
-  color: #162e51;
+  color: #0050d8;
   text-decoration: underline;
 }
 
@@ -13591,7 +13354,7 @@ ul.toolbar-menu li {
 .c-progress__description,
 .c-progress__percentage {
   color: #1b1b1b;
-  font-size: 0.87rem;
+  font-size: 0.81rem;
   overflow: hidden;
 }
 
@@ -13614,7 +13377,7 @@ ul.toolbar-menu li {
   text-decoration: none;
 }
 .c-readmore-link:hover path, .c-readmore-link:focus path {
-  fill: #1a4480;
+  fill: #0050d8;
 }
 
 .c-readmore-link__icon {
@@ -13625,7 +13388,7 @@ ul.toolbar-menu li {
   width: 28px;
 }
 .c-readmore-link__icon path {
-  fill: #005ea2;
+  fill: #1a4480;
 }
 
 .c-rss-feed {
@@ -13643,7 +13406,7 @@ ul.toolbar-menu li {
 
 .c-skiplinks {
   display: flex;
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   justify-content: center;
   position: absolute;
   width: 100%;
@@ -13663,7 +13426,7 @@ ul.toolbar-menu li {
   color: white;
   display: inline-block;
   font-weight: bold;
-  line-height: 1.1;
+  line-height: 1.2;
   margin: 0;
   outline: 0;
   padding: 1rem;
@@ -13902,8 +13665,5 @@ ul.toolbar-menu li {
 .u-spaced-none-below {
   margin-bottom: 0 !important;
 }
-
-/*New styles for APHIS*/
-
 
 /*# sourceMappingURL=styles.css.map*/

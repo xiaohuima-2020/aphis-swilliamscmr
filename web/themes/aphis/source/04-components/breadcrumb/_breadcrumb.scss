@@ -1,76 +1,81 @@
 // Component: Breadcrumb
 
-$breadcrumb-background-color: gesso-color(ui, generic, accent-dark) !default;
-$breadcrumb-divider-color: gesso-color(ui, generic, border-medium) !default;
-$breadcrumb-divider-color-link: gesso-color(text, link) !default;
-$breadcrumb-link-color: gesso-color(text, link) !default;
-$breadcrumb-text-color: gesso-color(text, link) !default;
-
-/*These styles are required to make icons render reliably */
-.icon::before {
-  display: inline-block;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: auto;
-}
-
 .c-breadcrumb {
-  @include clearfix();
-  //background-color: $breadcrumb-background-color;
-  color: $breadcrumb-text-color;
-  font-family: 'Public Sans', sans-serif;
-  font-size: font-size(body, 3xs);
   margin: gesso-spacing(4) 0;
   min-height: rem(40px);
-  padding-bottom: gesso-spacing(2);
+  font-size: size('body', 1); // 12px
   padding-top: gesso-spacing(2);
-}
+  padding-bottom: gesso-spacing(2);
 
-.c-breadcrumb__title {
-  color: $breadcrumb-text-color;
-}
-
-.c-breadcrumb__list {
-  @include list-inline();
-  margin-top: 0;
-}
-
-.c-breadcrumb__item {
-  margin-right: 0.5em;
-
-  &::after {
-    color: $breadcrumb-divider-color;
-    content: '>';
-    margin-left: 0.5em;
+  @include at-media('tablet') {
+    font-size: size('body', 3); // 14px
   }
 
-  &:last-child::after {
-    content: '';
-    margin-left: 0;
-  }
-}
+  &__list {
+    @include list-inline();
+    margin-top: 0;
 
-.c-breadcrumb__list .c-breadcrumb__item {
-  @include breakpoint-max(600px) {
-    display: none;
+    > li {
+      display: none;
 
-    &:nth-last-child(2) {
-      display: block;
+      // the parent of the current page
+      &:nth-last-child(2) {
+        display: block;
+      }
+
+      &::before,
+      &::after {
+        mask-size: contain;
+        mask-repeat: no-repeat;
+        mask-position: center;
+        vertical-align: middle;
+        content: '';
+      }
+
+      &::before {
+        $icon-size-x: 12px;
+        $icon-size-y: 12px;
+        display: inline-block;
+        width: $icon-size-x;
+        height: $icon-size-y;
+        mask-image: url('../dist/images/usa-icons/arrow_back.svg');
+        background-color: gesso-color(text, link);
+      }
 
       &::after {
         display: none;
       }
 
-      &::before {
-        color: $breadcrumb-divider-color-link;
-        content: '\f060';
-        font: var(--fa-font-solid);
-        margin-right: 0.5em;
+      a,
+      span {
+        display: inline-block;
+      }
+
+      @include at-media('tablet') {
+        &,
+        &:nth-last-child(2) {
+          display: inline-block;
+        }
+
+        &::before {
+          display: none;
+        }
+
+        &::after {
+          $icon-size-x: 20px;
+          $icon-size-y: 20px;
+          display: inline-block;
+          width: $icon-size-x;
+          height: $icon-size-y;
+          mask-image: url('../dist/images/usa-icons/navigate_next.svg');
+          // TODO: Replace this color with a global variable
+          background-color: rgba(23, 23, 23, 0.5);
+        }
+
+        &:last-child::after {
+          display: none;
+        }
       }
     }
   }
-}
-
-.c-breadcrumb__link {
-  @include link($breadcrumb-link-color, $breadcrumb-text-color);
-  text-decoration: underline;
 }

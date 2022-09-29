@@ -1,10 +1,9 @@
 {#
 /**
  * @file
- * Default theme implementation for a three column layout.
+ * A four column layout with one row.
  *
- * This template provides a three column 20%-40%-40% display layout, with
- * additional areas for the top and the bottom.
+ * This template provides a four column 25%-25%-25%-25% display layout.
  *
  * Available variables:
  * - content: The content for this layout.
@@ -15,34 +14,33 @@
 #}
 {%
     set classes = [
-    'layout',
-    'layout--fourcol',
-    'four-column'
-]
+        'l-grid',
+        'l-grid--4-col'
+    ]
 %}
 {% if content %}
     <div{{ attributes.addClass(classes) }}>
 
         {% if content.first %}
-            <div {{ region_attributes.first.addClass('layout__region', 'layout__region--first') }}>
+            <div>
                 {{ content.first }}
             </div>
         {% endif %}
 
         {% if content.second %}
-            <div {{ region_attributes.second.addClass('layout__region', 'layout__region--second') }}>
+            <div>
                 {{ content.second }}
             </div>
         {% endif %}
 
         {% if content.third %}
-            <div {{ region_attributes.third.addClass('layout__region', 'layout__region--third') }}>
+            <div>
                 {{ content.third }}
             </div>
         {% endif %}
 
         {% if content.fourth %}
-            <div {{ region_attributes.fourth.addClass('layout__region', 'layout__region--fourth') }}>
+            <div>
                 {{ content.fourth }}
             </div>
         {% endif %}
