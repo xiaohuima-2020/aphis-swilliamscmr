@@ -107,10 +107,10 @@ uswds:
   body-background-color: 'white'
   text-color: 'ink'
   text-reverse-color: 'white'
-  link-color: 'primary'
+  link-color: 'primary-dark'
   link-visited-color: 'violet-70v'
-  link-hover-color: 'primary-dark'
-  link-active-color: 'primary-darker'
+  link-hover-color: 'primary-vivid'
+  link-active-color: 'primary-vivid'
 gesso:
   palette:
     brand:
