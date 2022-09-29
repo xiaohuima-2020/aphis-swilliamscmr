@@ -57,9 +57,15 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  webform: 0
+  webform_access: 0
   webform_demo_application_evaluation: 0
+  webform_demo_event_registration: 0
   webform_demo_region_contact: 0
+  webform_node: 0
+  webform_options_limit: 0
   webform_scheduled_email: 0
+  webform_share: 0
   pathauto: 1
   views: 10
   paragraphs: 11
