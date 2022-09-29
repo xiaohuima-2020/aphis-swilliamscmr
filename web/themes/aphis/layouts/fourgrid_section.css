@@ -34,7 +34,6 @@
   }
 */
 
-
   .layout__four-grid-group > .layout__region--second,
   .layout__four-grid-group > .layout__region--third,
   .layout__four-grid-group > .layout__region--fourth,
@@ -61,13 +60,13 @@
   }
 
   .c-field--tile.c-field--name-field-link {
-    background-color: #3168B7;
+    background-color: #3168b7;
     padding: 11px 16px;
   }
 
   .c-field--tile.c-field--name-field-link a {
+    color: #fff;
     font-family: 'PublicSans';
-    color: white;
     text-decoration: none;
   }
 }
