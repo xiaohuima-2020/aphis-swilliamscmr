@@ -25,4 +25,4 @@ layout_fourgrid_section:
   version: VERSION
   css:
     theme:
-      layouts/fourgrid_section.css: {}
+      dist/css/editor-styles.css: {}
