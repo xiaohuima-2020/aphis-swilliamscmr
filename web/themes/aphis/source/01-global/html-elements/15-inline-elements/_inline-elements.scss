@@ -101,7 +101,11 @@ mark {
 // samp {}
 
 small {
-  font-size: 80%;
+  font-size: size('body', $theme-small-font-size);
+
+  @include at-media('desktop') {
+    font-size: size('body', 3); // 14px
+  }
 }
 
 // strong {}

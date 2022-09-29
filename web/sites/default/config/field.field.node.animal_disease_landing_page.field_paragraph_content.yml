@@ -1,0 +1,38 @@
+uuid: 4b896d98-8af9-4093-acf5-e7e964f7f6fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph_content
+    - node.type.animal_disease_landing_page
+  module:
+    - entity_reference_revisions
+id: node.animal_disease_landing_page.field_paragraph_content
+field_name: field_paragraph_content
+entity_type: node
+bundle: animal_disease_landing_page
+label: 'Paragraph content'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      block_reference:
+        weight: 5
+        enabled: false
+      grid_section:
+        weight: 6
+        enabled: false
+      tile_link_grid:
+        weight: 7
+        enabled: false
+      tile_link_grid_card:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,32 @@
+uuid: bb4b1012-7d77-4257-bdbb-fb9305d9f7e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.latest_updates
+  module:
+    - node
+    - views
+  theme:
+    - aphis
+id: views_block__latest_updates_latest_updates_block
+theme: aphis
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:latest_updates-latest_updates_block'
+settings:
+  id: 'views_block:latest_updates-latest_updates_block'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

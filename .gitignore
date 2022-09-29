@@ -13,6 +13,8 @@
 /web/sites/*/services*.yml
 !/web/sites/*/services.pantheon.*.yml
 !/web/sites/*/services.yml
+/web/sites/default/default.settings.php
+/web/sites/example.settings.local.php
 
 # Ignore paths that contain user-generated content.
 /web/sites/*/files
@@ -104,3 +106,7 @@
 
 # Ignore .env files as they are personal
 #/.env
+
+
+#ignore node_modules
+web/themes/aphis/node_modules/*

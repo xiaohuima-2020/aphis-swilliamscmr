@@ -1,0 +1,11 @@
+uuid: a3372d8b-6c99-451d-ba1d-042ade7973e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_paragraphs_type
+label: 'Convert Paragraphs type Entity Bundles'
+type: paragraphs_type
+plugin: convert_bundles_action_base
+configuration: {  }

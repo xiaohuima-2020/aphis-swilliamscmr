@@ -1,0 +1,27 @@
+uuid: d9eb3967-45f8-4156-a2ac-5b3d98c752a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - aphis
+_core:
+  default_config_hash: MExe2riBo13SmCQqpbaTD_NJ90P8rV06ysxqVtKmkCc
+id: aphis_footer
+theme: aphis
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: c8e9d4e7-5bee-42f2-99b5-1979def64530
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_taxonomy_vocabulary
+label: 'Convert Taxonomy vocabulary Entity Bundles'
+type: taxonomy_vocabulary
+plugin: convert_bundles_action_base
+configuration: {  }

@@ -7,3 +7,44 @@
 .gesso-storybook-text-style__label {
   text-transform: uppercase;
 }
+
+.lead {
+  font-family: family($theme-lead-font-family);
+  font-size: font-size($theme-lead-font-family, $theme-lead-font-size);
+  font-weight: font-weight(light);
+  line-height: line-height($theme-lead-font-family, $theme-lead-line-height);
+}
+
+@include at-media('desktop') {
+  body {
+    font-size: size('body', 5); // 16px
+  }
+
+  h1 {
+    font-size: size('heading', 14); // 40px
+  }
+
+  h2 {
+    font-size: size('heading', 12); // 32px
+  }
+
+  h3 {
+    font-size: size('heading', 9); // 22px
+  }
+
+  h4 {
+    font-size: size('heading', 6); // 17px
+  }
+
+  h5 {
+    font-size: size('heading', 4); // 15px
+  }
+
+  h6 {
+    font-size: size('heading', 2); // 13px
+  }
+
+  .lead {
+    font-size: size('body', 9); // 22px
+  }
+}

@@ -1,0 +1,22 @@
+uuid: 6e60353e-30de-46e6-8e27-755a90a06a30
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aphis
+_core:
+  default_config_hash: G6R1NlcUrlwr6WOxz9FNN0dSi6-2ZeT-SCX8IdCErEw
+id: aphis_powered
+theme: aphis
+region: disabled
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
