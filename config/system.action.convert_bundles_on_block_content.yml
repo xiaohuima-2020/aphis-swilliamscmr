@@ -1,0 +1,11 @@
+uuid: 72f0bee8-d5a6-44ea-93f1-7930f9c6f236
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_block_content
+label: 'Convert Custom block Entity Bundles'
+type: block_content
+plugin: convert_bundles_action_base
+configuration: {  }

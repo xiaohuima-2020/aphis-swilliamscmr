@@ -1,18 +1,22 @@
-{% for name, style in gesso.typography.display %}
+{% for index, value in styles %}
+	
+	{% set classes = [ 'gesso-storybook-text-style__preview' ] %}
+	{% set attributes = {} %}
 
-  {% set rendered_style = '' %}
-  {% for prop, value in style %}
-    {% if value is iterable %}
-      {% set rendered_style = prop ~ ': ' ~ (value['fallback'] is empty ? value['sass'] : value['fallback']) ~ '; ' ~ rendered_style %}
-    {% else %}
-      {% set rendered_style = prop ~ ': ' ~ value ~ '; ' ~ rendered_style %}
-    {% endif %}
-  {% endfor %}
+	{% if value.attributes is iterable %}
+		{% set attributes = value.attributes %}
+		{%
+			set classes = [
+				'gesso-storybook-text-style__preview',
+				attributes['class'] ? attributes['class'] : '',
+			]|join(' ')|trim
+		%}
+	{% endif %}
 
   <div class="gesso-storybook-text-style">
-    <div class="gesso-storybook-text-style__label">{{name}}</div>
-    <div class="gesso-storybook-text-style__preview" style='{{rendered_style}}'>
+    <div class="gesso-storybook-text-style__label">{{value.tag ~ ( attributes['class'] ? '.' ~ attributes['class'] : '' )}}</div>
+		<{{value.tag}} {{ add_attributes( attributes|merge({ 'class': classes })) }}>
       Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, ‘and what is the use of a book,’ thought Alice ‘without pictures or conversations?’
-    </div>
+    </{{value.tag}}>
   </div>
 {% endfor %}

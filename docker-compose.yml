@@ -1,0 +1,47 @@
+version: '2'
+services:
+  apache:
+    image: usdadaito/ewaps:apache47php81
+    environment:
+      DOCROOT: /var/application
+    stdin_open: true
+    links:
+      - MariaDB:db
+    volumes:
+      - /users/shawnwilliams/.ssh/
+      - ../demo/public-content/:/mnt/public-content/
+      - ../demo/tmp/:/mnt/tmp/
+      - ../demo/settings-php/:/mnt/settings-php/
+      - ../demo/sync/:/mnt/sync/
+      - ../demo/private-content/:/mnt/private-content/
+      - .:/var/application
+    tty: true
+  Varnish:
+    image: usdaoc/varnish-cache:eea-varnish
+    stdin_open: true
+    tty: true
+    links:
+      - apache
+    ports:
+      - 8020:6081
+    environment:
+      BACKENDS: apache
+      CACHE_SIZE: 2048M
+      BACKENDS_PROBE_INTERVAL: 3s
+      BACKENDS_PROBE_THRESHOLD: '2'
+      BACKENDS_PROBE_TIMEOUT: 1s
+      BACKENDS_PROBE_WINDOW: '3'
+      BACKENDS_PROBE_URL: '/robots.txt'
+      DNS_ENABLED: 'true'
+      DNS_TTL: '1'
+  MariaDB:
+    image: mariadb
+    environment:
+      MYSQL_DATABASE: drupal
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: sysop_user
+    stdin_open: true
+    volumes:
+      - ../demo/mysql:/var/lib/mysql
+    tty: true

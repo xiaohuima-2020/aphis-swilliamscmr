@@ -1,0 +1,59 @@
+uuid: 2522fe1e-4a89-4ec2-9195-b7c6050274e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.animal_disease_landing_page.field_paragraph_content
+    - field.field.node.animal_disease_landing_page.field_paragraph_content_continue
+    - field.field.node.animal_disease_landing_page.field_tags
+    - field.field.node.animal_disease_landing_page.field_tile_link_grid_container
+    - node.type.animal_disease_landing_page
+  module:
+    - layout_paragraphs
+    - user
+id: node.animal_disease_landing_page.default
+targetEntityType: node
+bundle: animal_disease_landing_page
+mode: default
+content:
+  field_paragraph_content:
+    type: layout_paragraphs
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_paragraph_content_continue:
+    type: layout_paragraphs
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_tile_link_grid_container:
+    type: layout_paragraphs
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

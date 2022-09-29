@@ -1,0 +1,19 @@
+uuid: eb81ef4e-748b-46f1-a050-c42414f1d84e
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.tile_link_grid
+id: paragraph.tile_link_grid.default
+targetEntityType: paragraph
+bundle: tile_link_grid
+mode: default
+content:
+  layout_paragraphs_fields:
+    weight: -200
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

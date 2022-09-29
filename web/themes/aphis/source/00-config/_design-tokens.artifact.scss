@@ -35,6 +35,7 @@ $gesso: (
       gray-5: color(gray-cool-60),
       gray-6: color(gray-cool-70),
       gray-7: color(gray-90),
+      gray-8: color(gray-40),
       black: #000,
     ),
     uswds: (
@@ -227,6 +228,7 @@ $gesso: (
         border: color(gray-cool-30),
         border-dark: color(gray-cool-70),
         border-light: color(gray-cool-5),
+        border-medium: color(gray-40),
         text-lighter: #ffffff,
         text-light: color(gray-cool-30),
         text-dark: color(gray-cool-60),
@@ -235,6 +237,7 @@ $gesso: (
         accent-dark: color($theme-color-accent-cool-dark),
         accent-light: color($theme-color-accent-cool-light),
         focus: color(blue-40),
+        link: color($theme-color-primary-dark),
       ),
       error: (
         background: color($theme-color-error-lighter),
@@ -255,22 +258,32 @@ $gesso: (
       body: (
         name: Body,
         stack: font-family(body),
+        demo: (
+        ),
       ),
       heading: (
         name: Heading,
         stack: font-family(heading),
+        demo: (
+        ),
       ),
       code: (
         name: Code,
         stack: font-family(mono),
+        demo: (
+        ),
       ),
       ui: (
         name: UI,
         stack: font-family(ui),
+        demo: (
+        ),
       ),
       alt: (
         name: Alternate,
         stack: font-family(alt),
+        demo: (
+        ),
       ),
     ),
     base-font-size: 16px,
@@ -288,12 +301,6 @@ $gesso: (
       6: 1.75,
     ),
     display: (
-      display: (
-        font-family: font-family(heading),
-        font-size: font-size(heading, $theme-display-font-size),
-        font-weight: font-weight(bold),
-        line-height: line-height(heading, $theme-heading-line-height),
-      ),
       h1: (
         font-family: font-family(heading),
         font-size: font-size(heading, $theme-h1-font-size),
@@ -328,13 +335,13 @@ $gesso: (
         font-family: font-family(body),
         font-size: font-size(body, $theme-h6-font-size),
         font-weight: font-weight(normal),
-        letter-spacing: letter-spacing(ls-1),
+        letter-spacing: ls(1),
         line-height: line-height(body, $theme-heading-line-height),
         text-transform: uppercase,
       ),
       blockquote: (
         font-family: font-family(alt),
-        font-size: font-size(alt, md),
+        font-size: font-size(body, $theme-body-font-size),
         font-weight: font-weight(normal),
         line-height: line-height(alt, $theme-body-line-height),
       ),
@@ -347,15 +354,15 @@ $gesso: (
       cite: (
         color: color(gray-cool-60),
         font-family: font-family(body),
-        font-size: font-size(body, 2xs),
+        font-size: font-size(body, $theme-body-font-size),
         font-style: normal,
         font-weight: font-weight(normal),
-        letter-spacing: letter-spacing(ls-1),
-        line-height: line-height(body, 6),
+        line-height: line-height(body, $theme-body-line-height),
       ),
       lead: (
         font-family: family($theme-lead-font-family),
         font-size: font-size($theme-lead-font-family, $theme-lead-font-size),
+        font-weight: font-weight(light),
         line-height: line-height($theme-lead-font-family, $theme-lead-line-height),
       ),
     ),

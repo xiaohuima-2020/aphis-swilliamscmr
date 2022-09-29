@@ -1,0 +1,29 @@
+uuid: 21c1f5dd-ca43-4424-95d6-f4208c945aed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.animal_disease_landing_page
+    - taxonomy.vocabulary.tags
+id: node.animal_disease_landing_page.field_tags
+field_name: field_tags
+entity_type: node
+bundle: animal_disease_landing_page
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

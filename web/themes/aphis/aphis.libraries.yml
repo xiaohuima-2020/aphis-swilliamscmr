@@ -20,3 +20,9 @@ dropbutton:
     - core/drupal
     - core/drupalSettings
     - core/once
+
+layout_fourgrid_section:
+  version: VERSION
+  css:
+    theme:
+      dist/css/editor-styles.css: {}

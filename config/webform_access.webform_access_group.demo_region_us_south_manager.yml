@@ -1,0 +1,12 @@
+uuid: 8d22391c-f48d-4018-bc00-7613e0d19a19
+langcode: en
+status: true
+dependencies: {  }
+id: demo_region_us_south_manager
+label: 'United States: South: Manager'
+description: null
+type: demo_region_manager
+permissions:
+  - administer
+emails:
+  - demo_region_manager@test.com

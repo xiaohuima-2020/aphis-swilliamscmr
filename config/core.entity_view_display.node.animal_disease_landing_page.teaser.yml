@@ -1,0 +1,28 @@
+uuid: 11f98c48-0ec7-41dd-bbbb-bdc680706230
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.animal_disease_landing_page.field_paragraph_content
+    - field.field.node.animal_disease_landing_page.field_paragraph_content_continue
+    - field.field.node.animal_disease_landing_page.field_tags
+    - field.field.node.animal_disease_landing_page.field_tile_link_grid_container
+    - node.type.animal_disease_landing_page
+  module:
+    - user
+id: node.animal_disease_landing_page.teaser
+targetEntityType: node
+bundle: animal_disease_landing_page
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_paragraph_content: true
+  field_paragraph_content_continue: true
+  field_tags: true
+  field_tile_link_grid_container: true

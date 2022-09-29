@@ -1,0 +1,72 @@
+{#
+/**
+ * @file
+ * A four column layout with two rows.
+ *
+ * This template provides a four column 25%-25%-25%-25% display layout.
+ *
+ * Available variables:
+ * - content: The content for this layout.
+ * - attributes: HTML attributes for the layout <div>.
+ *
+ * @ingroup themeable
+ */
+#}
+{%
+    set classes = [
+        'l-grid',
+        'l-grid--4-col'
+    ]
+%}
+{% if content %}
+    <div{{ attributes.addClass(classes) }}>
+
+        {% if content.first %}
+            <div>
+                {{ content.first }}
+            </div>
+        {% endif %}
+
+        {% if content.second %}
+            <div>
+                {{ content.second }}
+            </div>
+        {% endif %}
+
+        {% if content.third %}
+            <div>
+                {{ content.third }}
+            </div>
+        {% endif %}
+
+        {% if content.fourth %}
+            <div>
+                {{ content.fourth }}
+            </div>
+        {% endif %}
+
+        {% if content.fifth %}
+            <div>
+                {{ content.fifth }}
+            </div>
+        {% endif %}
+
+        {% if content.sixth %}
+            <div>
+                {{ content.sixth }}
+            </div>
+        {% endif %}
+
+        {% if content.seventh %}
+            <div>
+                {{ content.seventh }}
+            </div>
+        {% endif %}
+
+        {% if content.eight %}
+            <div>
+                {{ content.eight }}
+            </div>
+        {% endif %}
+    </div>
+{% endif %}
