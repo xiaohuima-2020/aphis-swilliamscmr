@@ -1,7 +1,9 @@
 {#
 /**
  * @file
- * Default theme implementation to display a one plus four grid layout.
+ * A four column layout with two rows.
+ *
+ * This template provides a four column 25%-25%-25%-25% display layout.
  *
  * Available variables:
  * - content: The content for this layout.
@@ -12,65 +14,59 @@
 #}
 {%
     set classes = [
-    'layout',
-    'layout--fourgrid-section',
-]
+        'l-grid',
+        'l-grid--4-col'
+    ]
 %}
 {% if content %}
     <div{{ attributes.addClass(classes) }}>
 
         {% if content.first %}
-            <div{{ region_attributes.first.addClass('layout__region', 'layout__region--first') }}>
+            <div>
                 {{ content.first }}
             </div>
         {% endif %}
-        {#        {% if content.second or content.third or content.fourth or content.fifth or content.sixth or content.seventh or content.eight %}#}
-        {#        <div class="layout__four-grid-group">#}
-        {#            {% endif %}#}
+
         {% if content.second %}
-            <div{{ region_attributes.second.addClass('layout__region', 'layout__region--second') }}>
+            <div>
                 {{ content.second }}
             </div>
         {% endif %}
 
         {% if content.third %}
-            <div{{ region_attributes.third.addClass('layout__region', 'layout__region--third') }}>
+            <div>
                 {{ content.third }}
             </div>
         {% endif %}
 
         {% if content.fourth %}
-            <div{{ region_attributes.fourth.addClass('layout__region', 'layout__region--fourth') }}>
+            <div>
                 {{ content.fourth }}
             </div>
         {% endif %}
 
         {% if content.fifth %}
-            <div{{ region_attributes.fifth.addClass('layout__region', 'layout__region--fifth') }}>
+            <div>
                 {{ content.fifth }}
             </div>
         {% endif %}
 
         {% if content.sixth %}
-            <div{{ region_attributes.sixth.addClass('layout__region', 'layout__region--sixth') }}>
+            <div>
                 {{ content.sixth }}
             </div>
         {% endif %}
 
         {% if content.seventh %}
-            <div{{ region_attributes.seventh.addClass('layout__region', 'layout__region--seventh') }}>
+            <div>
                 {{ content.seventh }}
             </div>
         {% endif %}
 
         {% if content.eight %}
-            <div{{ region_attributes.eight.addClass('layout__region', 'layout__region--eight') }}>
+            <div>
                 {{ content.eight }}
             </div>
         {% endif %}
-
-        {#            {% if content.second or content.third or content.fourth or content.fifth or content.sixth or content.seventh or content.eight%}#}
-        {#        </div>#}
-        {#        {% endif %}#}
     </div>
 {% endif %}
