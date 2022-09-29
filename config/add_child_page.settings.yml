@@ -1,5 +1,3 @@
 node_types:
-  animal_disease_landing_page: animal_disease_landing_page
   page: page
-  plants_landing_page: plants_landing_page
 default: 0
