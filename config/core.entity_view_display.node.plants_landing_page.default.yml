@@ -1,0 +1,30 @@
+uuid: 3d441d88-ef71-485a-8106-c43301bec2d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.plants_landing_page.field_paragraph_content
+    - node.type.plants_landing_page
+  module:
+    - layout_paragraphs
+    - user
+id: node.plants_landing_page.default
+targetEntityType: node
+bundle: plants_landing_page
+mode: default
+content:
+  field_paragraph_content:
+    type: layout_paragraphs
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
