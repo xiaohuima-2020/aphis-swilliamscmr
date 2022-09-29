@@ -1,0 +1,24 @@
+uuid: e5fd556f-b727-4672-a6bd-947863f3b9e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: general_pattern
+label: 'General pattern'
+type: 'canonical_entities:node'
+pattern: '[node:menu-link:parents:join:/]/[node:title]'
+selection_criteria:
+  ac908046-7f08-484d-a70d-ad46300320cf:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: ac908046-7f08-484d-a70d-ad46300320cf
+    context_mapping:
+      node: node
+    bundles:
+      animal_disease_landing_page: animal_disease_landing_page
+      article: article
+      page: page
+selection_logic: and
+weight: -5
+relationships: {  }

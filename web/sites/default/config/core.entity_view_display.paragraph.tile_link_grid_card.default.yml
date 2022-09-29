@@ -1,0 +1,62 @@
+uuid: c8b8dd8a-5383-4d41-ba60-c48cc6ff94d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tile_link_grid_card.field_image
+    - field.field.paragraph.tile_link_grid_card.field_link
+    - field.field.paragraph.tile_link_grid_card.field_title
+    - paragraphs.paragraphs_type.tile_link_grid_card
+  module:
+    - image
+    - link
+    - linked_field
+id: paragraph.tile_link_grid_card.default
+targetEntityType: paragraph
+bundle: tile_link_grid_card
+mode: default
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings:
+      linked_field:
+        linked: '1'
+        type: field
+        destination: field_link
+        advanced: {  }
+        token: ''
+    weight: 0
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      linked_field:
+        linked: '1'
+        type: field
+        destination: field_link
+        advanced: {  }
+        token: ''
+    weight: 1
+    region: content
+hidden: {  }

@@ -24,3 +24,25 @@
     }
   }
 }
+
+.c-field--tile {
+  &.c-field {
+    margin-bottom: 0;
+  }
+
+  &.c-field--name-field-link {
+    display: none;
+  }
+
+  &.c-field--name-field-title {
+    background-color: #3168b7;
+    height: 47px;
+
+    .c-field__content {
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}

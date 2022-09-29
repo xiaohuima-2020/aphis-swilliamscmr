@@ -1,0 +1,27 @@
+uuid: feb996f9-5085-46c9-ae3f-9eae38799159
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - aphis
+_core:
+  default_config_hash: tI5uQPRP_KWwMopcJ4qle_nuENty3a8aWE1SUH8Wnbw
+id: aphis_main_menu
+theme: aphis
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 3
+  expand_all_items: true
+visibility: {  }

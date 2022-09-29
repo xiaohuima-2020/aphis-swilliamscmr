@@ -1,0 +1,12 @@
+uuid: e552d07b-54c5-44ad-b1da-c218323dabf5
+langcode: en
+status: true
+dependencies: {  }
+id: demo_region_us_west_manager
+label: 'United States: West: Manager'
+description: null
+type: demo_region_manager
+permissions:
+  - administer
+emails:
+  - demo_region_manager@test.com

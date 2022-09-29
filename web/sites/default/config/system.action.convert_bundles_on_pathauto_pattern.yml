@@ -1,0 +1,11 @@
+uuid: 6d83816b-3cec-43b8-92de-a193d1b80a33
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_pathauto_pattern
+label: 'Convert Pathauto pattern Entity Bundles'
+type: pathauto_pattern
+plugin: convert_bundles_action_base
+configuration: {  }

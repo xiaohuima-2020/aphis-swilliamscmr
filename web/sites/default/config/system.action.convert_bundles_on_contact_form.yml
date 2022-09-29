@@ -1,0 +1,11 @@
+uuid: 516f1551-0609-41da-b13a-1d38b862ce1f
+langcode: en
+status: true
+dependencies:
+  module:
+    - convert_bundles
+id: convert_bundles_on_contact_form
+label: 'Convert Contact form Entity Bundles'
+type: contact_form
+plugin: convert_bundles_action_base
+configuration: {  }

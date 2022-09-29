@@ -47,6 +47,7 @@ default_steps: &default_steps
       caches:
           - docker
       script:
+        - git config --global --add safe.directory /opt/atlassian/pipelines/agent/build
         - *bash_env_export
         - *bash_env_source
         - ./.ci/deploy/pantheon/dev-multidev
@@ -118,3 +119,13 @@ pipelines:
           - /build-tools-ci/scripts/set-environment
           - terminus -n auth:login --machine-token="$TERMINUS_TOKEN"
           - set -e && terminus project:clu $TERMINUS_SITE
+
+      # 👇 Adds Chromatic as a step
+    - step:
+        name: 'Publish to Chromatic'
+        caches:
+          - node
+        script:
+          - yarn install
+          # 👇 Runs Chromatic
+          - yarn chromatic --project-token=fd67cbd1de58

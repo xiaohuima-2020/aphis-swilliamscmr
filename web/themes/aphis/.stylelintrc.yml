@@ -21,7 +21,7 @@ rules:
       - declarations
     - unspecified: ignore
       disableFix: true
-  order/properties-alphabetical-order: error
+  order/properties-alphabetical-order: null
   plugin/selector-pseudo-class-lvhfa: true
   prettier/prettier: true
   property-no-vendor-prefix: null
