@@ -1,0 +1,37 @@
+// Definining custom colors for USWDS here, instead of including them in the config.design-tokens.yml
+// it kept putting them in quotes (so they weren't detected as colors by USWDS)
+
+// Transparent equivalents are a custom convention (not standard USWDS)
+
+$theme-color-base-lightest: 'gray-4';
+$theme-color-base-lightest-transparent: rgba(23, 23, 23, 0.05);
+$theme-color-base-lighter: #d1d1d1;
+$theme-color-base-lighter-transparent: rgba(23, 23, 23, 0.2);
+$theme-color-base-light: #aeaeae;
+$theme-color-base-light-transparent: rgba(23, 23, 23, 0.35);
+$theme-color-base: #8b8b8b;
+$theme-color-base-transparent: rgba(23, 23, 23, 0.5);
+$theme-color-base-dark: #686868;
+$theme-color-base-dark-transparent: rgba(23, 23, 23, 0.65);
+$theme-color-base-darker: 'gray-70';
+$theme-color-base-darker-transparent: rgba(23, 23, 23, 0.8);
+$theme-color-base-darkest: #171717;
+
+$theme-color-primary-lightest: #f3f7fe;
+$theme-color-primary-lightest-transparent: rgba(0, 106, 255, 0.05);
+$theme-color-primary-lighter: #e7f0fe;
+$theme-color-primary-lighter-transparent: rgba(0, 106, 255, 0.1);
+$theme-color-primary-light: #c4dafc;
+$theme-color-primary-light-transparent: rgba(0, 106, 255, 0.25);
+$theme-color-primary: #3168b7;
+$theme-color-primary-vivid: #0064f0;
+$theme-color-primary-dark: #01409b;
+$theme-color-primary-darker: #003179;
+
+$theme-color-secondary-lightest: #f3f5d9;
+$theme-color-secondary-lightest-transparent: rgba(189, 206, 49, 0.2);
+$theme-color-secondary-lighter: #e6eab4;
+$theme-color-secondary-lighter-transparent: rgba(189, 206, 49, 0.4);
+$theme-color-secondary-light: #d7de86;
+$theme-color-secondary-light-transparent: rgba(189, 206, 49, 0.65);
+$theme-color-secondary: #bdce31;
