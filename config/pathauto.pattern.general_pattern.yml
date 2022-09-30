@@ -9,16 +9,17 @@ label: 'General pattern'
 type: 'canonical_entities:node'
 pattern: '[node:menu-link:parents:join:/]/[node:title]'
 selection_criteria:
-  ac908046-7f08-484d-a70d-ad46300320cf:
+  47745974-91b2-4f66-a1a6-3f726d633a6a:
     id: 'entity_bundle:node'
     negate: false
-    uuid: ac908046-7f08-484d-a70d-ad46300320cf
+    uuid: 47745974-91b2-4f66-a1a6-3f726d633a6a
     context_mapping:
       node: node
     bundles:
       animal_disease_landing_page: animal_disease_landing_page
       article: article
       page: page
+      plants_landing_page: plants_landing_page
 selection_logic: and
 weight: -5
 relationships: {  }

@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b8869cc62d34d3bff357b030827d3db",
-
+    "content-hash": "33960bf70d66ff444a5703cffd3ed249",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2382,7 +2381,6 @@
                 "doctrine/reflection": "~1.2.3",
                 "drupal/core": "9.5.0-beta1",
                 "egulias/email-validator": "~3.2.1",
-
                 "guzzlehttp/guzzle": "~6.5.8",
                 "guzzlehttp/promises": "~1.5.1",
                 "guzzlehttp/psr7": "~1.9.0",
