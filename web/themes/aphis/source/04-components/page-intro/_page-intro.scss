@@ -1,0 +1,37 @@
+// @file
+// Component: c-page-intro
+
+.c-page-intro {
+  figure {
+    background: color(base-lightest);
+    margin-bottom: rem(20);
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  figcaption {
+    display: block;
+    padding: units(1) units(1.5);
+    font-size: size('body', 3);
+    font-style: italic;
+  }
+
+  @include at-media('tablet') {
+    overflow: hidden;
+
+    figure {
+      float: right;
+      max-width: 50%;
+      margin-left: units($theme-column-gap-md) * 2;
+    }
+  }
+
+  @include at-media('desktop') {
+    figure {
+      margin-left: units($theme-column-gap-lg) * 2;
+    }
+  }
+}

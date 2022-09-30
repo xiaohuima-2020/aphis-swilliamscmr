@@ -1,0 +1,24 @@
+{% set classes = [
+  'c-page-intro',
+  modifier_classes ? modifier_classes : ''
+] %}
+
+<div class="l-constrain">
+	<div {{ add_attributes({ class: classes }) }}>
+		{% if image is not empty %}
+			<figure>
+				<img src="{{image.src}}" alt='{{image.alt}}' />
+
+				{% if image.caption is not empty %}
+					<figcaption>{{image.caption}}</figcaption>
+				{% endif %}
+			</figure>
+		{% endif %}
+
+		<p class="lead">{{lead}}</p>
+
+		{{ more_text }}
+
+		{% include "@uswds/button/button.twig" with button %}
+	</div>
+</div>
