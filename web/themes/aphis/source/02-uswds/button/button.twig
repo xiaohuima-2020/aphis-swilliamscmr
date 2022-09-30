@@ -1,15 +1,55 @@
-{% set classes = [
+{% set default_classes = [
   'usa-button',
   modifier_classes ? modifier_classes : '',
 ]|join(' ')|trim %}
 
-{% if is_button_tag %}
-  <button {{ add_attributes({ 'class': classes }) }}{% if is_disabled %} disabled{% endif %}{% if button_type %} type="{{ button_type }}"{% endif %}>{{ text }}</button>
-{% else %}
-  <a href="{{ url }}" {{ add_attributes({ 'class': classes }) }}>{{ text }}</a>
+{% set default_attributes = {} %}
+{% if new_window %}
+	{% set default_attributes = {
+		'target': '_blank',
+		'rel': 'noopener'
+	} %}
 {% endif %}
 
-{% if is_demo %}
-  <a href="{{ url }}" {{ add_attributes({ 'class': classes }) }}>{{ text_demo }}</a>
-  <button {{ add_attributes({ 'class': classes }) }} disabled>Disabled {{ text }}</button>
+{% set default_attributes_cl = default_attributes|merge({ 'class': default_classes }) %}
+
+{% if not is_demo %}
+	{# just render the one requested #}
+	{% if is_button_tag %}
+		<button {{ add_attributes(default_attributes_cl) }}{% if is_disabled %} disabled{% endif %}{% if button_type %} type="{{ button_type }}"{% endif %}>{{ text }}</button>
+	{% else %}
+		<a href="{{ url }}" {{ add_attributes(default_attributes_cl) }}>{{ text }}</a>
+	{% endif %}
+{% else %}
+	{# render all the varients at once #}
+	<a href="{{ url }}" {{ add_attributes(default_attributes_cl) }}>Default {{ text }} (link element)</a>
+	<button {{ add_attributes(default_attributes_cl) }} type="button">Default {{ text }} (button element)</button>
+
+	<h2>Sizes</h2>
+	{% set big_class = ' usa-button--big' %}
+	{% set mod_classes = default_classes ~ big_class %}
+	{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
+	<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Big {{ text }}</a>
+
+	{% set small_class = ' usa-button--small' %}
+	{% set mod_classes = default_classes ~ small_class %}
+	{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
+	<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Small {{ text }}</a>
+
+	<h2>Variants</h2>
+  <button {{ add_attributes(default_attributes) }} type="button" disabled>Disabled {{ text }}</button>
+
+	<h2>Icons</h2>
+	{% set icon_class = ' usa-button--icon usa-button--icon--arrow' %}
+	{% set mod_classes = default_classes ~ icon_class %}
+	{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
+	<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Icon {{ text_demo }}</a>
+
+	{% set mod_classes = default_classes ~ icon_class ~ big_class %}
+	{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
+	<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Icon, Big {{ text }}</a>
+
+	{% set mod_classes = default_classes ~ icon_class ~ small_class %}
+	{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
+	<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Icon, Small {{ text }}</a>
 {% endif %}

@@ -1709,7 +1709,7 @@ table td {
   outline: 0.25rem solid #2491ff;
   outline-offset: 0;
 }
-.usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:hover, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:hover, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:active, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.c-button.is-active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.c-button.is-active, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:disabled, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:disabled, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--disabled, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--disabled, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:hover, table th[data-sortable][aria-sort=none] .usa-table__header__button:hover, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:active, table th[data-sortable][aria-sort=none] .usa-table__header__button:active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=none] .usa-table__header__button.c-button.is-active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:disabled, table th[data-sortable][aria-sort=none] .usa-table__header__button:disabled, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--disabled, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--disabled {
+.usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:hover, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:hover, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:active, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:disabled, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:disabled, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--disabled, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--disabled, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:hover, table th[data-sortable][aria-sort=none] .usa-table__header__button:hover, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:active, table th[data-sortable][aria-sort=none] .usa-table__header__button:active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:disabled, table th[data-sortable][aria-sort=none] .usa-table__header__button:disabled, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--disabled, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--disabled {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
   background-color: transparent;
@@ -1722,7 +1722,7 @@ table td {
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover {
   color: #0050d8;
 }
-.usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.c-button.is-active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.c-button.is-active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=none] .usa-table__header__button.c-button.is-active {
+.usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active {
   color: #0050d8;
 }
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button .usa-icon, table th[data-sortable]:not([aria-sort]) .usa-table__header__button .usa-icon, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button .usa-icon, table th[data-sortable][aria-sort=none] .usa-table__header__button .usa-icon {
@@ -1783,7 +1783,7 @@ table td {
   outline: 0.25rem solid #2491ff;
   outline-offset: 0;
 }
-.usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:hover, table th[data-sortable][aria-sort=descending] .usa-table__header__button:hover, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:active, table th[data-sortable][aria-sort=descending] .usa-table__header__button:active, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.c-button.is-active, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:disabled, table th[data-sortable][aria-sort=descending] .usa-table__header__button:disabled, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--disabled, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--disabled {
+.usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:hover, table th[data-sortable][aria-sort=descending] .usa-table__header__button:hover, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:active, table th[data-sortable][aria-sort=descending] .usa-table__header__button:active, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:disabled, table th[data-sortable][aria-sort=descending] .usa-table__header__button:disabled, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--disabled, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--disabled {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
   background-color: transparent;
@@ -1796,7 +1796,7 @@ table td {
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover {
   color: #0050d8;
 }
-.usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.c-button.is-active {
+.usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active {
   color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button .usa-icon, table th[data-sortable][aria-sort=descending] .usa-table__header__button .usa-icon {
@@ -1854,7 +1854,7 @@ table td {
   outline: 0.25rem solid #2491ff;
   outline-offset: 0;
 }
-.usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:hover, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:hover, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:active, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.c-button.is-active, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:disabled, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:disabled, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--disabled, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--disabled {
+.usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:hover, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:hover, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:active, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:disabled, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:disabled, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--disabled, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--disabled {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
   background-color: transparent;
@@ -1867,7 +1867,7 @@ table td {
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover {
   color: #0050d8;
 }
-.usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.c-button.is-active {
+.usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active {
   color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button .usa-icon, table th[data-sortable][aria-sort=ascending] .usa-table__header__button .usa-icon {
@@ -3770,7 +3770,7 @@ table td {
   outline: 0.25rem solid #2491ff;
   outline-offset: 0;
 }
-.usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:hover, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:hover, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:active, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.c-button.is-active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.c-button.is-active, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:disabled, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:disabled, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--disabled, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--disabled, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:hover, table th[data-sortable][aria-sort=none] .usa-table__header__button:hover, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:active, table th[data-sortable][aria-sort=none] .usa-table__header__button:active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=none] .usa-table__header__button.c-button.is-active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:disabled, table th[data-sortable][aria-sort=none] .usa-table__header__button:disabled, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--disabled, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--disabled {
+.usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:hover, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:hover, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:active, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button:disabled, table th[data-sortable]:not([aria-sort]) .usa-table__header__button:disabled, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--disabled, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--disabled, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:hover, table th[data-sortable][aria-sort=none] .usa-table__header__button:hover, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:active, table th[data-sortable][aria-sort=none] .usa-table__header__button:active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button:disabled, table th[data-sortable][aria-sort=none] .usa-table__header__button:disabled, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--disabled, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--disabled {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
   background-color: transparent;
@@ -3783,7 +3783,7 @@ table td {
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--hover {
   color: #0050d8;
 }
-.usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.c-button.is-active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.c-button.is-active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=none] .usa-table__header__button.c-button.is-active {
+.usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, table th[data-sortable]:not([aria-sort]) .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=none] .usa-table__header__button.usa-button--active {
   color: #0050d8;
 }
 .usa-table th[data-sortable]:not([aria-sort]) .usa-table__header__button .usa-icon, table th[data-sortable]:not([aria-sort]) .usa-table__header__button .usa-icon, .usa-table th[data-sortable][aria-sort=none] .usa-table__header__button .usa-icon, table th[data-sortable][aria-sort=none] .usa-table__header__button .usa-icon {
@@ -3844,7 +3844,7 @@ table td {
   outline: 0.25rem solid #2491ff;
   outline-offset: 0;
 }
-.usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:hover, table th[data-sortable][aria-sort=descending] .usa-table__header__button:hover, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:active, table th[data-sortable][aria-sort=descending] .usa-table__header__button:active, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.c-button.is-active, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:disabled, table th[data-sortable][aria-sort=descending] .usa-table__header__button:disabled, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--disabled, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--disabled {
+.usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:hover, table th[data-sortable][aria-sort=descending] .usa-table__header__button:hover, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:active, table th[data-sortable][aria-sort=descending] .usa-table__header__button:active, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button:disabled, table th[data-sortable][aria-sort=descending] .usa-table__header__button:disabled, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--disabled, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--disabled {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
   background-color: transparent;
@@ -3857,7 +3857,7 @@ table td {
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--hover {
   color: #0050d8;
 }
-.usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.c-button.is-active {
+.usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=descending] .usa-table__header__button.usa-button--active {
   color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=descending] .usa-table__header__button .usa-icon, table th[data-sortable][aria-sort=descending] .usa-table__header__button .usa-icon {
@@ -3915,7 +3915,7 @@ table td {
   outline: 0.25rem solid #2491ff;
   outline-offset: 0;
 }
-.usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:hover, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:hover, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:active, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.c-button.is-active, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:disabled, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:disabled, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--disabled, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--disabled {
+.usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:hover, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:hover, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:active, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button:disabled, table th[data-sortable][aria-sort=ascending] .usa-table__header__button:disabled, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--disabled, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--disabled {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
   background-color: transparent;
@@ -3928,7 +3928,7 @@ table td {
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--hover {
   color: #0050d8;
 }
-.usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.c-button.is-active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.c-button.is-active {
+.usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active, table th[data-sortable][aria-sort=ascending] .usa-table__header__button.usa-button--active {
   color: #0050d8;
 }
 .usa-table th[data-sortable][aria-sort=ascending] .usa-table__header__button .usa-icon, table th[data-sortable][aria-sort=ascending] .usa-table__header__button .usa-icon {
@@ -4121,7 +4121,7 @@ table th[data-sort-active] {
 */
 /* prettier-ignore */
 /* prettier-ignore */
-.usa-button, .c-dropbutton__toggle-button, .c-button {
+.usa-button, .c-dropbutton__toggle-button {
   font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 0.94rem;
   line-height: 1;
@@ -4142,33 +4142,33 @@ table th[data-sort-active] {
   width: 100%;
 }
 @media all and (min-width: 30em) {
-  .usa-button, .c-dropbutton__toggle-button, .c-button {
+  .usa-button, .c-dropbutton__toggle-button {
     width: auto;
   }
 }
-.usa-button:visited, .c-dropbutton__toggle-button:visited, .c-button:visited {
+.usa-button:visited, .c-dropbutton__toggle-button:visited {
   color: white;
 }
-.usa-button:hover, .c-dropbutton__toggle-button:hover, .c-button:hover, .usa-button.usa-button--hover, .usa-button--hover.c-dropbutton__toggle-button, .usa-button--hover.c-button {
+.usa-button:hover, .c-dropbutton__toggle-button:hover, .usa-button.usa-button--hover, .usa-button--hover.c-dropbutton__toggle-button {
   color: white;
   background-color: #1a4480;
   border-bottom: 0;
   text-decoration: none;
 }
-.usa-button:active, .c-dropbutton__toggle-button:active, .c-button:active, .usa-button.usa-button--active, .usa-button--active.c-dropbutton__toggle-button, .usa-button--active.c-button, .c-button.is-active {
+.usa-button:active, .c-dropbutton__toggle-button:active, .usa-button.usa-button--active, .usa-button--active.c-dropbutton__toggle-button {
   color: white;
   background-color: #162e51;
 }
-.usa-button:not([disabled]):focus, .c-dropbutton__toggle-button:not([disabled]):focus, .c-button:not([disabled]):focus, .usa-button:not([disabled]).usa-focus, .c-dropbutton__toggle-button:not([disabled]).usa-focus, .c-button:not([disabled]).usa-focus {
+.usa-button:not([disabled]):focus, .c-dropbutton__toggle-button:not([disabled]):focus, .usa-button:not([disabled]).usa-focus, .c-dropbutton__toggle-button:not([disabled]).usa-focus {
   outline-offset: 0.25rem;
 }
-.usa-button:disabled, .c-dropbutton__toggle-button:disabled, .c-button:disabled {
+.usa-button:disabled, .c-dropbutton__toggle-button:disabled {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   background-color: #c9c9c9;
   color: white;
 }
-.usa-button:disabled:hover, .c-dropbutton__toggle-button:disabled:hover, .c-button:disabled:hover, .usa-button:disabled.usa-button--hover, .c-dropbutton__toggle-button:disabled.usa-button--hover, .c-button:disabled.usa-button--hover, .usa-button:disabled:active, .c-dropbutton__toggle-button:disabled:active, .c-button:disabled:active, .usa-button:disabled.usa-button--active, .c-dropbutton__toggle-button:disabled.usa-button--active, .c-button:disabled.usa-button--active, .c-button.is-active:disabled, .usa-button:disabled:focus, .c-dropbutton__toggle-button:disabled:focus, .c-button:disabled:focus, .usa-button:disabled.usa-focus, .c-dropbutton__toggle-button:disabled.usa-focus, .c-button:disabled.usa-focus {
+.usa-button:disabled:hover, .c-dropbutton__toggle-button:disabled:hover, .usa-button:disabled.usa-button--hover, .c-dropbutton__toggle-button:disabled.usa-button--hover, .usa-button:disabled:active, .c-dropbutton__toggle-button:disabled:active, .usa-button:disabled.usa-button--active, .c-dropbutton__toggle-button:disabled.usa-button--active, .usa-button:disabled:focus, .c-dropbutton__toggle-button:disabled:focus, .usa-button:disabled.usa-focus, .c-dropbutton__toggle-button:disabled.usa-focus {
   background-color: #c9c9c9;
   border: 0;
   box-shadow: none;
@@ -4186,7 +4186,7 @@ table th[data-sort-active] {
   color: #1b1b1b;
   background-color: #28a0cb;
 }
-.usa-button--accent-cool:active, .usa-button--accent-cool.usa-button--active, .usa-button--accent-cool.c-button.is-active {
+.usa-button--accent-cool:active, .usa-button--accent-cool.usa-button--active {
   color: white;
   background-color: #07648d;
 }
@@ -4203,46 +4203,46 @@ table th[data-sort-active] {
   color: white;
   background-color: #c05600;
 }
-.usa-button--accent-warm:active, .usa-button--accent-warm.usa-button--active, .usa-button--accent-warm.c-button.is-active {
+.usa-button--accent-warm:active, .usa-button--accent-warm.usa-button--active {
   color: white;
   background-color: #775540;
 }
 
-.usa-button--outline, .c-button--outline {
+.usa-button--outline {
   background-color: transparent;
   box-shadow: inset 0 0 0 2px #005ea2;
   color: #005ea2;
 }
-.usa-button--outline:visited, .c-button--outline:visited {
+.usa-button--outline:visited {
   color: #005ea2;
 }
-.usa-button--outline:hover, .c-button--outline:hover, .usa-button--outline.usa-button--hover, .usa-button--hover.c-button--outline {
+.usa-button--outline:hover, .usa-button--outline.usa-button--hover {
   background-color: transparent;
   box-shadow: inset 0 0 0 2px #1a4480;
   color: #1a4480;
 }
-.usa-button--outline:active, .c-button--outline:active, .usa-button--outline.usa-button--active, .usa-button--active.c-button--outline, .usa-button--outline.c-button.is-active, .c-button.is-active.c-button--outline {
+.usa-button--outline:active, .usa-button--outline.usa-button--active {
   background-color: transparent;
   box-shadow: inset 0 0 0 2px #162e51;
   color: #162e51;
 }
-.usa-button--outline.usa-button--inverse, .usa-button--inverse.c-button--outline {
+.usa-button--outline.usa-button--inverse {
   box-shadow: inset 0 0 0 2px #dfe1e2;
   color: #dfe1e2;
 }
-.usa-button--outline.usa-button--inverse:visited, .usa-button--inverse.c-button--outline:visited {
+.usa-button--outline.usa-button--inverse:visited {
   color: #dfe1e2;
 }
-.usa-button--outline.usa-button--inverse:hover, .usa-button--inverse.c-button--outline:hover, .usa-button--outline.usa-button--inverse.usa-button--hover, .usa-button--inverse.usa-button--hover.c-button--outline {
+.usa-button--outline.usa-button--inverse:hover, .usa-button--outline.usa-button--inverse.usa-button--hover {
   box-shadow: inset 0 0 0 2px #f0f0f0;
   color: #f0f0f0;
 }
-.usa-button--outline.usa-button--inverse:active, .usa-button--inverse.c-button--outline:active, .usa-button--outline.usa-button--inverse.usa-button--active, .usa-button--inverse.usa-button--active.c-button--outline, .usa-button--outline.usa-button--inverse.c-button.is-active, .usa-button--inverse.c-button.is-active.c-button--outline {
+.usa-button--outline.usa-button--inverse:active, .usa-button--outline.usa-button--inverse.usa-button--active {
   background-color: transparent;
   box-shadow: inset 0 0 0 2px white;
   color: white;
 }
-.usa-button--outline.usa-button--inverse.usa-button--unstyled, .usa-button--inverse.usa-button--unstyled.c-button--outline {
+.usa-button--outline.usa-button--inverse.usa-button--unstyled {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
   color: #1a4480;
@@ -4257,42 +4257,42 @@ table th[data-sort-active] {
   text-align: left;
   color: #dfe1e2;
 }
-.usa-button--outline.usa-button--inverse.usa-button--unstyled:visited, .usa-button--inverse.usa-button--unstyled.c-button--outline:visited {
+.usa-button--outline.usa-button--inverse.usa-button--unstyled:visited {
   color: #54278f;
 }
-.usa-button--outline.usa-button--inverse.usa-button--unstyled:hover, .usa-button--inverse.usa-button--unstyled.c-button--outline:hover {
+.usa-button--outline.usa-button--inverse.usa-button--unstyled:hover {
   color: #0050d8;
 }
-.usa-button--outline.usa-button--inverse.usa-button--unstyled:active, .usa-button--inverse.usa-button--unstyled.c-button--outline:active {
+.usa-button--outline.usa-button--inverse.usa-button--unstyled:active {
   color: #0050d8;
 }
-.usa-button--outline.usa-button--inverse.usa-button--unstyled:focus, .usa-button--inverse.usa-button--unstyled.c-button--outline:focus {
+.usa-button--outline.usa-button--inverse.usa-button--unstyled:focus {
   outline: 0.25rem solid #2491ff;
   outline-offset: 0;
 }
-.usa-button--outline.usa-button--inverse.usa-button--unstyled:hover, .usa-button--inverse.usa-button--unstyled.c-button--outline:hover, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--hover, .usa-button--inverse.usa-button--unstyled.usa-button--hover.c-button--outline, .usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled:hover, .usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled.usa-button--hover, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled:hover, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled.usa-button--hover, .usa-button--outline.usa-button--inverse.usa-button--unstyled:active, .usa-button--inverse.usa-button--unstyled.c-button--outline:active, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--active, .usa-button--inverse.usa-button--unstyled.usa-button--active.c-button--outline, .usa-button--outline.usa-button--inverse.usa-button--unstyled.c-button.is-active, .usa-button--inverse.usa-button--unstyled.c-button.is-active.c-button--outline, .usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled:active, .usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled.usa-button--active, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled:active, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled.usa-button--active, .usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled:focus, .usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled.usa-focus, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled:focus, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled.usa-focus, .usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled, .usa-button--inverse.usa-button--unstyled.c-button--outline:disabled, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled, .usa-button--inverse.usa-button--unstyled.usa-button--disabled.c-button--outline {
+.usa-button--outline.usa-button--inverse.usa-button--unstyled:hover, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--hover, .usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled:hover, .usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled.usa-button--hover, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled:hover, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled.usa-button--hover, .usa-button--outline.usa-button--inverse.usa-button--unstyled:active, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--active, .usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled:active, .usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled.usa-button--active, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled:active, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled.usa-button--active, .usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled:focus, .usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled.usa-focus, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled:focus, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled.usa-focus, .usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
   background-color: transparent;
   box-shadow: none;
   text-decoration: underline;
 }
-.usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled, .usa-button--inverse.usa-button--unstyled.c-button--outline:disabled, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled, .usa-button--inverse.usa-button--unstyled.usa-button--disabled.c-button--outline {
+.usa-button--outline.usa-button--inverse.usa-button--unstyled:disabled, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--disabled {
   color: #c9c9c9;
 }
-.usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--hover, .usa-button--inverse.usa-button--unstyled.usa-button--hover.c-button--outline {
+.usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--hover {
   color: #0050d8;
 }
-.usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--active, .usa-button--inverse.usa-button--unstyled.usa-button--active.c-button--outline, .usa-button--outline.usa-button--inverse.usa-button--unstyled.c-button.is-active, .usa-button--inverse.usa-button--unstyled.c-button.is-active.c-button--outline {
+.usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--active {
   color: #0050d8;
 }
-.usa-button--outline.usa-button--inverse.usa-button--unstyled:visited, .usa-button--inverse.usa-button--unstyled.c-button--outline:visited {
+.usa-button--outline.usa-button--inverse.usa-button--unstyled:visited {
   color: #dfe1e2;
 }
-.usa-button--outline.usa-button--inverse.usa-button--unstyled:hover, .usa-button--inverse.usa-button--unstyled.c-button--outline:hover, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--hover, .usa-button--inverse.usa-button--unstyled.usa-button--hover.c-button--outline {
+.usa-button--outline.usa-button--inverse.usa-button--unstyled:hover, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--hover {
   color: #f0f0f0;
 }
-.usa-button--outline.usa-button--inverse.usa-button--unstyled:active, .usa-button--inverse.usa-button--unstyled.c-button--outline:active, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--active, .usa-button--inverse.usa-button--unstyled.usa-button--active.c-button--outline, .usa-button--outline.usa-button--inverse.usa-button--unstyled.c-button.is-active, .usa-button--inverse.usa-button--unstyled.c-button.is-active.c-button--outline {
+.usa-button--outline.usa-button--inverse.usa-button--unstyled:active, .usa-button--outline.usa-button--inverse.usa-button--unstyled.usa-button--active {
   color: white;
 }
 
@@ -4304,25 +4304,25 @@ table th[data-sort-active] {
   color: white;
   background-color: #565c65;
 }
-.usa-button--base:active, .usa-button--base.usa-button--active, .usa-button--base.c-button.is-active {
+.usa-button--base:active, .usa-button--base.usa-button--active {
   color: white;
   background-color: #3d4551;
 }
 
-.usa-button--secondary, .c-button--secondary {
+.usa-button--secondary {
   color: white;
   background-color: #d83933;
 }
-.usa-button--secondary:hover, .c-button--secondary:hover, .usa-button--secondary.usa-button--hover, .usa-button--hover.c-button--secondary {
+.usa-button--secondary:hover, .usa-button--secondary.usa-button--hover {
   color: white;
   background-color: #b50909;
 }
-.usa-button--secondary:active, .c-button--secondary:active, .usa-button--secondary.usa-button--active, .usa-button--active.c-button--secondary, .usa-button--secondary.c-button.is-active, .c-button.is-active.c-button--secondary {
+.usa-button--secondary:active, .usa-button--secondary.usa-button--active {
   color: white;
   background-color: #8b0a03;
 }
 
-.usa-button--big, .c-button--large {
+.usa-button--big {
   border-radius: 0.25rem;
   font-size: 1.38rem;
   padding: 1rem 1.5rem;
@@ -4334,7 +4334,7 @@ table th[data-sort-active] {
   background-color: #c9c9c9;
   color: white;
 }
-.usa-button--disabled:hover, .usa-button--disabled.usa-button--hover, .usa-button--disabled:active, .usa-button--disabled.usa-button--active, .usa-button--disabled.c-button.is-active, .usa-button--disabled:focus, .usa-button--disabled.usa-focus {
+.usa-button--disabled:hover, .usa-button--disabled.usa-button--hover, .usa-button--disabled:active, .usa-button--disabled.usa-button--active, .usa-button--disabled:focus, .usa-button--disabled.usa-focus {
   background-color: #c9c9c9;
   border: 0;
   box-shadow: none;
@@ -4343,53 +4343,46 @@ table th[data-sort-active] {
 .usa-button--outline-disabled,
 .usa-button--outline-inverse-disabled,
 .usa-button--outline:disabled,
-.c-button--outline:disabled,
+.usa-button--outline-inverse:disabled,
 .usa-button--outline-inverse:disabled {
   background-color: transparent;
 }
-.usa-button--outline-disabled:hover, .usa-button--outline-disabled.usa-button--hover, .usa-button--outline-disabled:active, .usa-button--outline-disabled.usa-button--active, .usa-button--outline-disabled.c-button.is-active, .usa-button--outline-disabled:focus, .usa-button--outline-disabled.usa-focus,
+.usa-button--outline-disabled:hover, .usa-button--outline-disabled.usa-button--hover, .usa-button--outline-disabled:active, .usa-button--outline-disabled.usa-button--active, .usa-button--outline-disabled:focus, .usa-button--outline-disabled.usa-focus,
 .usa-button--outline-inverse-disabled:hover,
 .usa-button--outline-inverse-disabled.usa-button--hover,
 .usa-button--outline-inverse-disabled:active,
 .usa-button--outline-inverse-disabled.usa-button--active,
-.usa-button--outline-inverse-disabled.c-button.is-active,
 .usa-button--outline-inverse-disabled:focus,
 .usa-button--outline-inverse-disabled.usa-focus,
 .usa-button--outline:disabled:hover,
-.c-button--outline:disabled:hover,
 .usa-button--outline:disabled.usa-button--hover,
-.c-button--outline:disabled.usa-button--hover,
 .usa-button--outline:disabled:active,
-.c-button--outline:disabled:active,
 .usa-button--outline:disabled.usa-button--active,
-.c-button--outline:disabled.usa-button--active,
-.usa-button--outline.c-button.is-active:disabled,
-.c-button.is-active.c-button--outline:disabled,
 .usa-button--outline:disabled:focus,
-.c-button--outline:disabled:focus,
 .usa-button--outline:disabled.usa-focus,
-.c-button--outline:disabled.usa-focus,
 .usa-button--outline-inverse:disabled:hover,
 .usa-button--outline-inverse:disabled.usa-button--hover,
 .usa-button--outline-inverse:disabled:active,
 .usa-button--outline-inverse:disabled.usa-button--active,
-.usa-button--outline-inverse.c-button.is-active:disabled,
 .usa-button--outline-inverse:disabled:focus,
 .usa-button--outline-inverse:disabled.usa-focus,
-.usa-button--outline-inverse:disabled.usa-button--active {
+.usa-button--outline-inverse:disabled:hover,
+.usa-button--outline-inverse:disabled.usa-button--hover,
+.usa-button--outline-inverse:disabled:active,
+.usa-button--outline-inverse:disabled.usa-button--active,
+.usa-button--outline-inverse:disabled:focus,
+.usa-button--outline-inverse:disabled.usa-focus {
   background-color: transparent;
   border: 0;
 }
 
 .usa-button--outline-disabled,
-.usa-button--outline:disabled,
-.c-button--outline:disabled {
+.usa-button--outline:disabled {
   box-shadow: inset 0 0 0 2px #c9c9c9;
   color: #c9c9c9;
 }
 .usa-button--outline-disabled.usa-button--inverse,
-.usa-button--outline:disabled.usa-button--inverse,
-.c-button--outline:disabled.usa-button--inverse {
+.usa-button--outline:disabled.usa-button--inverse {
   background-color: transparent;
   box-shadow: inset 0 0 0 2px #71767a;
   color: #71767a;
@@ -4422,7 +4415,7 @@ table th[data-sort-active] {
   outline: 0.25rem solid #2491ff;
   outline-offset: 0;
 }
-.usa-button--unstyled:hover, .usa-button--unstyled.usa-button--hover, .usa-button--unstyled:disabled:hover, .usa-button--unstyled:disabled.usa-button--hover, .usa-button--unstyled.usa-button--disabled:hover, .usa-button--unstyled.usa-button--disabled.usa-button--hover, .usa-button--unstyled:active, .usa-button--unstyled.usa-button--active, .usa-button--unstyled.c-button.is-active, .usa-button--unstyled:disabled:active, .usa-button--unstyled:disabled.usa-button--active, .usa-button--unstyled.usa-button--disabled:active, .usa-button--unstyled.usa-button--disabled.usa-button--active, .usa-button--unstyled:disabled:focus, .usa-button--unstyled:disabled.usa-focus, .usa-button--unstyled.usa-button--disabled:focus, .usa-button--unstyled.usa-button--disabled.usa-focus, .usa-button--unstyled:disabled, .usa-button--unstyled.usa-button--disabled {
+.usa-button--unstyled:hover, .usa-button--unstyled.usa-button--hover, .usa-button--unstyled:disabled:hover, .usa-button--unstyled:disabled.usa-button--hover, .usa-button--unstyled.usa-button--disabled:hover, .usa-button--unstyled.usa-button--disabled.usa-button--hover, .usa-button--unstyled:active, .usa-button--unstyled.usa-button--active, .usa-button--unstyled:disabled:active, .usa-button--unstyled:disabled.usa-button--active, .usa-button--unstyled.usa-button--disabled:active, .usa-button--unstyled.usa-button--disabled.usa-button--active, .usa-button--unstyled:disabled:focus, .usa-button--unstyled:disabled.usa-focus, .usa-button--unstyled.usa-button--disabled:focus, .usa-button--unstyled.usa-button--disabled.usa-focus, .usa-button--unstyled:disabled, .usa-button--unstyled.usa-button--disabled {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
   background-color: transparent;
@@ -4435,7 +4428,7 @@ table th[data-sort-active] {
 .usa-button--unstyled.usa-button--hover {
   color: #0050d8;
 }
-.usa-button--unstyled.usa-button--active, .usa-button--unstyled.c-button.is-active {
+.usa-button--unstyled.usa-button--active {
   color: #0050d8;
 }
 
@@ -8640,7 +8633,7 @@ button.usa-combo-box__clear-input:focus {
   outline: 0.25rem solid #2491ff;
   outline-offset: 0;
 }
-.usa-accordion__button:hover, .usa-accordion__button.usa-button--hover, .usa-accordion__button:disabled:hover, .usa-accordion__button:disabled.usa-button--hover, .usa-accordion__button.usa-button--disabled:hover, .usa-accordion__button.usa-button--disabled.usa-button--hover, .usa-accordion__button:active, .usa-accordion__button.usa-button--active, .usa-accordion__button.c-button.is-active, .usa-accordion__button:disabled:active, .usa-accordion__button:disabled.usa-button--active, .usa-accordion__button.usa-button--disabled:active, .usa-accordion__button.usa-button--disabled.usa-button--active, .usa-accordion__button:disabled:focus, .usa-accordion__button:disabled.usa-focus, .usa-accordion__button.usa-button--disabled:focus, .usa-accordion__button.usa-button--disabled.usa-focus, .usa-accordion__button:disabled, .usa-accordion__button.usa-button--disabled {
+.usa-accordion__button:hover, .usa-accordion__button.usa-button--hover, .usa-accordion__button:disabled:hover, .usa-accordion__button:disabled.usa-button--hover, .usa-accordion__button.usa-button--disabled:hover, .usa-accordion__button.usa-button--disabled.usa-button--hover, .usa-accordion__button:active, .usa-accordion__button.usa-button--active, .usa-accordion__button:disabled:active, .usa-accordion__button:disabled.usa-button--active, .usa-accordion__button.usa-button--disabled:active, .usa-accordion__button.usa-button--disabled.usa-button--active, .usa-accordion__button:disabled:focus, .usa-accordion__button:disabled.usa-focus, .usa-accordion__button.usa-button--disabled:focus, .usa-accordion__button.usa-button--disabled.usa-focus, .usa-accordion__button:disabled, .usa-accordion__button.usa-button--disabled {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
   background-color: transparent;
@@ -8653,7 +8646,7 @@ button.usa-combo-box__clear-input:focus {
 .usa-accordion__button.usa-button--hover {
   color: #0050d8;
 }
-.usa-accordion__button.usa-button--active, .usa-accordion__button.c-button.is-active {
+.usa-accordion__button.usa-button--active {
   color: #0050d8;
 }
 .usa-accordion__button:hover {
@@ -9284,7 +9277,7 @@ button.usa-combo-box__clear-input:focus {
   outline: 0.25rem solid #2491ff;
   outline-offset: 0;
 }
-.usa-banner__button:hover, .usa-banner__button.usa-button--hover, .usa-banner__button:disabled:hover, .usa-banner__button:disabled.usa-button--hover, .usa-banner__button.usa-button--disabled:hover, .usa-banner__button.usa-button--disabled.usa-button--hover, .usa-banner__button:active, .usa-banner__button.usa-button--active, .usa-banner__button.c-button.is-active, .usa-banner__button:disabled:active, .usa-banner__button:disabled.usa-button--active, .usa-banner__button.usa-button--disabled:active, .usa-banner__button.usa-button--disabled.usa-button--active, .usa-banner__button:disabled:focus, .usa-banner__button:disabled.usa-focus, .usa-banner__button.usa-button--disabled:focus, .usa-banner__button.usa-button--disabled.usa-focus, .usa-banner__button:disabled, .usa-banner__button.usa-button--disabled {
+.usa-banner__button:hover, .usa-banner__button.usa-button--hover, .usa-banner__button:disabled:hover, .usa-banner__button:disabled.usa-button--hover, .usa-banner__button.usa-button--disabled:hover, .usa-banner__button.usa-button--disabled.usa-button--hover, .usa-banner__button:active, .usa-banner__button.usa-button--active, .usa-banner__button:disabled:active, .usa-banner__button:disabled.usa-button--active, .usa-banner__button.usa-button--disabled:active, .usa-banner__button.usa-button--disabled.usa-button--active, .usa-banner__button:disabled:focus, .usa-banner__button:disabled.usa-focus, .usa-banner__button.usa-button--disabled:focus, .usa-banner__button.usa-button--disabled.usa-focus, .usa-banner__button:disabled, .usa-banner__button.usa-button--disabled {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
   background-color: transparent;
@@ -9297,7 +9290,7 @@ button.usa-combo-box__clear-input:focus {
 .usa-banner__button.usa-button--hover {
   color: #0050d8;
 }
-.usa-banner__button.usa-button--active, .usa-banner__button.c-button.is-active {
+.usa-banner__button.usa-button--active {
   color: #0050d8;
 }
 .usa-banner__button:visited {
@@ -9675,8 +9668,7 @@ button.usa-combo-box__clear-input:focus {
 }
 .usa-sign-up .usa-label,
 .usa-sign-up .usa-button,
-.usa-sign-up .c-dropbutton__toggle-button,
-.usa-sign-up .c-button {
+.usa-sign-up .c-dropbutton__toggle-button {
   margin-top: 0.75rem;
 }
 
@@ -10053,7 +10045,7 @@ button.usa-combo-box__clear-input:focus {
   outline: 0.25rem solid #2491ff;
   outline-offset: 0;
 }
-.usa-menu-btn:hover, .usa-menu-btn.usa-button--hover, .usa-menu-btn:disabled:hover, .usa-menu-btn:disabled.usa-button--hover, .usa-menu-btn.usa-button--disabled:hover, .usa-menu-btn.usa-button--disabled.usa-button--hover, .usa-menu-btn:active, .usa-menu-btn.usa-button--active, .usa-menu-btn.c-button.is-active, .usa-menu-btn:disabled:active, .usa-menu-btn:disabled.usa-button--active, .usa-menu-btn.usa-button--disabled:active, .usa-menu-btn.usa-button--disabled.usa-button--active, .usa-menu-btn:disabled:focus, .usa-menu-btn:disabled.usa-focus, .usa-menu-btn.usa-button--disabled:focus, .usa-menu-btn.usa-button--disabled.usa-focus, .usa-menu-btn:disabled, .usa-menu-btn.usa-button--disabled {
+.usa-menu-btn:hover, .usa-menu-btn.usa-button--hover, .usa-menu-btn:disabled:hover, .usa-menu-btn:disabled.usa-button--hover, .usa-menu-btn.usa-button--disabled:hover, .usa-menu-btn.usa-button--disabled.usa-button--hover, .usa-menu-btn:active, .usa-menu-btn.usa-button--active, .usa-menu-btn:disabled:active, .usa-menu-btn:disabled.usa-button--active, .usa-menu-btn.usa-button--disabled:active, .usa-menu-btn.usa-button--disabled.usa-button--active, .usa-menu-btn:disabled:focus, .usa-menu-btn:disabled.usa-focus, .usa-menu-btn.usa-button--disabled:focus, .usa-menu-btn.usa-button--disabled.usa-focus, .usa-menu-btn:disabled, .usa-menu-btn.usa-button--disabled {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
   background-color: transparent;
@@ -10066,7 +10058,7 @@ button.usa-combo-box__clear-input:focus {
 .usa-menu-btn.usa-button--hover {
   color: #0050d8;
 }
-.usa-menu-btn.usa-button--active, .usa-menu-btn.c-button.is-active {
+.usa-menu-btn.usa-button--active {
   color: #0050d8;
 }
 @media all and (min-width: 64em) {
@@ -10445,22 +10437,22 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   .usa-nav__primary-item, .c-menu--main .c-menu__item {
     border-top: 1px solid #dfe1e2;
   }
-  .usa-nav__primary a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button), .c-menu--main a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button) {
+  .usa-nav__primary a:not(.usa-button):not(.c-dropbutton__toggle-button), .c-menu--main a:not(.usa-button):not(.c-dropbutton__toggle-button) {
     display: block;
     padding: 0.5rem 1rem;
     text-decoration: none;
   }
-  .usa-nav__primary a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):hover, .c-menu--main a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):hover {
+  .usa-nav__primary a:not(.usa-button):not(.c-dropbutton__toggle-button):hover, .c-menu--main a:not(.usa-button):not(.c-dropbutton__toggle-button):hover {
     background-color: #f0f0f0;
     text-decoration: none;
   }
-  .usa-nav__primary a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):not(.usa-current), .c-menu--main a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):not(.usa-current) {
+  .usa-nav__primary a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.usa-current), .c-menu--main a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.usa-current) {
     color: #565c65;
   }
-  .usa-nav__primary a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):not(.usa-current):hover, .c-menu--main a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):not(.usa-current):hover {
+  .usa-nav__primary a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.usa-current):hover, .c-menu--main a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.usa-current):hover {
     color: #1a4480;
   }
-  .usa-nav__primary a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):not(.usa-current):focus, .c-menu--main a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):not(.usa-current):focus {
+  .usa-nav__primary a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.usa-current):focus, .c-menu--main a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.usa-current):focus {
     outline-offset: 0;
   }
   .usa-nav__primary .usa-current, .c-menu--main .usa-current {
@@ -10569,7 +10561,7 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   outline: 0.25rem solid #2491ff;
   outline-offset: 0;
 }
-.usa-nav__primary button:hover, .c-menu--main button:hover, .usa-nav__primary button.usa-button--hover, .c-menu--main button.usa-button--hover, .usa-nav__primary button:disabled:hover, .usa-nav__primary button:disabled.usa-button--hover, .usa-nav__primary button.usa-button--disabled:hover, .usa-nav__primary button.usa-button--disabled.usa-button--hover, .usa-nav__primary button:active, .c-menu--main button:active, .usa-nav__primary button.usa-button--active, .c-menu--main button.usa-button--active, .usa-nav__primary button.c-button.is-active, .c-menu--main button.c-button.is-active, .usa-nav__primary button:disabled:active, .usa-nav__primary button:disabled.usa-button--active, .usa-nav__primary button.usa-button--disabled:active, .usa-nav__primary button.usa-button--disabled.usa-button--active, .usa-nav__primary button:disabled:focus, .usa-nav__primary button:disabled.usa-focus, .usa-nav__primary button.usa-button--disabled:focus, .usa-nav__primary button.usa-button--disabled.usa-focus, .usa-nav__primary button:disabled, .c-menu--main button:disabled, .usa-nav__primary button.usa-button--disabled, .c-menu--main button.usa-button--disabled {
+.usa-nav__primary button:hover, .c-menu--main button:hover, .usa-nav__primary button.usa-button--hover, .c-menu--main button.usa-button--hover, .usa-nav__primary button:disabled:hover, .usa-nav__primary button:disabled.usa-button--hover, .usa-nav__primary button.usa-button--disabled:hover, .usa-nav__primary button.usa-button--disabled.usa-button--hover, .usa-nav__primary button:active, .c-menu--main button:active, .usa-nav__primary button.usa-button--active, .c-menu--main button.usa-button--active, .usa-nav__primary button:disabled:active, .usa-nav__primary button:disabled.usa-button--active, .usa-nav__primary button.usa-button--disabled:active, .usa-nav__primary button.usa-button--disabled.usa-button--active, .usa-nav__primary button:disabled:focus, .usa-nav__primary button:disabled.usa-focus, .usa-nav__primary button.usa-button--disabled:focus, .usa-nav__primary button.usa-button--disabled.usa-focus, .usa-nav__primary button:disabled, .c-menu--main button:disabled, .usa-nav__primary button.usa-button--disabled, .c-menu--main button.usa-button--disabled {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
   background-color: transparent;
@@ -10582,7 +10574,7 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
 .usa-nav__primary button.usa-button--hover, .c-menu--main button.usa-button--hover {
   color: #0050d8;
 }
-.usa-nav__primary button.usa-button--active, .c-menu--main button.usa-button--active, .usa-nav__primary button.c-button.is-active, .c-menu--main button.c-button.is-active {
+.usa-nav__primary button.usa-button--active, .c-menu--main button.usa-button--active {
   color: #0050d8;
 }
 @media all and (min-width: 64em) {
@@ -10743,17 +10735,17 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   }
 }
 @media all and (max-width: 63.99em) {
-  .usa-nav__submenu a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button), .c-menu__subnav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button) {
+  .usa-nav__submenu a:not(.usa-button):not(.c-dropbutton__toggle-button), .c-menu__subnav a:not(.usa-button):not(.c-dropbutton__toggle-button) {
     padding-left: 2rem;
   }
 }
 @media all and (max-width: 63.99em) {
-  .usa-nav__submenu .usa-nav__submenu a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button), .c-menu__subnav .usa-nav__submenu a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button), .usa-nav__submenu .c-menu__subnav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button), .c-menu__subnav .c-menu__subnav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button) {
+  .usa-nav__submenu .usa-nav__submenu a:not(.usa-button):not(.c-dropbutton__toggle-button), .c-menu__subnav .usa-nav__submenu a:not(.usa-button):not(.c-dropbutton__toggle-button), .usa-nav__submenu .c-menu__subnav a:not(.usa-button):not(.c-dropbutton__toggle-button), .c-menu__subnav .c-menu__subnav a:not(.usa-button):not(.c-dropbutton__toggle-button) {
     padding-left: 3rem;
   }
 }
 @media all and (max-width: 63.99em) {
-  .usa-nav__submenu .usa-nav__submenu .usa-nav__submenu a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button), .c-menu__subnav .usa-nav__submenu .usa-nav__submenu a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button), .usa-nav__submenu .c-menu__subnav .usa-nav__submenu a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button), .c-menu__subnav .c-menu__subnav .usa-nav__submenu a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button), .usa-nav__submenu .usa-nav__submenu .c-menu__subnav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button), .c-menu__subnav .usa-nav__submenu .c-menu__subnav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button), .usa-nav__submenu .c-menu__subnav .c-menu__subnav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button), .c-menu__subnav .c-menu__subnav .c-menu__subnav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button) {
+  .usa-nav__submenu .usa-nav__submenu .usa-nav__submenu a:not(.usa-button):not(.c-dropbutton__toggle-button), .c-menu__subnav .usa-nav__submenu .usa-nav__submenu a:not(.usa-button):not(.c-dropbutton__toggle-button), .usa-nav__submenu .c-menu__subnav .usa-nav__submenu a:not(.usa-button):not(.c-dropbutton__toggle-button), .c-menu__subnav .c-menu__subnav .usa-nav__submenu a:not(.usa-button):not(.c-dropbutton__toggle-button), .usa-nav__submenu .usa-nav__submenu .c-menu__subnav a:not(.usa-button):not(.c-dropbutton__toggle-button), .c-menu__subnav .usa-nav__submenu .c-menu__subnav a:not(.usa-button):not(.c-dropbutton__toggle-button), .usa-nav__submenu .c-menu__subnav .c-menu__subnav a:not(.usa-button):not(.c-dropbutton__toggle-button), .c-menu__subnav .c-menu__subnav .c-menu__subnav a:not(.usa-button):not(.c-dropbutton__toggle-button) {
     padding-left: 4rem;
   }
 }
@@ -10842,7 +10834,7 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
   outline: 0.25rem solid #2491ff;
   outline-offset: 0;
 }
-.usa-nav__close:hover, .usa-nav__close.usa-button--hover, .usa-nav__close:disabled:hover, .usa-nav__close:disabled.usa-button--hover, .usa-nav__close.usa-button--disabled:hover, .usa-nav__close.usa-button--disabled.usa-button--hover, .usa-nav__close:active, .usa-nav__close.usa-button--active, .usa-nav__close.c-button.is-active, .usa-nav__close:disabled:active, .usa-nav__close:disabled.usa-button--active, .usa-nav__close.usa-button--disabled:active, .usa-nav__close.usa-button--disabled.usa-button--active, .usa-nav__close:disabled:focus, .usa-nav__close:disabled.usa-focus, .usa-nav__close.usa-button--disabled:focus, .usa-nav__close.usa-button--disabled.usa-focus, .usa-nav__close:disabled, .usa-nav__close.usa-button--disabled {
+.usa-nav__close:hover, .usa-nav__close.usa-button--hover, .usa-nav__close:disabled:hover, .usa-nav__close:disabled.usa-button--hover, .usa-nav__close.usa-button--disabled:hover, .usa-nav__close.usa-button--disabled.usa-button--hover, .usa-nav__close:active, .usa-nav__close.usa-button--active, .usa-nav__close:disabled:active, .usa-nav__close:disabled.usa-button--active, .usa-nav__close.usa-button--disabled:active, .usa-nav__close.usa-button--disabled.usa-button--active, .usa-nav__close:disabled:focus, .usa-nav__close:disabled.usa-focus, .usa-nav__close.usa-button--disabled:focus, .usa-nav__close.usa-button--disabled.usa-focus, .usa-nav__close:disabled, .usa-nav__close.usa-button--disabled {
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
   background-color: transparent;
@@ -10855,7 +10847,7 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
 .usa-nav__close.usa-button--hover {
   color: #0050d8;
 }
-.usa-nav__close.usa-button--active, .usa-nav__close.c-button.is-active {
+.usa-nav__close.usa-button--active {
   color: #0050d8;
 }
 .usa-nav__close:hover {
@@ -11051,22 +11043,22 @@ input[type=search] {
 .usa-sidenav__item {
   border-top: 1px solid #dfe1e2;
 }
-.usa-sidenav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button) {
+.usa-sidenav a:not(.usa-button):not(.c-dropbutton__toggle-button) {
   display: block;
   padding: 0.5rem 1rem;
   text-decoration: none;
 }
-.usa-sidenav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):hover {
+.usa-sidenav a:not(.usa-button):not(.c-dropbutton__toggle-button):hover {
   background-color: #f0f0f0;
   text-decoration: none;
 }
-.usa-sidenav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):not(.usa-current) {
+.usa-sidenav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.usa-current) {
   color: #565c65;
 }
-.usa-sidenav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):not(.usa-current):hover {
+.usa-sidenav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.usa-current):hover {
   color: #1a4480;
 }
-.usa-sidenav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button):not(.usa-current):focus {
+.usa-sidenav a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.usa-current):focus {
   outline-offset: 0;
 }
 .usa-sidenav .usa-current {
@@ -11136,13 +11128,13 @@ input[type=search] {
     display: none;
   }
 }
-.usa-sidenav__sublist a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button) {
+.usa-sidenav__sublist a:not(.usa-button):not(.c-dropbutton__toggle-button) {
   padding-left: 2rem;
 }
-.usa-sidenav__sublist .usa-sidenav__sublist a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button) {
+.usa-sidenav__sublist .usa-sidenav__sublist a:not(.usa-button):not(.c-dropbutton__toggle-button) {
   padding-left: 3rem;
 }
-.usa-sidenav__sublist .usa-sidenav__sublist .usa-sidenav__sublist a:not(.usa-button):not(.c-dropbutton__toggle-button):not(.c-button) {
+.usa-sidenav__sublist .usa-sidenav__sublist .usa-sidenav__sublist a:not(.usa-button):not(.c-dropbutton__toggle-button) {
   padding-left: 4rem;
 }
 
@@ -11986,24 +11978,6 @@ ul.toolbar-menu li {
   }
 }
 
-.c-button--danger {
-  background-color: #d54309;
-  color: #ffffff;
-}
-.c-button--danger:hover, .c-button--danger:focus {
-  background-color: #b50909;
-  color: #ffffff;
-}
-.c-button--danger:active {
-  background-color: #6f3331;
-  color: #ffffff;
-}
-
-.c-button--small {
-  font-size: 0.75rem;
-  padding: 0.5rem 1rem;
-}
-
 .c-button-group {
   display: flex;
   margin: 1rem 0;
@@ -12363,7 +12337,7 @@ ul.toolbar-menu li {
   background-color: #c9c9c9;
   color: #ffffff;
 }
-.c-dropbutton__toggle-button[disabled]:hover, .c-dropbutton__toggle-button[disabled].usa-button--hover, .c-dropbutton__toggle-button[disabled]:active, .c-dropbutton__toggle-button[disabled].usa-button--active, .c-dropbutton__toggle-button[disabled].c-button.is-active, .c-dropbutton__toggle-button[disabled]:focus, .c-dropbutton__toggle-button[disabled].usa-focus {
+.c-dropbutton__toggle-button[disabled]:hover, .c-dropbutton__toggle-button[disabled].usa-button--hover, .c-dropbutton__toggle-button[disabled]:active, .c-dropbutton__toggle-button[disabled].usa-button--active, .c-dropbutton__toggle-button[disabled]:focus, .c-dropbutton__toggle-button[disabled].usa-focus {
   background-color: #c9c9c9;
   border: 0;
   box-shadow: none;
