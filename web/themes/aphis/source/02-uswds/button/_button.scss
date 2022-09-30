@@ -1,23 +1,208 @@
 // Overriding/customizing USWDS default buttons
 
 .usa-button {
-  &--secondary {
-    // TODO
+  $icon-transition: 5px;
+  @mixin btn-curve-bg($bg) {
+    $color1: rgba($bg, 0);
+    $color2: $bg;
+
+    // fake anti-aliasing (just using the gradient to blur so it's not a sharp line)
+    $transition-point: 45%;
+    $stop1: calc($transition-point - 0.5px);
+    $stop2: calc($transition-point + 0.5px);
+
+    background: linear-gradient(
+      to bottom right,
+      $color1 $stop1,
+      $color2 $stop2
+    );
   }
 
-  &--big {
-    // TODO
+  position: relative;
+  width: auto;
+  padding: gesso-spacing(3) gesso-spacing(5);
+  overflow: hidden;
+  vertical-align: bottom;
+  transition-duration: gesso-duration(short);
+  transition-property: background-color, border-color, color, outline-color;
+  transition-timing-function: gesso-easing(ease-in);
+  font-size: size('body', 5);
+  z-index: 1;
+
+  @include at-media('tablet') {
+    padding-top: gesso-spacing(4);
+    padding-bottom: gesso-spacing(4);
   }
 
-  &--small {
-    // TODO
+  // fake background to create the two-tone
+  &::before {
+    @include btn-curve-bg(color(primary-dark));
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    // behind the text
+    z-index: -1;
+    content: '';
+  }
+
+  &:hover,
+  &:focus {
+    box-shadow: get-uswds-value(box-shadow, 2);
   }
 
   &[disabled] {
-    // TODO
+    &,
+    &:hover,
+    &:focus {
+      background-color: gesso-color(button, disabled, background);
+      cursor: not-allowed;
+    }
+
+    &::before {
+      @include btn-curve-bg($theme-color-base-lightest-transparent);
+    }
+  }
+
+  &--secondary {
+    $border-w: 2px;
+    background: gesso-color(button, secondary, background);
+    border: $border-w solid gesso-color(button, secondary, border);
+    color: gesso-color(button, secondary, text);
+
+    &::before {
+      display: none;
+    }
+
+    &:hover,
+    &:focus {
+      background: gesso-color(button, secondary, background-hover);
+      border: $border-w solid gesso-color(button, secondary, border-hover);
+      color: gesso-color(button, secondary, text-hover);
+    }
+
+    &[disabled] {
+      &,
+      &:hover,
+      &:focus {
+        background: gesso-color(button, secondary, background);
+        border: $border-w solid gesso-color(button, disabled, border);
+        color: color(base);
+      }
+    }
   }
 
   &--unstyled {
-    // TODO
+    padding: 0;
+
+    &::before {
+      display: none;
+    }
+
+    &:hover,
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  // not a real USWDS class, custom
+  &--text {
+    // just leave space for the icon
+    padding: 0 $icon-transition 0 0;
+
+    &,
+    &:hover,
+    &:focus {
+      background: transparent;
+      color: gesso-color(button, secondary, text);
+    }
+
+    &:hover,
+    &:focus {
+      box-shadow: none;
+    }
+
+    &::before {
+      display: none;
+    }
+
+    &[disabled] {
+      &,
+      &:hover,
+      &:focus {
+        background: transparent;
+        color: gesso-color(button, disabled, border);
+      }
+    }
+  }
+
+  &--text,
+  &--icon {
+    &::after {
+      $icon-size-x: 25px;
+      $icon-size-y: 25px;
+      display: inline-block;
+      width: $icon-size-x;
+      height: $icon-size-y;
+      // Pull it over so the visual part of the icon is touching the edge of the padding on the right
+      margin-right: (-$icon-size-x / 3);
+      display: inline-block;
+      vertical-align: middle;
+      mask: url('../dist/images/usa-icons/navigate_next.svg') no-repeat center;
+      mask-size: cover;
+      background-color: currentColor;
+      transition: transform gesso-duration(short) gesso-easing(ease-in);
+      content: '';
+    }
+
+    &:hover,
+    &:focus {
+      &::after {
+        transform: translateX($icon-transition);
+      }
+    }
+
+    &[disabled] {
+      &:hover,
+      &:focus {
+        &::after {
+          transform: none;
+        }
+      }
+    }
+  }
+
+  &--big {
+    padding: gesso-spacing(5) gesso-spacing(7);
+    font-size: size('body', 8);
+
+    @include at-media('tablet') {
+      padding-top: gesso-spacing(4);
+      padding-bottom: gesso-spacing(4);
+    }
+
+    &.usa-button--icon {
+      &::after {
+        $icon-size-x: 30px;
+        $icon-size-y: 30px;
+        // tuck it a little closer to the text for big buttons
+        margin-left: -($icon-size-x / 6);
+        // Pull it over so the visual part of the icon is touching the edge of the padding on the right
+        margin-right: (-$icon-size-x / 3);
+        width: $icon-size-x;
+        height: $icon-size-y;
+
+        @include at-media('tablet') {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  &--small {
+    padding: gesso-spacing(3) gesso-spacing(4);
+    font-size: size('body', 3);
   }
 }

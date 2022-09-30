@@ -1,7 +1,7 @@
 ---
-is_button_tag: true
 is_demo: true
-is_disabled: false
+demo_sizes: true
+demo_icons: true
 url: '#'
 button_type: 'button'
 text: 'Button'

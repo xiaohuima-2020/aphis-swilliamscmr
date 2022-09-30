@@ -15,8 +15,12 @@
   figcaption {
     display: block;
     padding: units(1) units(1.5);
-    font-size: size('body', 3);
+    font-size: size('body', 2);
     font-style: italic;
+  }
+
+  .usa-button {
+    margin-top: gesso-spacing(7);
   }
 
   @include at-media('tablet') {
@@ -26,6 +30,10 @@
       float: right;
       max-width: 50%;
       margin-left: units($theme-column-gap-md) * 2;
+    }
+
+    figcaption {
+      font-size: size('body', 3);
     }
   }
 

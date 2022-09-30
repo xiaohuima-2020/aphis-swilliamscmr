@@ -24,32 +24,35 @@
 	{# render all the varients at once #}
 	<a href="{{ url }}" {{ add_attributes(default_attributes_cl) }}>Default {{ text }} (link element)</a>
 	<button {{ add_attributes(default_attributes_cl) }} type="button">Default {{ text }} (button element)</button>
+  <button {{ add_attributes(default_attributes_cl) }} type="button" disabled>Disabled {{ text }}</button>
 
-	<h2>Sizes</h2>
-	{% set big_class = ' usa-button--big' %}
-	{% set mod_classes = default_classes ~ big_class %}
-	{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
-	<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Big {{ text }}</a>
+	{% if demo_sizes %}
+		<h2>Sizes</h2>
+		{% set big_class = ' usa-button--big' %}
+		{% set mod_classes = default_classes ~ big_class %}
+		{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
+		<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Big {{ text }}</a>
 
-	{% set small_class = ' usa-button--small' %}
-	{% set mod_classes = default_classes ~ small_class %}
-	{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
-	<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Small {{ text }}</a>
+		{% set small_class = ' usa-button--small' %}
+		{% set mod_classes = default_classes ~ small_class %}
+		{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
+		<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Small {{ text }}</a>
+	{% endif %}
 
-	<h2>Variants</h2>
-  <button {{ add_attributes(default_attributes) }} type="button" disabled>Disabled {{ text }}</button>
+	{% if demo_icons %}
+		<h2>Icons</h2>
+		{% set icon_class = ' usa-button--icon usa-button--icon--arrow' %}
+		{% set mod_classes = default_classes ~ icon_class %}
+		{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
+		<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Icon {{ text }}</a>
+		<button {{ add_attributes(mod_attributes_cl) }} type="button" disabled>Icon Disabled {{ text }}</button>
 
-	<h2>Icons</h2>
-	{% set icon_class = ' usa-button--icon usa-button--icon--arrow' %}
-	{% set mod_classes = default_classes ~ icon_class %}
-	{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
-	<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Icon {{ text_demo }}</a>
+		{% set mod_classes = default_classes ~ icon_class ~ big_class %}
+		{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
+		<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Icon, Big {{ text }}</a>
 
-	{% set mod_classes = default_classes ~ icon_class ~ big_class %}
-	{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
-	<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Icon, Big {{ text }}</a>
-
-	{% set mod_classes = default_classes ~ icon_class ~ small_class %}
-	{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
-	<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Icon, Small {{ text }}</a>
+		{% set mod_classes = default_classes ~ icon_class ~ small_class %}
+		{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
+		<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Icon, Small {{ text }}</a>
+	{% endif %}
 {% endif %}
