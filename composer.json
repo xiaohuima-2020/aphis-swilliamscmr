@@ -64,6 +64,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
+        "patches": {
+            "drupal/core": {
+                "Call to a member function getColumns() on boolean\n": "https://www.drupal.org/files/issues/2020-10-29/2893747-33.patch"
+            }
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": ".\/web"
