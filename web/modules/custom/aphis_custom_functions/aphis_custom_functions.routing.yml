@@ -1,6 +1,6 @@
 aphis_custom_functions:
   path: /aphis-custom-functions
   defaults:
-    _controller: Drupal\aphis_custom_functions\Controller\aphisCustomFunctionsController::aphis_custom_functions
+    _controller: Drupal\aphis_custom_functions\Controller\AphisCustomFunctionsController::aphis_custom_functions
   requirements:
     _permission: 'access content'

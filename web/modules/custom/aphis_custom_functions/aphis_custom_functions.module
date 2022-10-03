@@ -1,33 +1,17 @@
 <?php
 
 /**
- * Aphis Custom Functions
+ * Aphis Custom Functions.
  *
  * @category Module
- * @package  Aphis
+ * @file  Aphis
  * @author   Shawn Williams
  * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
  * @link     http://www.cmrignite.com/
  */
 
 /**
- * Implements hook_preprocess().
- */
-//function current_posts_preprocess_node( &$variables )
-//{
-//  $block = \Drupal\block\Entity\Block::load('views_block__last_modified_date_block_1')->getPlugin()->build();
-//
-//  //    $variables['content']['field_image']['#suffix'] = 'Current Post Testing';
-//  $variables['content']['our_custom_field'] = $block;
-//  //    kint($variables);
-//}
-
-/**
  * Attach css to admin theme, must be placed in a custom module not the theme
- *
- * @param Variables
- *
- * @return css asset
  */
 function aphis_custom_functions_preprocess_page(&$variables) {
   $variables['#attached']['library'][] = 'aphis_custom_functions/aphiscustomlib';
