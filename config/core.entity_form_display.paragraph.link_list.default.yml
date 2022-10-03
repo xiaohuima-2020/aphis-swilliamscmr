@@ -1,0 +1,35 @@
+uuid: 08bbeeb6-5baa-4e8a-8ee6-f8078a4c0f34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.link_list.field_heading
+    - field.field.paragraph.link_list.field_link
+    - paragraphs.paragraphs_type.link_list
+  module:
+    - link
+    - text
+id: paragraph.link_list.default
+targetEntityType: paragraph
+bundle: link_list
+mode: default
+content:
+  field_heading:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_link:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
