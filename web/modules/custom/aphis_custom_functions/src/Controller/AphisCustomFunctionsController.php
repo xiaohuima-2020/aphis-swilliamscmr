@@ -9,7 +9,6 @@ use Symfony\Component\HttpFoundation\Response;
  *
  * @category Class
  * @package Aphis
- * @author Shawn Williams
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License
  * @link http://www.cmrignite.com/
  */
