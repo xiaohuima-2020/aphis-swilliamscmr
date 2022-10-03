@@ -18,7 +18,7 @@ class AphisCustomFunctionsController {
   /**
    * Returns a response.
    */
-  public function aphis_custom_functions() {
+  public function aphisCustomFunctions() {
     return new Response('Hello to Aphis Custom Functions');
   }
 

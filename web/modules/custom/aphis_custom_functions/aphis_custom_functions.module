@@ -1,16 +1,6 @@
 <?php
 
 /**
- * Aphis Custom Functions.
- *
- * @category Module
- * @file  Aphis
- * @author   Shawn Williams
- * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
- * @link     http://www.cmrignite.com/
- */
-
-/**
  * Attach css to admin theme, must be placed in a custom module not the theme
  */
 function aphis_custom_functions_preprocess_page(&$variables) {
