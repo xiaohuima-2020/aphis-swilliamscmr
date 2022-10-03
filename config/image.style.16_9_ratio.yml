@@ -1,0 +1,16 @@
+uuid: 7b96d479-e562-4b99-bfae-6c7f1afa2f96
+langcode: en
+status: true
+dependencies:
+  module:
+    - ratio_crop
+name: 16_9_ratio
+label: '16:9 Ratio'
+effects:
+  5fd9a887-34d3-4a62-bce0-0fc47169eafb:
+    uuid: 5fd9a887-34d3-4a62-bce0-0fc47169eafb
+    id: image_crop_ratio
+    weight: 1
+    data:
+      anchor: center-center
+      aspect_ratio: '16:9'

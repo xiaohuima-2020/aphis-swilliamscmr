@@ -1,21 +1,19 @@
-uuid: df0bf5eb-1561-4799-8cb5-6d610c77a41b
+uuid: fdca0687-f6ac-4068-82b4-61e2c3381a0e
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_intro_text
     - paragraphs.paragraphs_type.page_intro
-  module:
-    - text
 id: paragraph.page_intro.field_intro_text
 field_name: field_intro_text
 entity_type: paragraph
 bundle: page_intro
 label: 'Intro Text'
-description: 'Intro text for the left hand side of component, on mobile text will appear on top'
+description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: string

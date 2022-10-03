@@ -1,15 +1,16 @@
-uuid: e4779384-0b1c-4af2-9c3c-ee3eb5a3e77d
+uuid: 1c3e473c-7ac1-417c-afca-32ea4952fe08
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
     - text
-id: paragraph.field_rte_for_media_embed
-field_name: field_rte_for_media_embed
+id: paragraph.field_panel_title
+field_name: field_panel_title
 entity_type: paragraph
-type: text_long
-settings: {  }
+type: text
+settings:
+  max_length: 255
 module: text
 locked: false
 cardinality: 1

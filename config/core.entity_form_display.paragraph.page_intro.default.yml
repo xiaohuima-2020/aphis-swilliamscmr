@@ -3,34 +3,31 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.page_intro.field_image_intro
     - field.field.paragraph.page_intro.field_intro_text
-    - field.field.paragraph.page_intro.field_rte_for_media_embed
+    - image.style.16_9_ratio
     - paragraphs.paragraphs_type.page_intro
   module:
-    - text
+    - image
 id: paragraph.page_intro.default
 targetEntityType: paragraph
 bundle: page_intro
 mode: default
 content:
-  field_intro_text:
-    type: text_textarea
-    weight: -199
-    region: content
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings:
-      maxlength:
-        maxlength_js: 480
-        maxlength_js_label: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
-        maxlength_js_enforce: true
-  field_rte_for_media_embed:
-    type: text_textarea
+  field_image_intro:
+    type: image_image
     weight: -198
     region: content
     settings:
-      rows: 5
+      progress_indicator: throbber
+      preview_image_style: 16_9_ratio
+    third_party_settings: {  }
+  field_intro_text:
+    type: string_textfield
+    weight: -199
+    region: content
+    settings:
+      size: 60
       placeholder: ''
     third_party_settings: {  }
   layout_paragraphs_fields:

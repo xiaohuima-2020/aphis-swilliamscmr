@@ -1,0 +1,21 @@
+uuid: 37b2610a-03ed-42e8-b97a-2980669c1e96
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_panel_title
+    - paragraphs.paragraphs_type.accordion
+  module:
+    - text
+id: paragraph.accordion.field_panel_title
+field_name: field_panel_title
+entity_type: paragraph
+bundle: accordion
+label: 'Panel title'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
