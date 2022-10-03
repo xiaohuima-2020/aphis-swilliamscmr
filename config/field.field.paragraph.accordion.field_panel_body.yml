@@ -1,0 +1,56 @@
+uuid: 2bceaa86-d120-49c2-aa0b-11a096dc361c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_panel_body
+    - paragraphs.paragraphs_type.accordion
+    - paragraphs.paragraphs_type.grid_section
+    - paragraphs.paragraphs_type.link_list
+    - paragraphs.paragraphs_type.wysiwyg
+  module:
+    - entity_reference_revisions
+id: paragraph.accordion.field_panel_body
+field_name: field_panel_body
+entity_type: paragraph
+bundle: accordion
+label: 'Panel body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      grid_section: grid_section
+      link_list: link_list
+      wysiwyg: wysiwyg
+    negate: 0
+    target_bundles_drag_drop:
+      accordion:
+        weight: 9
+        enabled: false
+      block_reference:
+        weight: 10
+        enabled: false
+      grid_section:
+        weight: 11
+        enabled: true
+      link_list:
+        weight: 12
+        enabled: true
+      page_intro:
+        weight: 13
+        enabled: false
+      tile_link_grid:
+        weight: 14
+        enabled: false
+      tile_link_grid_card:
+        weight: 15
+        enabled: false
+      wysiwyg:
+        weight: 16
+        enabled: true
+field_type: entity_reference_revisions

@@ -3,28 +3,34 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.page_intro.field_image_intro
     - field.field.paragraph.page_intro.field_intro_text
-    - field.field.paragraph.page_intro.field_rte_for_media_embed
+    - image.style.16_9_ratio
     - paragraphs.paragraphs_type.page_intro
   module:
-    - text
+    - image
 id: paragraph.page_intro.default
 targetEntityType: paragraph
 bundle: page_intro
 mode: default
 content:
-  field_intro_text:
-    type: text_default
+  field_image_intro:
+    type: image
     label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 0
-    region: content
-  field_rte_for_media_embed:
-    type: text_default
-    label: hidden
-    settings: {  }
+    settings:
+      image_link: ''
+      image_style: 16_9_ratio
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_intro_text:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
     region: content
 hidden: {  }
