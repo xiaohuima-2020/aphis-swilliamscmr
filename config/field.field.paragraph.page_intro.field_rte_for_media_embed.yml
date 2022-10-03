@@ -1,0 +1,21 @@
+uuid: dfd37b73-e07c-493f-bc2f-43073777ed0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_rte_for_media_embed
+    - paragraphs.paragraphs_type.page_intro
+  module:
+    - text
+id: paragraph.page_intro.field_rte_for_media_embed
+field_name: field_rte_for_media_embed
+entity_type: paragraph
+bundle: page_intro
+label: 'RTE for Media Embed'
+description: 'Embed your image in this RTE component'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

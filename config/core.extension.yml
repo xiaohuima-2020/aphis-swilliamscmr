@@ -4,6 +4,7 @@ module:
   action: 0
   add_child_page: 0
   admin_toolbar: 0
+  aphis_custom_functions: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -36,6 +37,7 @@ module:
   layout_discovery: 0
   layout_paragraphs: 0
   link: 0
+  maxlength: 0
   menu_breadcrumb: 0
   menu_link_content: 0
   menu_ui: 0
@@ -46,6 +48,7 @@ module:
   paragraphs_limits: 0
   path: 0
   path_alias: 0
+  ratio_crop: 0
   search: 0
   shortcut: 0
   system: 0

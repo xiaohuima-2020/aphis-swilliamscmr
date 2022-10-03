@@ -1,0 +1,30 @@
+uuid: b430da22-7daf-475e-afcc-87c28125d0f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.page_intro.field_intro_text
+    - field.field.paragraph.page_intro.field_rte_for_media_embed
+    - paragraphs.paragraphs_type.page_intro
+  module:
+    - text
+id: paragraph.page_intro.default
+targetEntityType: paragraph
+bundle: page_intro
+mode: default
+content:
+  field_intro_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_rte_for_media_embed:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

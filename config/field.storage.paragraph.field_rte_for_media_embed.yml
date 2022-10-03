@@ -1,0 +1,19 @@
+uuid: e4779384-0b1c-4af2-9c3c-ee3eb5a3e77d
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_rte_for_media_embed
+field_name: field_rte_for_media_embed
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

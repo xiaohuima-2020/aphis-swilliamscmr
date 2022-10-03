@@ -1,0 +1,43 @@
+uuid: 7b22adba-4ebf-4abe-835a-0011b7a858f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.page_intro.field_intro_text
+    - field.field.paragraph.page_intro.field_rte_for_media_embed
+    - paragraphs.paragraphs_type.page_intro
+  module:
+    - text
+id: paragraph.page_intro.default
+targetEntityType: paragraph
+bundle: page_intro
+mode: default
+content:
+  field_intro_text:
+    type: text_textarea
+    weight: -199
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings:
+      maxlength:
+        maxlength_js: 480
+        maxlength_js_label: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
+        maxlength_js_enforce: true
+  field_rte_for_media_embed:
+    type: text_textarea
+    weight: -198
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  layout_paragraphs_fields:
+    weight: -200
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

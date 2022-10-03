@@ -11854,6 +11854,11 @@ ul.toolbar-menu li {
   padding-left: 0;
 }
 
+/* bugfix after adding theme style to admin */
+.home-toolbar-tab.toolbar-tab {
+  margin-top: 0;
+}
+
 .c-article__footer {
   margin-bottom: 0.5rem;
 }
@@ -12375,6 +12380,11 @@ ul.toolbar-menu li {
 .c-field--tile.c-field--name-field-title .c-field__content a {
   color: #fff;
   text-decoration: none;
+}
+
+/* bugfix after adding theme css to admin */
+.field-plugin-settings-edit {
+  width: auto;
 }
 
 .c-field--list .c-field__label.is-inline + .c-field__content {
