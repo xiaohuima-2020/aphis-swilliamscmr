@@ -1,7 +1,12 @@
 <?php
 
 /**
- * Attach css to admin theme, must be placed in a custom module not the theme
+ * @file
+ * Add theme dist css to admin area.
+ */
+
+/**
+ * Attach css to admin theme, must be placed in a custom module not the theme.
  */
 function aphis_custom_functions_preprocess_page(&$variables) {
   $variables['#attached']['library'][] = 'aphis_custom_functions/aphiscustomlib';
