@@ -1,6 +1,16 @@
 <?php
 
 /**
+ * Aphis Custom Functions
+ *
+ * @category Module
+ * @package  Aphis
+ * @author   Shawn Williams
+ * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
+ * @link     http://www.cmrignite.com/
+ */
+
+/**
  * Implements hook_preprocess().
  */
 //function current_posts_preprocess_node( &$variables )
@@ -16,6 +26,7 @@
  * Attach css to admin theme, must be placed in a custom module not the theme
  *
  * @param Variables
+ *
  * @return css asset
  */
 function aphis_custom_functions_preprocess_page(&$variables) {
