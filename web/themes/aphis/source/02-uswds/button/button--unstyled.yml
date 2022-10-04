@@ -1,7 +1,7 @@
 ---
 modifier_classes: 'usa-button--unstyled'
-is_button_tag: true
 is_demo: true
+demo_sizes: false
+demo_icons: false
 url: '#'
 text: 'Unstyled Button'
-text_demo: 'Unstyled Link Button'

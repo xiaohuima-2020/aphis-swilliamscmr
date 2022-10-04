@@ -49,8 +49,3 @@ body.cke_editable {
     display: none;
   }
 }
-
-.media-library-item__edit {
-  @extend %c-button;
-  @extend %c-button--small;
-}

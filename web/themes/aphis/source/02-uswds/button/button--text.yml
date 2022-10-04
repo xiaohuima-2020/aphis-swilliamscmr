@@ -1,0 +1,7 @@
+---
+  modifier_classes: 'usa-button--text'
+  is_demo: true
+  url: '#'
+  button_type: 'submit'
+  text: 'Text Button'
+  

@@ -35,10 +35,12 @@
  *
  * @see template_preprocess_paragraph()
  *
+ *
  * @ingroup themeable
  */
 #}
 {% set classes = [
+  'c-page-intro',
   'c-paragraph',
   'c-paragraph--type-' ~ paragraph.bundle|clean_class,
   view_mode ? 'c-paragraph--view-mode-' ~ view_mode|clean_class,

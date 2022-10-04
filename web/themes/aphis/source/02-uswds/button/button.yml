@@ -1,9 +1,8 @@
 ---
-is_button_tag: true
 is_demo: true
-is_disabled: false
+demo_sizes: true
+demo_icons: true
 url: '#'
-button_type: 'submit'
+button_type: 'button'
 text: 'Button'
-text_demo: 'Link Button'
 modifier_classes: ''

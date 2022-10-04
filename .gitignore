@@ -15,6 +15,7 @@
 !/web/sites/*/services.yml
 /web/sites/default/default.settings.php
 /web/sites/example.settings.local.php
+/web/sites/development.services.yml
 
 # Ignore paths that contain user-generated content.
 /web/sites/*/files
@@ -97,7 +98,8 @@
 
 # Front-End Files (Storybook)
 # ------------------
-/web/themes/aphis/node_modules
+/web/themes/aphis/node_modules/
+/web/themes/aphis/build-storybook.log
 
 # Other common rules
 # ------------------
@@ -106,7 +108,3 @@
 
 # Ignore .env files as they are personal
 #/.env
-
-
-#ignore node_modules
-web/themes/aphis/node_modules/*
