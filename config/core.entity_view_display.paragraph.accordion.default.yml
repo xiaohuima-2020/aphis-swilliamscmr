@@ -8,7 +8,6 @@ dependencies:
     - paragraphs.paragraphs_type.accordion
   module:
     - layout_paragraphs
-    - text
 id: paragraph.accordion.default
 targetEntityType: paragraph
 bundle: accordion
@@ -24,9 +23,10 @@ content:
     weight: 1
     region: content
   field_panel_title:
-    type: text_default
+    type: string
     label: hidden
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
     weight: 0
     region: content
