@@ -1,0 +1,4 @@
+name: Aphis Custom Functions
+type: module
+description: "Custom theme functions"
+core_version_requirement: ^9

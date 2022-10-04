@@ -41,7 +41,9 @@
         "drupal/add_child_page": "^2.0",
         "drupal/convert_bundles": "^1.0@alpha",
         "drupal/editor_button_link": "^2.0",
-        "drupal/extlink": "^1.6"
+        "drupal/extlink": "^1.6",
+        "drupal/maxlength": "^2.0",
+        "drupal/ratio_crop": "^1.0"
     },
     "require-dev": {
         "drupal\/core-dev": "^9.2",

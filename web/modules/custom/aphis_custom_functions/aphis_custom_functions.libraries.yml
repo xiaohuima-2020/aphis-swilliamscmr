@@ -1,0 +1,4 @@
+aphiscustomlib:
+  css:
+    theme:
+      ../../../themes/aphis/dist/css/styles.css: { }
