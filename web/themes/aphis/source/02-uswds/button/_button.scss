@@ -2,21 +2,7 @@
 
 .usa-button {
   $icon-transition: 5px;
-  @mixin btn-curve-bg($bg) {
-    $color1: rgba($bg, 0);
-    $color2: $bg;
-
-    // fake anti-aliasing (just using the gradient to blur so it's not a sharp line)
-    $transition-point: 45%;
-    $stop1: calc($transition-point - 0.5px);
-    $stop2: calc($transition-point + 0.5px);
-
-    background: linear-gradient(
-      to bottom right,
-      $color1 $stop1,
-      $color2 $stop2
-    );
-  }
+  $curve-radius: 100% 0% 0% 0%/100% 0% 0% 0%;
 
   position: relative;
   width: auto;
@@ -36,13 +22,15 @@
 
   // fake background to create the two-tone
   &::before {
-    @include btn-curve-bg(color(primary-dark));
     position: absolute;
     display: block;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
+    background: color(primary-dark);
+    border-radius: $curve-radius;
+    transition: border-radius gesso-duration(short) gesso-easing(ease-in);
     // behind the text
     z-index: -1;
     content: '';
@@ -51,6 +39,10 @@
   &:hover,
   &:focus {
     box-shadow: get-uswds-value(box-shadow, 2);
+
+    &::before {
+      border-radius: 0;
+    }
   }
 
   &[disabled] {
@@ -59,10 +51,14 @@
     &:focus {
       background-color: gesso-color(button, disabled, background);
       cursor: not-allowed;
+
+      &::before {
+        border-radius: $curve-radius;
+      }
     }
 
     &::before {
-      @include btn-curve-bg($theme-color-base-lightest-transparent);
+      background: $theme-color-base-lightest-transparent;
     }
   }
 
