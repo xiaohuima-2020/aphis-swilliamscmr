@@ -1,0 +1,10 @@
+---
+image:
+  src: 'https://loremflickr.com/465/262/plants'
+  alt: 'A Placeholder Image'
+  caption: 'Consequat non eu id irure <a href="#">laborum elit</a>'
+lead: 'Culpa amet mollit est commodo cupidatat dolore qui enim enim amet sit. Ut ex ea veniam dolor eu. Do excepteur id ad elit reprehenderit voluptate aliqua.'
+more_text: '<p>Magna amet culpa dolore sint sint adipisicing. Veniam cillum ut do consequat labore voluptate consequat. Ut aliqua ut nulla eu ullamco eiusmod consectetur tempor consequat sint. Fugiat dolor sint tempor reprehenderit ad cupidatat esse esse laborum sit. Occaecat velit ad exercitation duis duis ut id culpa amet.</p><p>Nostrud eiusmod ut deserunt in irure est id ad minim dolor mollit. Consectetur aliquip labore qui do. Mollit occaecat exercitation magna id proident nulla voluptate cupidatat.</p>'
+button:
+  text: 'Button Text'
+  
