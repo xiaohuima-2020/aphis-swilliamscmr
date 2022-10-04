@@ -5,18 +5,26 @@
   figure {
     background: color(base-lightest);
     margin-bottom: rem(20);
+    // Prevent extra background if there's only an image
+    font-size: 0;
   }
 
   img {
     display: block;
     margin: 0 auto;
+    // for alt text
+    font-size: size('body', 1);
   }
 
   figcaption {
     display: block;
     padding: units(1) units(1.5);
-    font-size: size('body', 3);
+    font-size: size('body', 2);
     font-style: italic;
+  }
+
+  .usa-button {
+    margin-top: gesso-spacing(7);
   }
 
   @include at-media('tablet') {
@@ -26,6 +34,10 @@
       float: right;
       max-width: 50%;
       margin-left: units($theme-column-gap-md) * 2;
+    }
+
+    figcaption {
+      font-size: size('body', 3);
     }
   }
 

@@ -98,7 +98,8 @@
 
 # Front-End Files (Storybook)
 # ------------------
-/web/themes/aphis/node_modules
+/web/themes/aphis/node_modules/
+/web/themes/aphis/build-storybook.log
 
 # Other common rules
 # ------------------
@@ -107,7 +108,3 @@
 
 # Ignore .env files as they are personal
 #/.env
-
-
-#ignore node_modules
-web/themes/aphis/node_modules/*
