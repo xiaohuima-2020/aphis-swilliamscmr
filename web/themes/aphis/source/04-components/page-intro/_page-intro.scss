@@ -5,11 +5,15 @@
   figure {
     background: color(base-lightest);
     margin-bottom: rem(20);
+    // Prevent extra background if there's only an image
+    font-size: 0;
   }
 
   img {
     display: block;
     margin: 0 auto;
+    // for alt text
+    font-size: size('body', 1);
   }
 
   figcaption {

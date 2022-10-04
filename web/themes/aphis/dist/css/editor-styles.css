@@ -13495,10 +13495,12 @@ ul.toolbar-menu li {
 .c-page-intro figure {
   background: #f3f3f3;
   margin-bottom: 1.25rem;
+  font-size: 0;
 }
 .c-page-intro img {
   display: block;
   margin: 0 auto;
+  font-size: 0.75rem;
 }
 .c-page-intro figcaption {
   display: block;
