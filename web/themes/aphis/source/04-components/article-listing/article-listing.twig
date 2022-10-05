@@ -1,7 +1,8 @@
 {% set classes = [
-  'c-article-list',
+  'c-article-listing',
   modifier_classes ? modifier_classes : ''
 ] %}
+
 
 <div class="l-constrain">
 	<div {{ add_attributes({ class: classes }) }} >
@@ -31,7 +32,7 @@
 		</a>
 	</div>
 
-	<a class="update-btn">
+	<a class="update-btn" href='#'>
 		{{button}}
 	</a>
 </div>
