@@ -9,3 +9,10 @@ ul.toolbar-menu {
     padding-left: 0;
   }
 }
+
+/* bugfix after adding theme style to admin */
+.home-toolbar-tab {
+  &.toolbar-tab {
+    margin-top: 0;
+  }
+}
