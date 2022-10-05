@@ -14,3 +14,11 @@ effects:
     data:
       anchor: center-center
       aspect_ratio: '16:9'
+  a9750f2b-4ce0-4cbb-8006-ac18e8a546fa:
+    uuid: a9750f2b-4ce0-4cbb-8006-ac18e8a546fa
+    id: image_crop
+    weight: 2
+    data:
+      width: 465
+      height: 262
+      anchor: center-center

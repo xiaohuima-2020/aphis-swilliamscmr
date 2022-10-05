@@ -5,6 +5,7 @@ module:
   add_child_page: 0
   admin_toolbar: 0
   aphis_custom_functions: 0
+  aphis_enhanced_button_link: 0
   automated_cron: 0
   big_pipe: 0
   block: 0

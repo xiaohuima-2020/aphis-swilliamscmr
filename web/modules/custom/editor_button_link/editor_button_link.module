@@ -1,0 +1,167 @@
+<?php
+
+/**
+ * @file
+ * Button link styles.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\editor\Entity\Editor;
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ *
+ * Note: the editor_file module declares that its EditorFileDialog form uses
+ *   'editor_link_dialog' as base_form_id. In this case, the function above is
+ *   going to be called as an implementation of hook_form_BASE_FORM_ID_alter().
+ */
+function editor_button_link_form_editor_link_dialog_alter(&$form, FormStateInterface $form_state, $form_id) {
+  $argument = $form_state->getBuildInfo()['args'][0];
+  // In case the only argument we get is the Editor instead of the FilterFormat.
+  if ($argument instanceof Editor) {
+    $argument = $argument->getFilterFormat();
+  }
+  $restrictions = $argument->getHtmlRestrictions();
+
+  if (isset($form_state->getUserInput()['editor_object'])) {
+    $input = $form_state->getUserInput()['editor_object'];
+    $form_state->set('link_element', $input);
+    $form_state->setCached(TRUE);
+  }
+  else {
+    // Retrieve the link element's attributes from form state.
+    $input = $form_state->get('link_element') ?: [];
+  }
+
+  /*
+   * Helper to retrieve form fields' default values.
+   *
+   * @param string $attribute_name
+   * @param string $fallback
+   *
+   * @return mixed
+   *   The existing value or the fallback.
+   */
+  $get_default_value = function ($attribute_name, $fallback = '') use ($input) {
+    return !empty($input[$attribute_name]) ? $input[$attribute_name] : $fallback;
+  };
+
+  /*
+   * Helper to set the status of a form field according to the status of the
+   * filter about the attribute it is defining.
+   *
+   * @param string $attribute_name
+   *
+   * @return bool
+   *   TRUE if the filter is disabled or if the entire "a" tag is allowed or if
+   *   the given attribute is allowed for the "a" tag.
+   */
+  $is_accessible = function ($attribute_name) use ($restrictions) {
+    return $restrictions === FALSE || $restrictions['allowed']['a'] === TRUE || !empty($restrictions['allowed']['a'][$attribute_name]);
+  };
+
+  /** @var Drupal\filter\Entity\FilterFormat $filter_format */
+  $filter_format = $form_state->getBuildInfo()['args'][0];
+
+  $plugin_format_filters = $filter_format->id();
+  $filter_config = \Drupal::config('filter.format.' . $plugin_format_filters);
+  $filter_settings = $filter_config->get('filters.editor_button_link_filter.settings');
+
+  if (generate_option_settings($filter_settings['button_link_options'])) {
+    $form['attributes']['data-drupal-button-link'] = [
+      '#type' => 'select',
+      '#title' => t('Button'),
+      '#description' => t('Transform link style to a button'),
+      '#options' => generate_option_settings($filter_settings['button_link_options']),
+      '#default_value' => $get_default_value('data-drupal-button-link'),
+      '#access' => $is_accessible('class'),
+      '#weight' => 3,
+    ];
+  }
+
+  if (generate_option_settings($filter_settings['button_link_size_options'])) {
+    $form['attributes']['data-drupal-button-link-size'] = [
+      '#type' => 'select',
+      '#title' => t('Button size'),
+      '#description' => t('Transform link style to a button'),
+      '#options' => generate_option_settings($filter_settings['button_link_size_options']),
+      '#default_value' => $get_default_value('data-drupal-button-link-size'),
+      '#access' => $is_accessible('class'),
+      '#group' => 'buttonlink',
+      '#states' => [
+        'invisible' => [
+          'select[name="attributes[data-drupal-button-link]"]' => ['value' => ''],
+        ],
+      ],
+      '#weight' => 21,
+    ];
+  }
+
+  if (generate_option_settings($filter_settings['button_link_style_options'])) {
+    $form['attributes']['data-drupal-button-link-style'] = [
+      '#type' => 'select',
+      '#title' => t('Button style'),
+      '#description' => t('Transform link style to a button'),
+      '#options' => generate_option_settings($filter_settings['button_link_style_options']),
+      '#default_value' => $get_default_value('data-drupal-button-link-style'),
+      '#access' => $is_accessible('class'),
+      '#group' => 'buttonlink',
+      '#states' => [
+        'invisible' => [
+          'select[name="attributes[data-drupal-button-link]"]' => ['value' => ''],
+        ],
+      ],
+      '#weight' => 21,
+    ];
+  }
+
+  // Add #validate callback that handles empty attributes.
+  array_unshift($form['#validate'], '_editor_button_link_attributes_validate');
+}
+
+/**
+ * Filter empty attributes to avoid empty HTML output.
+ */
+function _editor_button_link_attributes_validate(array &$form, FormStateInterface $form_state) {
+  $values = $form_state->getValue('attributes');
+  $link_element = $form_state->get('link_element');
+  foreach ($values as $key => $value) {
+    if (empty($value)) {
+      $form_state->setValue(['attributes', $key], '');
+      // Special case on content creation.
+      if (empty($link_element)) {
+        $form_state->unsetValue(['attributes', $key]);
+      }
+    }
+  }
+}
+
+/**
+ * Builds the "optionSets" configuration part.
+ */
+function generate_option_settings($options) {
+  $options_set = [];
+
+  // Early-return when empty.
+  $options = trim($options);
+  if (empty($options)) {
+    return $options_set;
+  }
+
+  $options = str_replace(["\r\n", "\r"], "\n", $options);
+  foreach (explode("\n", $options) as $option) {
+    $option = trim($option);
+
+    // Ignore empty lines in between non-empty lines.
+    if (empty($option)) {
+      continue;
+    }
+
+    // Parse.
+    list($selector, $label) = explode('|', $option);
+
+    $options_set[trim($selector)] = trim($label);
+
+  }
+  return $options_set;
+}

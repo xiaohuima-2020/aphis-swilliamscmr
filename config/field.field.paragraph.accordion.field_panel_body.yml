@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.paragraph.field_panel_body
     - paragraphs.paragraphs_type.accordion
+    - paragraphs.paragraphs_type.buttons
     - paragraphs.paragraphs_type.grid_section
     - paragraphs.paragraphs_type.link_list
     - paragraphs.paragraphs_type.wysiwyg
@@ -24,6 +25,7 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     target_bundles:
+      buttons: buttons
       grid_section: grid_section
       link_list: link_list
       wysiwyg: wysiwyg
@@ -32,9 +34,15 @@ settings:
       accordion:
         weight: 9
         enabled: false
+      accordion_section:
+        weight: 13
+        enabled: false
       block_reference:
         weight: 10
         enabled: false
+      buttons:
+        weight: 11
+        enabled: true
       grid_section:
         weight: 11
         enabled: true

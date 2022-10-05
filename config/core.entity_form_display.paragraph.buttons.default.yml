@@ -1,0 +1,25 @@
+uuid: 6c89d57c-af7d-4435-b8a7-eaddf2ae9516
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.buttons.field_button
+    - paragraphs.paragraphs_type.buttons
+  module:
+    - aphis_enhanced_button_link
+id: paragraph.buttons.default
+targetEntityType: paragraph
+bundle: buttons
+mode: default
+content:
+  field_button:
+    type: aphis_enhanced_button_link_widget
+    weight: 0
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

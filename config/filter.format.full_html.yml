@@ -50,6 +50,6 @@ filters:
     status: true
     weight: 1
     settings:
-      button_link_options: "|Select\r\nc-button|Button"
-      button_link_size_options: "normal|Normal\r\nc-button--secondary|Secondary Button\r\nc-button--large|Primary Button"
-      button_link_style_options: 'usa-button--accent-cool|Button Accent Cool'
+      button_link_options: "|Select\r\nusa-button|Button"
+      button_link_size_options: "usa-button--big|Big\r\nusa-button--small|Small\r\n"
+      button_link_style_options: "usa-button|Primary\r\nusa-button--secondary|Secondary\r\nusa-button--text|Text"

@@ -1,0 +1,14 @@
+# Plugin \Drupal\editor_button_link\Plugin\Filter\EditorButtonLinkFilter
+filter_settings.editor_button_link:
+  type: filter
+  label: 'Editor button link options'
+  mapping:
+    button_link_options:
+      type: textarea
+      label: 'Button type'
+    button_link_size_options:
+      type: textarea
+      label: 'Button size'
+    button_link_style_options:
+      type: textarea
+      label: 'Button style'
