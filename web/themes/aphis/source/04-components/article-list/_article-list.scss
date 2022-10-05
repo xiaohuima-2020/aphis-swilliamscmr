@@ -1,0 +1,20 @@
+// @file
+// Component: c-article-list
+
+.c-article-list {
+  .article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 2px solid #dadada;
+  }
+
+  h4 {
+    margin-right: 20px;
+  }
+
+  a {
+    margin: 0;
+  }
+}

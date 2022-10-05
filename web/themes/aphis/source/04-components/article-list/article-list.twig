@@ -1,0 +1,37 @@
+{% set classes = [
+  'c-article-list',
+  modifier_classes ? modifier_classes : ''
+] %}
+
+<div class="l-constrain">
+	<div {{ add_attributes({ class: classes }) }} >
+		<h2>{{header}}</h2>
+	<div class="article">
+		<h4>
+			{{date.first}}
+		</h4>
+		<a href="#">
+			{{title.first}}
+		</a>
+	</div>
+	<div class="article">
+		<h4>
+			{{date.first}}
+		</h4>
+		<a href="#">
+			{{title.first}}
+		</a>
+	</div>
+	<div class="article">
+		<h4>
+			{{date.first}}
+		</h4>
+		<a href="#">
+			{{title.first}}
+		</a>
+	</div>
+
+	<a class="update-btn">
+		{{button}}
+	</a>
+</div>
