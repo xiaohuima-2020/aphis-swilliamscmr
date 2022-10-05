@@ -7,32 +7,20 @@
 <div class="l-constrain">
 	<div {{ add_attributes({ class: classes }) }} >
 		<h2>{{header}}</h2>
-	<div class="article">
-		<h4>
-			{{date.first}}
-		</h4>
-		<a href="#">
-			{{title.first}}
-		</a>
-	</div>
-	<div class="article">
-		<h4>
-			{{date.first}}
-		</h4>
-		<a href="#">
-			{{title.first}}
-		</a>
-	</div>
-	<div class="article">
-		<h4>
-			{{date.first}}
-		</h4>
-		<a href="#">
-			{{title.first}}
-		</a>
+		{% for update in updates %}
+			<div class="article">
+				<h4>
+					{{update.date}}
+				</h4>
+				<a href="{{update.url}}">
+					{{update.title}}
+				</a>
+			</div>
+		{% endfor %}
+
+		{% if button is not empty %}
+			{% include "@uswds/button/button.twig" with button %}
+		{% endif %}
 	</div>
 
-	<a class="update-btn" href='#'>
-		{{button}}
-	</a>
 </div>
