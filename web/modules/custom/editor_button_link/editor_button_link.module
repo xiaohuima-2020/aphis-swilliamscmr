@@ -67,24 +67,24 @@ function editor_button_link_form_editor_link_dialog_alter(&$form, FormStateInter
   $filter_config = \Drupal::config('filter.format.' . $plugin_format_filters);
   $filter_settings = $filter_config->get('filters.editor_button_link_filter.settings');
 
-  if (generate_option_settings($filter_settings['button_link_options'])) {
+  if (editor_button_link_generate_option_settings($filter_settings['button_link_options'])) {
     $form['attributes']['data-drupal-button-link'] = [
       '#type' => 'select',
       '#title' => t('Button'),
       '#description' => t('Transform link style to a button'),
-      '#options' => generate_option_settings($filter_settings['button_link_options']),
+      '#options' => editor_button_link_generate_option_settings($filter_settings['button_link_options']),
       '#default_value' => $get_default_value('data-drupal-button-link'),
       '#access' => $is_accessible('class'),
       '#weight' => 3,
     ];
   }
 
-  if (generate_option_settings($filter_settings['button_link_size_options'])) {
+  if (editor_button_link_generate_option_settings($filter_settings['button_link_size_options'])) {
     $form['attributes']['data-drupal-button-link-size'] = [
       '#type' => 'select',
       '#title' => t('Button size'),
       '#description' => t('Transform link style to a button'),
-      '#options' => generate_option_settings($filter_settings['button_link_size_options']),
+      '#options' => editor_button_link_generate_option_settings($filter_settings['button_link_size_options']),
       '#default_value' => $get_default_value('data-drupal-button-link-size'),
       '#access' => $is_accessible('class'),
       '#group' => 'buttonlink',
@@ -97,12 +97,12 @@ function editor_button_link_form_editor_link_dialog_alter(&$form, FormStateInter
     ];
   }
 
-  if (generate_option_settings($filter_settings['button_link_style_options'])) {
+  if (editor_button_link_generate_option_settings($filter_settings['button_link_style_options'])) {
     $form['attributes']['data-drupal-button-link-style'] = [
       '#type' => 'select',
       '#title' => t('Button style'),
       '#description' => t('Transform link style to a button'),
-      '#options' => generate_option_settings($filter_settings['button_link_style_options']),
+      '#options' => editor_button_link_generate_option_settings($filter_settings['button_link_style_options']),
       '#default_value' => $get_default_value('data-drupal-button-link-style'),
       '#access' => $is_accessible('class'),
       '#group' => 'buttonlink',
@@ -139,7 +139,7 @@ function _editor_button_link_attributes_validate(array &$form, FormStateInterfac
 /**
  * Builds the "optionSets" configuration part.
  */
-function generate_option_settings($options) {
+function editor_button_link_generate_option_settings($options) {
   $options_set = [];
 
   // Early-return when empty.
@@ -158,7 +158,7 @@ function generate_option_settings($options) {
     }
 
     // Parse.
-    list($selector, $label) = explode('|', $option);
+    [$selector, $label] = explode('|', $option);
 
     $options_set[trim($selector)] = trim($label);
 

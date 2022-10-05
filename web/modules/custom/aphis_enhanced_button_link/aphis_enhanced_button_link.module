@@ -10,7 +10,7 @@ use Drupal\Core\Routing\RouteMatchInterface;
 /**
  * Implements hook_help().
  */
-function enhanced_button_link_help($route_name, RouteMatchInterface $route_match) {
+function aphis_enhanced_button_link_enhanced_button_link_help($route_name, RouteMatchInterface $route_match) {
   switch ($route_name) {
     case 'help.page.aphis_enhanced_button_link':
       $output = '';
