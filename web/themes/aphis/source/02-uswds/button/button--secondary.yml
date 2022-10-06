@@ -2,7 +2,6 @@
 modifier_classes: 'usa-button--secondary'
 is_demo: true
 demo_sizes: true
-demo_icons: true
 url: '#'
 button_type: 'submit'
 text: 'Secondary Button'

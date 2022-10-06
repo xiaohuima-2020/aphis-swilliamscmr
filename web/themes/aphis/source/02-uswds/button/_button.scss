@@ -4,23 +4,23 @@
   $icon-transition: 5px;
   $curve-radius: 100% 0% 0% 0%/100% 0% 0% 0%;
 
+  @mixin background-curve($dark, $light) {
+    background-image: radial-gradient(
+      ellipse farthest-corner at 220% 190%,
+      $dark 80%,
+      $light calc(80% + 0.5px)
+    );
+  }
+
+  @include background-curve(color(primary-dark), color(primary));
   position: relative;
   width: auto;
-  padding: gesso-spacing(3) gesso-spacing(5);
-  overflow: hidden;
+  padding: 1em 1.5em 0.85em;
   vertical-align: bottom;
-  transition-duration: gesso-duration(short);
-  transition-property: background-color, border-color, color, outline-color;
-  transition-timing-function: gesso-easing(ease-in);
   font-size: size('body', 5);
   z-index: 1;
 
-  @include at-media('tablet') {
-    padding-top: gesso-spacing(4);
-    padding-bottom: gesso-spacing(4);
-  }
-
-  // fake background to create the two-tone
+  // fake background to "transition" the gradient
   &::before {
     position: absolute;
     display: block;
@@ -28,9 +28,10 @@
     right: 0;
     left: 0;
     bottom: 0;
+    border-radius: radius($theme-button-border-radius);
     background: color(primary-dark);
-    border-radius: $curve-radius;
-    transition: border-radius gesso-duration(short) gesso-easing(ease-in);
+    opacity: 0;
+    transition: opacity gesso-duration(short) gesso-easing(ease-in);
     // behind the text
     z-index: -1;
     content: '';
@@ -39,9 +40,10 @@
   &:hover,
   &:focus {
     box-shadow: get-uswds-value(box-shadow, 2);
+    color: gesso-color(button, primary, text-hover);
 
     &::before {
-      border-radius: 0;
+      opacity: 1;
     }
   }
 
@@ -49,16 +51,21 @@
     &,
     &:hover,
     &:focus {
+      @include background-curve(
+        $theme-color-base-lightest-transparent,
+        gesso-color(button, disabled, background)
+      );
       background-color: gesso-color(button, disabled, background);
       cursor: not-allowed;
-
-      &::before {
-        border-radius: $curve-radius;
-      }
     }
 
-    &::before {
-      background: $theme-color-base-lightest-transparent;
+    &:hover,
+    &:focus {
+      box-shadow: none;
+
+      &::before {
+        opacity: 0;
+      }
     }
   }
 
@@ -93,6 +100,15 @@
   &--unstyled {
     padding: 0;
 
+    &,
+    &[disabled] {
+      &,
+      &:hover,
+      &:focus {
+        background: transparent;
+      }
+    }
+
     &::before {
       display: none;
     }
@@ -100,6 +116,15 @@
     &:hover,
     &:focus {
       box-shadow: none;
+      color: color($theme-link-hover-color);
+    }
+
+    &[disabled] {
+      &,
+      &:hover,
+      &:focus {
+        color: color(base-dark);
+      }
     }
   }
 
@@ -115,27 +140,10 @@
       color: gesso-color(button, secondary, text);
     }
 
-    &:hover,
-    &:focus {
-      box-shadow: none;
-    }
-
     &::before {
       display: none;
     }
 
-    &[disabled] {
-      &,
-      &:hover,
-      &:focus {
-        background: transparent;
-        color: gesso-color(button, disabled, border);
-      }
-    }
-  }
-
-  &--text,
-  &--icon {
     &::after {
       $icon-size-x: 25px;
       $icon-size-y: 25px;
@@ -155,12 +163,22 @@
 
     &:hover,
     &:focus {
+      box-shadow: none;
+      color: color($theme-link-hover-color);
+
       &::after {
         transform: translateX($icon-transition);
       }
     }
 
     &[disabled] {
+      &,
+      &:hover,
+      &:focus {
+        background: transparent;
+        color: color(base-dark);
+      }
+
       &:hover,
       &:focus {
         &::after {
@@ -171,13 +189,7 @@
   }
 
   &--big {
-    padding: gesso-spacing(5) gesso-spacing(7);
     font-size: size('body', 8);
-
-    @include at-media('tablet') {
-      padding-top: gesso-spacing(4);
-      padding-bottom: gesso-spacing(4);
-    }
 
     &.usa-button--icon {
       &::after {
@@ -198,7 +210,6 @@
   }
 
   &--small {
-    padding: gesso-spacing(3) gesso-spacing(4);
     font-size: size('body', 3);
   }
 }

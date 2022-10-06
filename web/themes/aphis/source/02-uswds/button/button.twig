@@ -38,21 +38,4 @@
 		{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
 		<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Small {{ text }}</a>
 	{% endif %}
-
-	{% if demo_icons %}
-		<h2>Icons</h2>
-		{% set icon_class = ' usa-button--icon usa-button--icon--arrow' %}
-		{% set mod_classes = default_classes ~ icon_class %}
-		{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
-		<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Icon {{ text }}</a>
-		<button {{ add_attributes(mod_attributes_cl) }} type="button" disabled>Icon Disabled {{ text }}</button>
-
-		{% set mod_classes = default_classes ~ icon_class ~ big_class %}
-		{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
-		<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Icon, Big {{ text }}</a>
-
-		{% set mod_classes = default_classes ~ icon_class ~ small_class %}
-		{% set mod_attributes_cl = default_attributes|merge({ 'class': mod_classes }) %}
-		<a href="{{ url }}" {{ add_attributes(mod_attributes_cl) }}>Icon, Small {{ text }}</a>
-	{% endif %}
 {% endif %}

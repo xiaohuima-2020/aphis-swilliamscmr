@@ -2,6 +2,5 @@
 modifier_classes: 'usa-button--unstyled'
 is_demo: true
 demo_sizes: false
-demo_icons: false
 url: '#'
 text: 'Unstyled Button'

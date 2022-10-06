@@ -1,7 +1,6 @@
 ---
 is_demo: true
 demo_sizes: true
-demo_icons: true
 url: '#'
 button_type: 'button'
 text: 'Button'
