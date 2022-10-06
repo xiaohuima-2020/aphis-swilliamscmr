@@ -5,7 +5,7 @@
  * Custom Aphis functions.
  */
 
-use Drupal\block\Entity\Block;
+use Drupal\Core\Entity\Block;
 
 /**
  * Implements hook_preprocess().
