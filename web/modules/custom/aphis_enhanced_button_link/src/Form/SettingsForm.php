@@ -61,12 +61,6 @@ class SettingsForm extends ConfigFormBase {
       '#default_value' => $configs->get('override_type'),
     ];
 
-    $form['override']['size'] = [
-      '#type' => 'checkbox',
-      '#title' => $this->t('Size'),
-      '#default_value' => $configs->get('override_size'),
-    ];
-
     $form['override']['status'] = [
       '#type' => 'checkbox',
       '#title' => $this->t('Status'),
@@ -122,7 +116,6 @@ class SettingsForm extends ConfigFormBase {
     $this->config('aphis_enhanced_button_link.settings')
       ->set('button_link_styles', $values['button_link_styles_options'])
       ->set('override_type', $values['type'])
-      ->set('override_size', $values['size'])
       ->set('override_status', $values['status'])
       ->set('override_target', $values['target'])
       ->save();

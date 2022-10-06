@@ -79,24 +79,6 @@ function editor_button_link_form_editor_link_dialog_alter(&$form, FormStateInter
     ];
   }
 
-  if (editor_button_link_generate_option_settings($filter_settings['button_link_size_options'])) {
-    $form['attributes']['data-drupal-button-link-size'] = [
-      '#type' => 'select',
-      '#title' => t('Button size'),
-      '#description' => t('Transform link style to a button'),
-      '#options' => editor_button_link_generate_option_settings($filter_settings['button_link_size_options']),
-      '#default_value' => $get_default_value('data-drupal-button-link-size'),
-      '#access' => $is_accessible('class'),
-      '#group' => 'buttonlink',
-      '#states' => [
-        'invisible' => [
-          'select[name="attributes[data-drupal-button-link]"]' => ['value' => ''],
-        ],
-      ],
-      '#weight' => 21,
-    ];
-  }
-
   if (editor_button_link_generate_option_settings($filter_settings['button_link_style_options'])) {
     $form['attributes']['data-drupal-button-link-style'] = [
       '#type' => 'select',

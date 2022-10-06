@@ -93,9 +93,7 @@ class AphisEnhancedButtonLinkFormatter extends LinkFormatter {
   public static function defaultSettings() {
     return [
       'type' => 'usa-button',
-      'size' => AphisEnhancedButtonLinkInterface::SIZE_NORMAL,
       'status' => AphisEnhancedButtonLinkInterface::STATUS_ENABLED,
-      'inline_buttons' => AphisEnhancedButtonLinkInterface::INLINE_BUTTONS,
       'target' => AphisEnhancedButtonLinkInterface::TARGET_SAME_WINDOW,
     ] + parent::defaultSettings();
   }
@@ -121,17 +119,6 @@ class AphisEnhancedButtonLinkFormatter extends LinkFormatter {
       '#required' => TRUE,
     ];
 
-    $elements['size'] = [
-      '#type' => 'select',
-      '#title' => $this->t('Size'),
-      '#default_value' => $this->getSetting('size'),
-      '#options' => [
-        AphisEnhancedButtonLinkInterface::SIZE_BIG => $this->t('Big'),
-        AphisEnhancedButtonLinkInterface::SIZE_SMALL => $this->t('Small'),
-      ],
-      '#required' => TRUE,
-    ];
-
     $elements['status'] = [
       '#type' => 'select',
       '#title' => $this->t('Status'),
@@ -141,13 +128,6 @@ class AphisEnhancedButtonLinkFormatter extends LinkFormatter {
         AphisEnhancedButtonLinkInterface::STATUS_DISABLED => $this->t('Disabled'),
       ],
       '#required' => TRUE,
-    ];
-
-    $elements['inline_buttons'] = [
-      '#type' => 'checkbox',
-      '#title' => $this->t('Display buttons links inline'),
-      '#default_value' => $this->getSetting('inline_buttons'),
-      '#return_value' => AphisEnhancedButtonLinkInterface::INLINE_BUTTONS,
     ];
 
     $elements['target'] = [
@@ -172,10 +152,8 @@ class AphisEnhancedButtonLinkFormatter extends LinkFormatter {
     $summary = [];
 
     $summary[] = $this->t('Button Type: @text', ['@text' => $this->getSetting('type')]);
-    $summary[] = $this->t('Button Size: @text', ['@text' => $this->getSetting('size')]);
     $summary[] = $this->t('Button Status: @text', ['@text' => $this->getSetting('status')]);
     $summary[] = $this->t('Button Target: @text', ['@text' => $this->getSetting('target')]);
-    $summary[] = $this->t('Inline Buttons: @text', ['@text' => $this->getSetting('inline_buttons')]);
 
     return $summary;
   }
@@ -189,7 +167,6 @@ class AphisEnhancedButtonLinkFormatter extends LinkFormatter {
     $entity = $items->getEntity();
 
     $override_type = (bool) $this->aphisEnhancedButtonLinkConfigs->get('override_type');
-    $override_size = (bool) $this->aphisEnhancedButtonLinkConfigs->get('override_size');
     $override_status = (bool) $this->aphisEnhancedButtonLinkConfigs->get('override_status');
     $override_target = (bool) $this->aphisEnhancedButtonLinkConfigs->get('override_target');
 
@@ -211,22 +188,6 @@ class AphisEnhancedButtonLinkFormatter extends LinkFormatter {
       if (!empty($button_link_type)) {
         $btn_class += ['usa-button', $button_link_type];
       }
-
-      // Add button size.
-      $button_link_size = (!$override_size || empty($options['size']) || $options['size'] == AphisEnhancedButtonLinkInterface::SIZE_DEFAULT) ? $settings['size'] : $options['size'];
-
-      $size_css_class = '';
-      switch ($button_link_size) {
-        case AphisEnhancedButtonLinkInterface::SIZE_BIG:
-          $size_css_class = 'usa-button--big';
-          break;
-
-        case AphisEnhancedButtonLinkInterface::SIZE_SMALL:
-          $size_css_class = 'usa-button--small';
-          break;
-      }
-
-      $btn_class[] = $size_css_class;
 
       // Add button status.
       $button_link_status = (!$override_status || empty($options['status']) || $options['status'] == AphisEnhancedButtonLinkInterface::STATUS_DEFAULT) ? $settings['status'] : $options['status'];
@@ -261,10 +222,6 @@ class AphisEnhancedButtonLinkFormatter extends LinkFormatter {
         '#url' => $url,
         '#options' => ['attributes' => $attributes],
       ];
-    }
-
-    if ($settings['inline_buttons'] == AphisEnhancedButtonLinkInterface::INLINE_BUTTONS) {
-      $element['#attributes']['class'][] = 'enhanced-button-link-inline';
     }
 
     // Adding component library.

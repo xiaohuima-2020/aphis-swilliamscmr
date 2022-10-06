@@ -74,7 +74,6 @@ class AphisEnhancedButtonLinkWidget extends LinkWidget {
     $button_link_styles = $this->aphisEnhancedButtonLinkConfigs->get('button_link_styles');
 
     $override_type = (bool) $this->aphisEnhancedButtonLinkConfigs->get('override_type');
-    $override_size = (bool) $this->aphisEnhancedButtonLinkConfigs->get('override_size');
     $override_status = (bool) $this->aphisEnhancedButtonLinkConfigs->get('override_status');
     $override_target = (bool) $this->aphisEnhancedButtonLinkConfigs->get('override_target');
 
@@ -95,19 +94,6 @@ class AphisEnhancedButtonLinkWidget extends LinkWidget {
         AphisEnhancedButtonLinkInterface::TYPE_DEFAULT => $this->t('Default'),
       ] + $button_link_styles,
       '#access' => $override_type,
-    ];
-
-    $element['options']['size'] = [
-      '#type' => 'select',
-      '#title' => $this->t('Size'),
-      '#default_value' => $items[$delta]->options['size'] ?? AphisEnhancedButtonLinkInterface::SIZE_DEFAULT,
-      '#description' => $this->t('Select the size of the button.'),
-      '#options' => [
-        AphisEnhancedButtonLinkInterface::SIZE_DEFAULT => $this->t('Default'),
-        AphisEnhancedButtonLinkInterface::SIZE_BIG => $this->t('Big'),
-        AphisEnhancedButtonLinkInterface::SIZE_SMALL => $this->t('Small'),
-      ],
-      '#access' => $override_size,
     ];
 
     $element['options']['status'] = [
