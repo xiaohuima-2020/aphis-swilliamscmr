@@ -1,0 +1,17 @@
+---
+hr: true
+heading: 'Link List Heading'
+list:
+  -
+    content: 'List Item One'
+    href: 'https://www.testurl.com/'
+  -
+    content: 'List Item Two'
+    href: 'https://www.internet.com/'
+  -
+    content: 'List Item Three'
+    href: 'https://www.website.com/'
+  -
+    content: 'List Item Four'
+    href: 'https://www.google.com/'
+modifier_classes: ''

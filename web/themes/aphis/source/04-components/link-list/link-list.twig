@@ -1,0 +1,17 @@
+{% set classes = [
+  'c-link-list',
+  modifier_classes ? modifier_classes : ''
+] %}
+<div {{ add_attributes({ 'class': classes }) }}>
+  {% if hr %}
+  <hr/>
+  {% endif %}
+  {% if heading %}
+  <h2 class="c-link-list__heading">{{ heading }}</h2>
+  {% endif %}
+  <ul class="c-link-list__list">
+    {% for item in list %}
+      <li class="c-link-list__list-item"><a href="{{ item.href }}">{{ item.content }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

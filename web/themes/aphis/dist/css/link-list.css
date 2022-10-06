@@ -1,0 +1,13 @@
+.c-link-list h2 {
+  font-size: size("heading", 7);
+}
+.c-link-list__list {
+  margin-top: rem(gesso-spacing(2));
+  padding: 0;
+  list-style: none;
+}
+.c-link-list__list-item a {
+  font-size: gesso-base-font-size();
+}
+
+/*# sourceMappingURL=link-list.css.map*/

@@ -12214,6 +12214,23 @@ ul.toolbar-menu li {
   }
 }
 
+.c-link-list__heading {
+  font-size: 1.13rem;
+}
+@media all and (min-width: 40em) {
+  .c-link-list__heading {
+    font-size: 1.38rem;
+  }
+}
+.c-link-list__list {
+  margin-top: 1.25rem;
+  padding: 0;
+  list-style: none;
+}
+.c-link-list__list-item a {
+  font-size: 16px;
+}
+
 .c-card {
   border-bottom: 4px solid;
   box-shadow: 0 1px 0.25rem 0 rgba(0, 0, 0, 0.1);

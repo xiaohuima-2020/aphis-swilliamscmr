@@ -1,0 +1,24 @@
+// @file
+// Component: c-link-list
+
+.c-link-list {
+  &__heading {
+    font-size: size('heading', 7);
+
+    @include at-media('tablet') {
+      font-size: size('heading', 9);
+    }
+  }
+
+  &__list {
+    margin-top: rem(20);
+    padding: 0;
+    list-style: none;
+  }
+
+  &__list-item {
+    a {
+      font-size: gesso-base-font-size();
+    }
+  }
+}
