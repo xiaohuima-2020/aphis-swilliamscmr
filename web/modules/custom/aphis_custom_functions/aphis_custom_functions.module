@@ -2,14 +2,15 @@
 
 /**
  * @file
- * Add theme dist css to admin area.
+ * Custom Aphis functions.
  */
+
+use Drupal\block\Entity\Block;
 
 /**
  * Implements hook_preprocess().
  */
-function aphis_custom_functions_preprocess_node( &$variables )
-{
+function aphis_custom_functions_preprocess_node(&$variables) {
   $block = \Drupal\block\Entity\Block::load('views_block__last_modified_date_block_1')->getPlugin()->build();
 
   $variables['content']['our_custom_field'] = $block;
