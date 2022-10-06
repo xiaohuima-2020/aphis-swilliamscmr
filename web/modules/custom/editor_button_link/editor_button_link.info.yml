@@ -1,0 +1,11 @@
+name: 'Button Link Styles'
+description: "Transform a link into a button via text Editor's link dialog if the text format allows them."
+type: module
+core_version_requirement: ^8.8 || ^9 || ^10
+dependencies:
+  - drupal:editor
+
+# Information added by Drupal.org packaging script on 2022-08-26
+version: '2.0.0'
+project: 'editor_button_link'
+datestamp: 1661522921

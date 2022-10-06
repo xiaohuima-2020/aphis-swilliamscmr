@@ -1,0 +1,14 @@
+name: Aphis Enhanced Button Link
+type: module
+description: 'Provides an enhanced link field widget and formatter with extended capabilities.'
+core_version_requirement: ^8.8 || ^9 || ^10
+package: Field types
+configure: aphis_enhanced_button_link.admin_settings
+
+dependencies:
+  - drupal:link
+
+# Information added by Drupal.org packaging script on 2022-10-01
+version: '8.x-1.1'
+project: 'aphis_enhanced_button_link'
+datestamp: 1664616292

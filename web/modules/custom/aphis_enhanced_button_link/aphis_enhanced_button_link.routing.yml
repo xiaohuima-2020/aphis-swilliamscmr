@@ -1,0 +1,7 @@
+aphis_enhanced_button_link.admin_settings:
+  path: '/admin/config/content/aphis-enhanced-button-link'
+  defaults:
+    _form: '\Drupal\aphis_enhanced_button_link\Form\SettingsForm'
+    _title: 'Aphis Enhanced Button Link Settings'
+  requirements:
+    _permission: 'administer site configuration'
