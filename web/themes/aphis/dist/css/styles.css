@@ -13243,6 +13243,7 @@ ul.toolbar-menu li {
   }
 }
 .c-page-title {
+  display: none !important;
   margin-bottom: 1.25rem;
 }
 
@@ -13532,6 +13533,23 @@ ul.toolbar-menu li {
   .c-page-intro figure {
     margin-left: 3rem;
   }
+}
+
+.c-article-listing .article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 18px 0;
+  border-bottom: 2px solid rgba(23, 23, 23, 0.2);
+}
+.c-article-listing .article h4 {
+  margin-right: 20px;
+}
+.c-article-listing .article a {
+  margin: 0;
+}
+.c-article-listing .usa-button, .c-article-listing .c-dropbutton__toggle-button {
+  margin-top: 20px;
 }
 
 .visually-hidden,

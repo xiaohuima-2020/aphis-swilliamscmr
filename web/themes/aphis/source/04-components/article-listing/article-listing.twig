@@ -1,0 +1,26 @@
+{% set classes = [
+  'c-article-listing',
+  modifier_classes ? modifier_classes : ''
+] %}
+
+
+<div class="l-constrain">
+	<div {{ add_attributes({ class: classes }) }} >
+		<h2>{{header}}</h2>
+		{% for update in updates %}
+			<div class="article">
+				<h4>
+					{{update.date}}
+				</h4>
+				<a href="{{update.url}}">
+					{{update.title}}
+				</a>
+			</div>
+		{% endfor %}
+
+		{% if button is not empty %}
+			{% include "@uswds/button/button.twig" with button %}
+		{% endif %}
+	</div>
+
+</div>

@@ -1,1 +1,0 @@
-{"version":3,"file":"css/page-intro.css","mappings":"AAGA;EACE;AAFF;AAIE;EACE;AAFJ,C","sources":["webpack://guswds/./source/04-components/page-intro/page-intro.scss"],"sourcesContent":["// @file\n// Component: c-page-intro\n\n.c-page-intro {\n  overflow: hidden;\n\n  img {\n    float: right;\n  }\n}\n"],"names":[],"sourceRoot":""}
