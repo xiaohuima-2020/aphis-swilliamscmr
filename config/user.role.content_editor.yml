@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.basic_html
     - filter.format.full_html
     - node.type.article
     - node.type.page
@@ -45,6 +46,7 @@ permissions:
   - 'edit own page content'
   - 'edit terms in tags'
   - 'revert all revisions'
+  - 'use text format basic_html'
   - 'use text format full_html'
   - 'view all revisions'
   - 'view own unpublished content'

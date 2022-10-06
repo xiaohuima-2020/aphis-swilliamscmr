@@ -6,6 +6,16 @@
  */
 
 /**
+ * Implements hook_preprocess().
+ */
+function aphis_custom_functions_preprocess_node( &$variables )
+{
+  $block = \Drupal\block\Entity\Block::load('views_block__last_modified_date_block_1')->getPlugin()->build();
+
+  $variables['content']['our_custom_field'] = $block;
+}
+
+/**
  * Attach css to admin theme, must be placed in a custom module not the theme.
  */
 function aphis_custom_functions_preprocess_page(&$variables) {

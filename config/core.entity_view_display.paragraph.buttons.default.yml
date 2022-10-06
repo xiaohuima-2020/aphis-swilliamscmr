@@ -1,0 +1,31 @@
+uuid: 69b00b69-7115-4793-9926-b0d814bc8a2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.buttons.field_button
+    - paragraphs.paragraphs_type.buttons
+  module:
+    - aphis_enhanced_button_link
+id: paragraph.buttons.default
+targetEntityType: paragraph
+bundle: buttons
+mode: default
+content:
+  field_button:
+    type: aphis_enhanced_button_link_formatter
+    label: hidden
+    settings:
+      type: usa-button
+      size: primary
+      status: enabled
+      inline_buttons: '1'
+      target: same_window
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
